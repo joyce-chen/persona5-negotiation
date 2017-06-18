@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+#Persona 5 negotiation guide
 
-You can use the [editor on GitHub](https://github.com/joyce-chen/persona5-negotiation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A tool to help negotiations in Persona 5. (Note: Currently incomplete. Work-in-progress.)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Link: http://joyceychen.com/persona5-negotiation/
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joyce-chen/persona5-negotiation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+| Description                        | Name           | Personality |
+|------------------------------------|----------------|-------------|
+| Beguiling Girl                     | Pixie          | Timid       |
+| Crypt-dwelling Pyromaniac          | Jack-o-Lantern | Gloomy      |
+| Gallows-Flower                     | Mandrake       | Upbeat      |
+| Dirty Two-horned Beast             | Bicorn         | Irritable   |
+| Bedside Brute                      | Incubus        | Timid       |
+| Apprentice in a Jug                | Agathion       | Timid       |
+| Mad Marsh Horse                    | Kelpie         | Upbeat      |
+| Twilight Prostitute                | Succubus       | Irritable   |
+| Troublesome Housemaid              | Silky          | Gloomy      |
+| Brutal Cavalryman                  | Berith         | Irritable   |
+| Heavenly Punisher                  | Archangel      | Irritable   |
+| Guard Captain, War-hungry Horseman | Eligor         | Irritable   |
+| Menacing Owlman                    | Andras         | Timid       |
+| Guard Captain                      | Belphegor      |             |
+| Torn King of Desires               | Slime Mara     |             |
+|                                    |                |             |
+| Viscid Rotting Meat                | Slime          |             |
+|                                    |                |             |
+| Night-Walking Warrior              | Mokoi          | Gloomy      |
+| Girl of the Hanging Tree           | Hua Po         | Upbeat      |
+| Waterside Nymph                    | Apsaras        | Upbeat      |
+| Leafy Old Man                      | Koropokguru    | Timid       |
+| Embittered Blacksmith              | Ippon-Datara   |             |
+| Corpse Bird                        | Onmoraki       | Gloomy      |
+| Mocking Snowman                    | Jack Frost     | Timid       |
+| Possessing Ghost Dog               | Inugami        | Timid       |
+| Foolish Monk                       | Koppa Tengu    | Upbeat      |
+| Hunting Wolf Spirit                | Makami         | Upbeat      |
+| Security Shadow, Night Chimera     | Nue            | Irritable   |
+| Bringer of Misfortune              | Shiki-Ouji     | Irritable   |
+|                                    |                |             |
+| Wavering Tree Spirit               | Kodama         | Upbeat      |
+| Piggyback Demon                    | Obariyon       | Irritable   |
