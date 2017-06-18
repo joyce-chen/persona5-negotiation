@@ -1,4 +1,4 @@
-#Persona 5 negotiation guide
+# Persona 5 Negotiation Guide
 
 A tool to help negotiations in Persona 5. (Note: Currently incomplete. Work-in-progress.)
 
