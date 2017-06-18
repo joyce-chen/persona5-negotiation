@@ -1,5 +1,3 @@
-# Persona 5 Negotiation Guide
-
 | Description                        | Name           | Personality |
 |------------------------------------|----------------|-------------|
 | Beguiling Girl                     | Pixie          | Timid       |
@@ -36,6 +34,7 @@
 | Wavering Tree Spirit               | Kodama         | Upbeat      |
 | Piggyback Demon                    | Obariyon       | Irritable   |
 
+***
 
 A selection of negotiation dialogue.
 
