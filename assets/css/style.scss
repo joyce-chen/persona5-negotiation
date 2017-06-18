@@ -3,12 +3,12 @@
 
 @import "{{ site.theme }}";
 footer {
-  position: default;
+  position: static !important;
 }
 section {
   width: auto;
 }
 header {
   width: auto;
-  position: auto !important;
+  position: static !important;
 }
