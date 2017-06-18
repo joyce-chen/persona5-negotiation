@@ -2,7 +2,7 @@
 
 A tool to help negotiations in Persona 5. (Note: Currently incomplete. Work-in-progress.)
 
-Link: http://joyceychen.com/persona5-negotiation/
+Link: http://joyce-chen.github.io/persona5-negotiation/
 
 | Description                        | Name           | Personality |
 |------------------------------------|----------------|-------------|
