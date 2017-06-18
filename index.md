@@ -36,6 +36,9 @@
 | Wavering Tree Spirit               | Kodama         | Upbeat      |
 | Piggyback Demon                    | Obariyon       | Irritable   |
 
+
+A selection of negotiation dialogue.
+
 | Question                                                                                             | Answer                        | Response         |
 |------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
 | ...You know what I'm getting' at, right? You think you could let me go see my girl?                  | Nope.                         |                  |
