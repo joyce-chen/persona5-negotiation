@@ -94,7 +94,7 @@ A selection of negotiation dialogue.
 | I wanted to go on vacation, too, before all this happened...                                         | That's too bad.               |                  |
 |                                                                                                      | What are you getting at?      | good - upbeat    |
 |                                                                                                      | You have a boyfriend?         |                  |
-| ÉI'm not going to go easy on you for doing something like this, you know...                          | I'm sorry.                    | ok - upbeat      |
+| ...I'm not going to go easy on you for doing something like this, you know...                        | I'm sorry.                    | ok - upbeat      |
 |                                                                                                      | Prepare for the worst.        |                  |
 |                                                                                                      | How much do you want?         |                  |
 | You do understand that I'm here because people like you exist, right?                                | I never thought of that.      |                  |
@@ -127,7 +127,7 @@ A selection of negotiation dialogue.
 | I'll go out with you just for today if there are no strings attached.                                | If it pleases you.            | good - irritable |
 |                                                                                                      | No strings attached?          |                  |
 |                                                                                                      | I've got enough on my plate...|                  |
-| Couldn't you at least make me a cup of tea or somethin'? Hell, that's e real polite.                 | I don't have any.             |                  |
+| Couldn't you at least make me a cup of tea or somethin'? Hell, that's real polite.                   | I don't have any.             |                  |
 |                                                                                                      | Brew your own.                | bad - irritable  |
 |                                                                                                      | I'm not hospitable.           | ok - irritable   |
 | ...How 'bout you, sonny? What kinda trip do you wanna take?                                          | A luxury cruise.              |                  |
