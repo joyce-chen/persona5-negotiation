@@ -2,4 +2,13 @@
 ---
 
 @import "{{ site.theme }}";
-@import "bootstrap";
+footer {
+  position: none;
+}
+section {
+  width: auto;
+}
+header {
+  width: auto;
+  position: auto;
+}
