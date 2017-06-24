@@ -15,6 +15,10 @@ header {
 
 table {
   width: auto;
+  th {
+    font-weight: bold;
+    text-align: center;
+  }
   tbody tr:nth-of-type(odd) {
     background-color: rgba(0, 0, 0, .05);
     border-color: #fff;
