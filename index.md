@@ -36,11 +36,19 @@
 
 ***
 
-A selection of negotiation dialogue.
+
+**...You know what I'm getting' at, right? You think you could let me go see my girl?**
+- Nope.
+- She probably left. (ok - irritable)
+- What kind of girl is she? (ok - irritable)
+
+| Nope. | |
+| She probably left. | ok - irritable |
+| What kind of girl is she? | ok - irritable |
 
 | Question                                                                                             | Answer                        | Response         |
 |------------------------------------------------------------------------------------------------------|-------------------------------|------------------|
-| ...You know what I'm getting' at, right? You think you could let me go see my girl?                  | Nope.                         |                  |
+|                 | Nope.                         |                  |
 |                                                                                                      | She probably left.            | ok - irritable   |
 |                                                                                                      | What kind of girl is she?     | ok - irritable   |
 | Hey, sonny if somethin's been botherin' you. I'm willing to give you a listen                        | My relationships...           | good - irritable |
