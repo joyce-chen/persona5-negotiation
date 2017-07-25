@@ -1131,7 +1131,7 @@
 	</tr>
 	<tr>
 		<td>Ok, I'll make you into soup.</td>
-		<td></td>
+		<td>bad - irritable</td>
 	</tr>
 	<tr>
 		<td>Fine, I'll grill you.</td>
