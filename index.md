@@ -120,8 +120,6 @@
 | Fused Ghost               | Legion           | Upbeat      |
 
 ***
-
-
 <table>
 	<tr>
 		<th colspan="2">...You know what I'm getting' at, right? You think you could let me go see my girl?</th>
@@ -136,7 +134,7 @@
 	</tr>
 	<tr>
 		<td>What kind of girl is she?</td>
-		<td>ok - irritable</td>
+		<td>ok - irritable; good - timid</td>
 	</tr>
 </table>
 <table>
@@ -200,7 +198,7 @@
 	</tr>
 	<tr>
 		<td>You're trying way too hard.</td>
-		<td>ok - timid; good - irritable</td>
+		<td>ok - timid; good - irritable, upbeat</td>
 	</tr>
 	<tr>
 		<td>I'm not interested.</td>
@@ -289,7 +287,7 @@
 	</tr>
 	<tr>
 		<td>Mom will wait till I'm done.</td>
-		<td>good - timid, irritable</td>
+		<td>good - timid</td>
 	</tr>
 </table>
 <table>
@@ -357,7 +355,7 @@
 	</tr>
 	<tr>
 		<td>You're a sore loser.</td>
-		<td></td>
+		<td>ok - upbeat</td>
 	</tr>
 </table>
 <table>
@@ -561,7 +559,7 @@
 	</tr>
 	<tr>
 		<td>Luck's usually on my side.</td>
-		<td>ok - timid</td>
+		<td>ok - timid; good - upbeat</td>
 	</tr>
 </table>
 <table>
@@ -761,7 +759,7 @@
 	</tr>
 	<tr>
 		<td>I'm here for the women.</td>
-		<td>ok - timid; good - irritable</td>
+		<td>ok - timid</td>
 	</tr>
 	<tr>
 		<td>I'm here to find myself.</td>
@@ -944,7 +942,7 @@
 	</tr>
 	<tr>
 		<td>You're right.</td>
-		<td>good - irritable</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>I don't care.</td>
@@ -961,7 +959,7 @@
 	</tr>
 	<tr>
 		<td>I've thought about it.</td>
-		<td>good - irritable</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>I don't want kids.</td>
@@ -999,7 +997,7 @@
 	</tr>
 	<tr>
 		<td>Just endure it.</td>
-		<td>good - irritable</td>
+		<td>ok - irritable</td>
 	</tr>
 	<tr>
 		<td>Want something delivered?</td>
@@ -2006,7 +2004,7 @@
 	</tr>
 	<tr>
 		<td>I don't have a girlfriend.</td>
-		<td>good - irritable</td>
+		<td>good - irritable (?)</td>
 	</tr>
 </table>
 <table>
@@ -2151,7 +2149,7 @@
 	</tr>
 	<tr>
 		<td>That would be troublesome.</td>
-		<td>bad - irritable</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td>I could carry that weight.</td>
