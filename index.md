@@ -1537,7 +1537,7 @@
 	</tr>
 	<tr>
 		<td>Nobody.</td>
-		<td></td>
+		<td>good - irritable</td>
 	</tr>
 	<tr>
 		<td>Shuddup...</td>
