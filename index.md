@@ -321,7 +321,7 @@
 	</tr>
 	<tr>
 		<td>Don't be so selfish.</td>
-		<td></td>
+		<td>bad - irritable</td>
 	</tr>
 </table>
 <table>
@@ -368,7 +368,7 @@
 	</tr>
 	<tr>
 		<td>There's no need to explain.</td>
-		<td></td>
+		<td>ok - irritable</td>
 	</tr>
 	<tr>
 		<td>Just shut up.</td>
@@ -708,7 +708,7 @@
 	</tr>
 	<tr>
 		<td>I didn't see any "vibes."</td>
-		<td>bad - upbeat</td>
+		<td>bad - upbeat; bad - irritable</td>
 	</tr>
 	<tr>
 		<td>But we may never meet again...</td>
@@ -1001,7 +1001,7 @@
 	</tr>
 	<tr>
 		<td>Want something delivered?</td>
-		<td>ok - gloomy</td>
+		<td>ok - gloomy; good - irritable</td>
 	</tr>
 </table>
 <table>
@@ -1052,7 +1052,7 @@
 	</tr>
 	<tr>
 		<td>You'll be my new stylish coat.</td>
-		<td></td>
+		<td>good - irritable</td>
 	</tr>
 </table>
 <table>
@@ -2374,7 +2374,7 @@
 	</tr>
 	<tr>
 		<td>That's right.</td>
-		<td>bad - timid</td>
+		<td>bad - timid; ok - irritable</td>
 	</tr>
 	<tr>
 		<td>I have ulterior motives.</td>
@@ -2463,7 +2463,7 @@
 	</tr>
 	<tr>
 		<td>What are you talking about?</td>
-		<td></td>
+		<td>ok - irritable</td>
 	</tr>
 </table>
 <table>
@@ -2718,6 +2718,23 @@
 	</tr>
 	<tr>
 		<td>I'll make "that girl" happy.</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">Do you have a dish you're good at?</th>
+	</tr>
+	<tr>
+		<td>Fried rice</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Spaghetti carbonara</td>
+		<td>good - upbeat</td>
+	</tr>
+	<tr>
+		<td>What are you saying?</td>
 		<td></td>
 	</tr>
 </table>
