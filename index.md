@@ -2174,6 +2174,7 @@
 	</tr>
 	<tr>
 		<td>I don't plan on dying.</td>
+		<td>good - gloomy</td>
 		<td></td>
 	</tr>
 </table>
