@@ -1909,7 +1909,7 @@
 	</tr>
 	<tr>
 		<td>I have no friends.</td>
-		<td></td>
+		<td>good - irritable</td>
 	</tr>
 </table>
 <table>
