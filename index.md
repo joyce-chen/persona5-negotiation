@@ -1,3 +1,10 @@
+| Type      |  Likes  | Dislikes        |
+|-----------|---------|-----------------|
+| Gloomy    | Vague   | Serious, Funny  |
+| Irritable | Serious | Vague, Kind     |
+| Timid     | Kind    | Vague, Funny    |
+| Upbeat    | Funny   | Serious, Vague  |
+
 | Description               | Shadow           | Personality |
 |---------------------------|------------------|-------------|
 | Crypt-dwelling Pyromaniac | Jack-o-Lantern   | Gloomy      |
@@ -1027,7 +1034,7 @@
 	</tr>
 	<tr>
 		<td>Times have changed.</td>
-		<td></td>
+		<td>good - irritable</td>
 	</tr>
 	<tr>
 		<td>Humans are powerful.</td>
