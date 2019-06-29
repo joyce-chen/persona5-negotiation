@@ -2577,6 +2577,40 @@
 </table>
 <table>
 	<tr>
+		<th colspan="2">If your girlfriend asked you if you were free to have [...] with her "friends," what would you say?</th>
+	</tr>
+	<tr>
+		<td>Sure.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'm busy.</td>
+		<td>good - upbeat</td>
+	</tr>
+	<tr>
+		<td>What are you talking about?</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">You know... If you're willing to let this go... I'll make it worth your while.</th>
+	</tr>
+	<tr>
+		<td>Worth my while...?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>No way.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'm already taken.</td>
+		<td>good - upbeat</td>
+	</tr>
+</table>
+<table>
+	<tr>
 		<th colspan="2">...You've come from some other company to scout me-hee out. There's no mistaking it, ho!</th>
 	</tr>
 	<tr>
