@@ -37,10 +37,10 @@
 |                           |                  |             |
 | Ascended Feline           | Nekomata         | Upbeat      |
 | Prankster Leader          | High Pixie       | Irritable   |
-| Zealous Messenger         | Angel            |             |
+| Zealous Messenger         | Angel            | Irritable   |
 | Twin-headed Guardian      | Orthrus          | Irritable   |
 | Equine Sage               | Orobas           | Timid       |
-| Chivalrous Fiend          | Oni              |             |
+| Chivalrous Fiend          | Oni              | Upbeat      |
 | Human-eating Lady         | Yaksini          | Irritable   |
 | Jealous Lover             | Leanan Sidhe     | Irritable   |
 | Battle Fiend              | Rakshasa         | Irritable   |
@@ -486,6 +486,23 @@
 </table>
 <table>
 	<tr>
+		<th colspan="2">Me want you to give me some nice "words of compassion"--as my rival--as me pass away...!</th>
+	</tr>
+	<tr>
+		<td>Die in peace.</td>
+		<td>ok - irritable</td>
+	</tr>
+	<tr>
+		<td>Why show mercy to my enemy?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>... I got nothing.</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
 		<th colspan="2">What you thinking now?</th>
 	</tr>
 	<tr>
@@ -494,7 +511,7 @@
 	</tr>
 	<tr>
 		<td>I need a new cell phone.</td>
-		<td>bad - gloomy</td>
+		<td>bad - gloomy, ok - irritable</td>
 	</tr>
 	<tr>
 		<td>I want girls to like me.</td>
