@@ -36,7 +36,7 @@
 | Bringer of Misfortune     | Shiki-Ouji       | Irritable   |
 |                           |                  |             |
 | Ascended Feline           | Nekomata         | Upbeat      |
-| Prankster Leader          | High Pixie       |             |
+| Prankster Leader          | High Pixie       | Irritable   |
 | Zealous Messenger         | Angel            |             |
 | Twin-headed Guardian      | Orthrus          | Irritable   |
 | Equine Sage               | Orobas           | Timid       |
@@ -396,7 +396,7 @@
 	</tr>
 	<tr>
 		<td>No particular reason.</td>
-		<td></td>
+		<td>bad - irritable</td>
 	</tr>
 </table>
 <table>
@@ -1263,7 +1263,7 @@
 	</tr>
 	<tr>
 		<td>Nobody.</td>
-		<td></td>
+		<td>good - timid</td>
 	</tr>
 </table>
 <table>
@@ -1510,7 +1510,7 @@
 	</tr>
 	<tr>
 		<td>Are you busy?</td>
-		<td></td>
+		<td>good - irritable</td>
 	</tr>
 	<tr>
 		<td>I just couldn't.</td>
@@ -2479,7 +2479,7 @@
 	</tr>
 	<tr>
 		<td>Katsudon, coming right up.</td>
-		<td>good - irritable</td>
+		<td>good - irritable, timid</td>
 	</tr>
 	<tr>
 		<td>How about sushi...?</td>
