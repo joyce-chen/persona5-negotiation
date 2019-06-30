@@ -375,7 +375,7 @@
 	</tr>
 	<tr>
 		<td>There's no need to explain.</td>
-		<td></td>
+		<td>ok - irritable</td>
 	</tr>
 	<tr>
 		<td>Just shut up.</td>
@@ -392,7 +392,7 @@
 	</tr>
 	<tr>
 		<td>You seemed useful.</td>
-		<td>good - gloomy</td>
+		<td>good - gloomy, irritable</td>
 	</tr>
 	<tr>
 		<td>No particular reason.</td>
@@ -762,7 +762,7 @@
 	</tr>
 	<tr>
 		<td>I think there is.</td>
-		<td>good - upbeat, timid</td>
+		<td>good - upbeat, timid ; ok - irritable</td>
 	</tr>
 	<tr>
 		<td>I can't promise that.</td>
@@ -1255,7 +1255,7 @@
 	</tr>
 	<tr>
 		<td>A star?</td>
-		<td>ok - gloomy</td>
+		<td>good - irritable; ok - gloomy</td>
 	</tr>
 	<tr>
 		<td>That's never happening.</td>
@@ -2139,7 +2139,7 @@
 	</tr>
 	<tr>
 		<td>Happy birthday.</td>
-		<td></td>
+		<td>good - irritable</td>
 	</tr>
 	<tr>
 		<td>I had no idea.</td>
@@ -2538,7 +2538,7 @@
 	</tr>
 	<tr>
 		<td>Why does that matter?</td>
-		<td></td>
+		<td>ok - irritable</td>
 	</tr>
 </table>
 <table>
@@ -2623,7 +2623,7 @@
 	</tr>
 	<tr>
 		<td>I'm already taken.</td>
-		<td>good - upbeat</td>
+		<td>good - upbeat, irritable</td>
 	</tr>
 </table>
 <table>
