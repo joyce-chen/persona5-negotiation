@@ -1282,7 +1282,7 @@
 	</tr>
 	<tr>
 		<td>Being a kid is easy.</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 	<tr>
 		<td>Being a kid is tough.</td>
