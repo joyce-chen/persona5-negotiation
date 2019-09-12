@@ -2738,3 +2738,20 @@
         <td></td>
     </tr>
 </table>
+<table>
+    <tr>
+        <th colspan="2">What do you think about humans showing pictures of their baby to others?</th>
+    </tr>
+    <tr>
+        <td>It's cute.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>I'm not interested.</td>
+        <td>good - irritable</td>
+    </tr>
+    <tr>
+        <td>What are you talking about?</td>
+        <td></td>
+    </tr>
+</table>
