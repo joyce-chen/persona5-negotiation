@@ -1239,7 +1239,7 @@
     </tr>
     <tr>
         <td>Are you giving up?</td>
-        <td></td>
+        <td>good - irritable</td>
     </tr>
 </table>
 <table>
