@@ -1558,7 +1558,7 @@
     </tr>
     <tr>
         <td>Not if no one finds out.</td>
-        <td>good - upbeat</td>
+        <td>good - upbeat; ok - irritable</td>
     </tr>
     <tr>
         <td>Pretty cool, huh?</td>
