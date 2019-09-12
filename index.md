@@ -2721,3 +2721,20 @@
         <td></td>
     </tr>
 </table>
+<table>
+    <tr>
+        <th colspan="2">You know... if you're willing to let this go... I'll make it worth your while.</th>
+    </tr>
+    <tr>
+        <td>Worth my while...?</td>
+        <td>ok - irritable</td>
+    </tr>
+    <tr>
+        <td>No way.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>I'm already taken.</td>
+        <td></td>
+    </tr>
+</table>
