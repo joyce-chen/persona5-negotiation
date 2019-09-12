@@ -470,7 +470,7 @@
     </tr>
     <tr>
         <td>No, I don't think so.</td>
-        <td></td>
+        <td>good - irritable</td>
     </tr>
     <tr>
         <td>It's what we call destiny.</td>
