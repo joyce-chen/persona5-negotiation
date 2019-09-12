@@ -2755,3 +2755,20 @@
         <td></td>
     </tr>
 </table>
+<table>
+    <tr>
+        <th colspan="2">I've been sending you serious "don't speak to me" vibes.</th>
+    </tr>
+    <tr>
+        <td>I noticed.</td>
+        <td>good - irritable</td>
+    </tr>
+    <tr>
+        <td>I didn't see any "vibes."</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>But we may never meet again...</td>
+        <td></td>
+    </tr>
+</table>
