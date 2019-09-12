@@ -2789,3 +2789,20 @@
         <td></td>
     </tr>
 </table>
+<table>
+    <tr>
+        <th colspan="2">You'd have no idea I was about to use my ultimate move.</th>
+    </tr>
+    <tr>
+        <td>For real!?</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>That's worrying...</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>...Try me.</td>
+        <td>good - irritable</td>
+    </tr>
+</table>
