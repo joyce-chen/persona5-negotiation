@@ -2772,3 +2772,20 @@
         <td></td>
     </tr>
 </table>
+<table>
+    <tr>
+        <th colspan="2">What're you gonna tell your kids about this shit?</th>
+    </tr>
+    <tr>
+        <td>It was a hard-fought battle.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>It was an easy win.</td>
+        <td>bad - irritable</td>
+    </tr>
+    <tr>
+        <td>I'll forget it happened.</td>
+        <td></td>
+    </tr>
+</table>
