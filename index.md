@@ -551,7 +551,7 @@
 	</tr>
 	<tr>
 		<td>I don't really train.</td>
-		<td>good - irritable </td>
+		<td>good - irritable; good - gloomy</td>
 	</tr>
 	<tr>
 		<td>I just have a knack for it.</td>
@@ -1537,7 +1537,7 @@
 	</tr>
 	<tr>
 		<td>Nobody.</td>
-		<td></td>
+		<td>ok - timid</td>
 	</tr>
 	<tr>
 		<td>Shuddup...</td>
@@ -2557,7 +2557,7 @@
 	</tr>
 	<tr>
 		<td>Aren't you scared?</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 	<tr>
 		<td>I'll have more fun first.</td>
@@ -2697,11 +2697,11 @@
 	</tr>
 	<tr>
 		<td>Why do we fight?</td>
-		<td>good - upbeat</td>
+		<td>good - upbeat; ok - gloomy</td>
 	</tr>
 	<tr>
 		<td>I don't really know...</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 </table>
 <table>
@@ -2719,5 +2719,59 @@
 	<tr>
 		<td>I'll make "that girl" happy.</td>
 		<td></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<th colspan="2">What're you gonna tell your kids about this shit?</th>
+	</tr>
+	<tr>
+		<td>It was a hard-fought battle.</td>
+		<td>ok - timid</td>
+	</tr>
+	<tr>
+		<td>It was an easy win.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'll forget it happened.</td>
+		<td></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<th colspan="2">Are all the kids these days doin' stuff like this?</th>
+	</tr>
+	<tr>
+		<td>Yeah, we sure are.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>No, i thought this up myself.</td>
+		<td>bad - irritable</td>
+	</tr>
+	<tr>
+		<td>Want to join in?</td>
+		<td></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<th colspan="2">Humans talk over drinks, right? How 'bout it? Hell, let me buy you a round, sonny.</th>
+	</tr>
+	<tr>
+		<td>Quit messing around.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>You'll really treat me?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'm a minor...</td>
+		<td>ok - irritable</td>
 	</tr>
 </table>
