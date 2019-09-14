@@ -2806,3 +2806,20 @@
 		<td>good - irritable</td>
 	</tr>
 </table>
+<table>
+	<tr>
+		<th colspan="2">Life's nothing but pain anyways. Just do whatever you want.</th>
+	</tr>
+	<tr>
+		<td>You should have stayed home.</td>
+		<td>bad - gloomy</td>
+	</tr>
+	<tr>
+		<td>You won't die easily.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Don't get desperate.</td>
+		<td></td>
+	</tr>
+</table>
