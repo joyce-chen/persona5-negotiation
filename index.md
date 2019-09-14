@@ -1333,7 +1333,7 @@
 	</tr>
 	<tr>
 		<td>You're right.</td>
-		<td>bad - upbeat</td>
+		<td>bad - upbeat; good - timid</td>
 	</tr>
 	<tr>
 		<td>I don't care.</td>
