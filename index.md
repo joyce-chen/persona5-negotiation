@@ -1554,7 +1554,7 @@
 	</tr>
 	<tr>
 		<td>I didn't know.</td>
-		<td>bad - timid</td>
+		<td>bad - timid, gloomy</td>
 	</tr>
 	<tr>
 		<td>Not if no one finds out.</td>
