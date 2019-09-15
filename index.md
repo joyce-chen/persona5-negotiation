@@ -687,7 +687,7 @@
 	</tr>
 	<tr>
 		<td>It is a difficult topic.</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 	<tr>
 		<td>But the outcome is clear.</td>
