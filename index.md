@@ -440,7 +440,7 @@
 	</tr>
 	<tr>
 		<td>How much do you want?</td>
-		<td>bad - irritable, upbeat; good - upbeat</td>
+		<td>bad - irritable, upbeat; good - upbeat, gloomy</td>
 	</tr>
 </table>
 <table>
