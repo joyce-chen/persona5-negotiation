@@ -2840,3 +2840,20 @@
 		<td></td>
 	</tr>
 </table>
+<table>
+	<tr>
+		<th colspan="2">Won't you just leave me be?</th>
+	</tr>
+	<tr>
+		<td>Are you busy?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I just couldn't.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Is that reverse psycology?</td>
+		<td>bad - gloomy</td>
+	</tr>
+</table>
