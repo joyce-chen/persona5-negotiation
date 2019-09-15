@@ -2823,3 +2823,20 @@
 		<td></td>
 	</tr>
 </table>
+<table>
+	<tr>
+		<th colspan="2">You tryin' to get somethin' from me?</th>
+	</tr>
+	<tr>
+		<td>Yup.</td>
+		<td>good - irritable</td>
+	</tr>
+	<tr>
+		<td>No... Nothing at all...</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>You're too self-conscious.</td>
+		<td></td>
+	</tr>
+</table>
