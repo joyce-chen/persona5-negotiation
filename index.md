@@ -2361,7 +2361,7 @@
 	</tr>
 	<tr>
 		<td>That's a horrible premise.</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 </table>
 <table>
