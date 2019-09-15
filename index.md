@@ -2857,3 +2857,20 @@
 		<td>bad - gloomy</td>
 	</tr>
 </table>
+<table>
+	<tr>
+		<th colspan="2">...Who the blazes do you think you are?</th>
+	</tr>
+	<tr>
+		<td>I feel bad about that.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'm ME!</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I don't have to answer you.</td>
+		<td>good - gloomy</td>
+	</tr>
+</table>
