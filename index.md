@@ -334,7 +334,7 @@
 	</tr>
 	<tr>
 		<td>There's something I must do.</td>
-		<td>good - timid; ok - gloomy</td>
+		<td>good - timid, irritable; ok - gloomy</td>
 	</tr>
 	<tr>
 		<td>I'm not desperate.</td>
