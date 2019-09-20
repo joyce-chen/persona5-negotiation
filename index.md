@@ -763,7 +763,7 @@
 	</tr>
 	<tr>
 		<td>I'm here to find myself.</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 </table>
 <table>
