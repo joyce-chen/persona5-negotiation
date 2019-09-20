@@ -2701,7 +2701,7 @@
 	</tr>
 	<tr>
 		<td>I don't really know...</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 </table>
 <table>
