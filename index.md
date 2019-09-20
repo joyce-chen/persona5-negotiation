@@ -1919,7 +1919,7 @@
 	</tr>
 	<tr>
 		<td>You're getting on my nerves!</td>
-		<td>bad - upbeat</td>
+		<td>bad - upbeat; good - gloomy</td>
 	</tr>
 </table>
 <table>
