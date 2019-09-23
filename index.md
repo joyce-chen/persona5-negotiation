@@ -1095,7 +1095,7 @@
 	</tr>
 	<tr>
 		<td>Don't scratch the furniture.</td>
-		<td>good - timid, irritable</td>
+		<td>good - timid, irritable, gloomy</td>
 	</tr>
 	<tr>
 		<td>I'll housebreak you.</td>
