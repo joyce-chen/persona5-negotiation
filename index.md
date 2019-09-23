@@ -950,7 +950,7 @@
 	</tr>
 	<tr>
 		<td>You're not an animal.</td>
-		<td>good - irritable</td>
+		<td>good - irritable; good - gloomy</td>
 	</tr>
 </table>
 <table>
