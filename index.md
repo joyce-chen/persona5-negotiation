@@ -287,7 +287,7 @@
 	</tr>
 	<tr>
 		<td>Mom will wait till I'm done.</td>
-		<td>good - timid</td>
+		<td>good - timid; ok - gloomy</td>
 	</tr>
 </table>
 <table>
