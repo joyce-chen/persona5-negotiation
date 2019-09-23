@@ -1044,7 +1044,7 @@
 	</tr>
 	<tr>
 		<td>Eat you in a hot pot.</td>
-		<td>ok - irritable; bad - timid; good - gloomy</td>
+		<td>ok - irritable; bad - timid; ok - gloomy</td>
 	</tr>
 	<tr>
 		<td>Take you to a taxidermist.</td>
