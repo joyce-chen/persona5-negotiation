@@ -2891,3 +2891,20 @@
 		<td></td>
 	</tr>
 </table>
+<table>
+	<tr>
+		<th colspan="2">I fear neither death... nor you.</th>
+	</tr>
+	<tr>
+		<td>Why are you telling me this?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>That's a lie.</td>
+		<td>good - irritable</td>
+	</tr>
+	<tr>
+		<td>Quit acting tough.</td>
+		<td></td>
+	</tr>
+</table>
