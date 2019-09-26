@@ -2874,3 +2874,20 @@
 		<td>good - gloomy</td>
 	</tr>
 </table>
+<table>
+	<tr>
+		<th colspan="2">That power, vow that you will use it in the name of our Father.</th>
+	</tr>
+	<tr>
+		<td>I'll consider it.</td>
+		<td>good - irritable</td>
+	</tr>
+	<tr>
+		<td>That's a bit much.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I refuse.</td>
+		<td></td>
+	</tr>
+</table>
