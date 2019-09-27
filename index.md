@@ -2908,3 +2908,20 @@
 		<td></td>
 	</tr>
 </table>
+<table>
+	<tr>
+		<th colspan="2">Ah, so I suppose you commit such extreme acts because you know you won't be punished harshly...</th>
+	</tr>
+	<tr>
+		<td>That's not true.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Age doesn't matter.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>This isn't extreme.</td>
+		<td>good - upbeat</td>
+	</tr>
+</table>
