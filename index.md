@@ -2846,7 +2846,7 @@
 	</tr>
 	<tr>
 		<td>Are you busy?</td>
-		<td></td>
+		<td>bad - upbeat</td>
 	</tr>
 	<tr>
 		<td>I just couldn't.</td>
