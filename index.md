@@ -1915,7 +1915,7 @@
 	</tr>
 	<tr>
 		<td>Nothing but bad things...</td>
-		<td></td>
+		<td>good - upbeat</td>
 	</tr>
 	<tr>
 		<td>You're getting on my nerves!</td>
@@ -2721,3 +2721,21 @@
 		<td></td>
 	</tr>
 </table>
+<table>
+	<tr>
+		<th colspan="2">Do you have a dish you’re good at?</th>
+	</tr>
+	<tr>
+		<td>Fried rice.</td>
+		<td>good - upbeat</td>
+	</tr>
+	<tr>
+		<td>Spaghetti carbonara.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>What are you saying?</td>
+		<td></td>
+	</tr>
+</table>
+
