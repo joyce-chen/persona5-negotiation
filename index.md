@@ -286,7 +286,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I don't have the time.</td>
-		<td>OK - GLOOMY</td>
+		<td>OK - GLOOMY
+    <br>BAD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>You've got the wrong idea.</td>
@@ -323,7 +324,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Go impulse shopping.</td>
-		<td>GOOD - GLOOMY</td>
+		<td>GOOD - GLOOMY
+    <br>GOOD - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>Don't be so selfish.</td>
@@ -533,7 +535,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I feel his gaze.</td>
-		<td></td>
+		<td>GOOD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>I don't think so.</td>
@@ -563,7 +565,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Eh, could be.</td>
-		<td></td>
+		<td>ok - gloomy</td>
 	</tr>
 	<tr>
 		<td>No, I don't think so.</td>
@@ -1524,7 +1526,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Loud talkers...</td>
-		<td></td>
+		<td>good - upbeat</td>
 	</tr>
 	<tr>
 		<td>Nobody.</td>
@@ -1588,7 +1590,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Because you resisted.</td>
-		<td>OK - TIMID</td>
+		<td>OK - GLOOMY
+    <br>OK - TIMID</td>
 	</tr>
 	<tr>
 		<td>It can't be helped.</td>
@@ -1712,7 +1715,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I don't care.</td>
-		<td>OK - UPBEAT</td>
+		<td>OK - IRRITABLE
+    <br>OK - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>I don't know any other way.</td>
@@ -1917,7 +1921,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Are you busy?</td>
-		<td></td>
+		<td>ok - gloomy; bad - upbeat</td>
 	</tr>
 	<tr>
 		<td>I just couldn't.</td>
@@ -1935,11 +1939,11 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I just realized that.</td>
-		<td></td>
+		<td>bad - gloomy</td>
 	</tr>
 	<tr>
 		<td>None of your business.</td>
-		<td></td>
+		<td>ok - gloomy</td>
 	</tr>
 	<tr>
 		<td>I'm always alone.</td>
@@ -2562,7 +2566,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>You're beautiful.</td>
-		<td>GOOD - IRRITABLE</td>
+		<td>GOOD - IRRITABLE
+    <br>GOOD - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>You're scary.</td>
@@ -2632,7 +2637,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I care about my looks.</td>
-		<td>OK - IRRITABLE</td>
+		<td>GOOD - TIMID
+    <br>OK - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>It keeps my foes' blood off.</td>
@@ -2799,7 +2805,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>This is a special exception.</td>
-		<td></td>
+		<td>GOOD - GLOOMY</td>
 	</tr>
 </table>
 <table>
@@ -2901,7 +2907,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>The feelings will come.</td>
-		<td></td>
+		<td>bad - irritable</td>
 	</tr>
 </table>
 <table>
@@ -2910,7 +2916,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>You have nothing I want.</td>
-		<td></td>
+		<td>ok - gloomy</td>
 	</tr>
 	<tr>
 		<td>Are you bored?</td>
@@ -2951,7 +2957,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>There are other ways to live.</td>
-		<td>GOOD - GLOOMY</td>
+		<td>GOOD - GLOOMY
+    <br>OK - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>You had a good run.</td>
@@ -3003,7 +3010,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Because I see an enemy.</td>
-		<td>GOOD - UPBEAT</td>
+		<td>GOOD - UPBEAT
+    <br>BAD - TIMID</td>
 	</tr>
 	<tr>
 		<td>I don't actually know.</td>
@@ -3037,7 +3045,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>How about sushi...?</td>
-		<td></td>
+		<td>good - upbeat</td>
 	</tr>
 	<tr>
 		<td>I have nothing for you.</td>
@@ -3348,7 +3356,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Why do we fight?</td>
-		<td>GOOD - UPBEAT</td>
+		<td>GOOD - UPBEAT
+    <br>OK - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>I don't really know...</td>
@@ -3391,6 +3400,23 @@ function filterQuestions() {
 </table>
 <table>
 	<tr>
+		<th colspan="2">...Very well. In the place of our Father, I shall listen to your complaints.</th>
+	</tr>
+	<tr>
+		<td>Why can't we end war?</td>
+		<td>GOOD - IRRITABLE</td>
+	</tr>
+	<tr>
+		<td>Taxes keep going up.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I can't get a girlfriend.</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
 		<th colspan="2">You know, if you're willing to let this go… I'll make it worth your while.</th>
 	</tr>
 	<tr>
@@ -3407,6 +3433,40 @@ function filterQuestions() {
 	</tr>
 </table>
 <table>
+  <tr>
+    <th colspan="2">That power, it originates from our Father. Thus, is it not reasonable to repay him for the favor?</th>
+	</tr>
+	<tr>
+		<td>I didn't know...</td>
+		<td>OK - IRRITABLE</td>
+	</tr>
+	<tr>
+		<td>This is my power.</td>
+		<td>OK - IRRITABLE</td>
+	</tr>
+	<tr>
+		<td>There is no "Father".</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">Oh, they're so self-assured that they'll be so successful in the future. Are you like that, child?</th>
+	</tr>
+	<tr>
+		<td>That's right.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>That's not true.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>What's wrong with that?</td>
+		<td>BAD - GLOOMY</td>
+  </tr>
+</table>
+<table>
 	<tr>
 		<th colspan="2">Life's nothing but pain anyways. Just do whatever you want.</th>
 	</tr>
@@ -3420,6 +3480,40 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Don't get desperate.</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">Something about people putting honey on cucumbers to feel like they're eating fancy cantaloupe...?</th>
+	</tr>
+	<tr>
+		<td>I use those tips.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>It makes me sad.</td>
+		<td>BAD - GLOOMY</td>
+	</tr>
+	<tr>
+		<td>Finding new tricks is fun.</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">I think dying alone isn't so bad dearie, but isn't living alone in the first place the real tragedy?</th>
+	</tr>
+	<tr>
+		<td>I don't think so.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Maybe you're right.</td>
+		<td>OK - GLOOMY</td>
+	</tr>
+	<tr>
+		<td>Being alone is a luxury.</td>
 		<td></td>
 	</tr>
 </table>
