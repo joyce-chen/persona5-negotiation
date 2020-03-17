@@ -527,7 +527,7 @@ function filterQuestions() {
 </table>
 <table>
 	<tr>
-		<th colspan="2">It is to become aware of the gaze of our Father who watches over you with loving grace</th>
+		<th colspan="2">It is to become aware of the gaze of our Father who watches over you with loving grace.</th>
 	</tr>
 	<tr>
 		<td>What are you talking about?</td>
@@ -1851,11 +1851,13 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>You have nothing I want.</td>
-		<td></td>
+		<td>OK - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>Are you bored?</td>
-		<td>GOOD - IRRITABLE
+		<td>GOOD - GLOOMY
+		<br>GOOD - IRRITABLE
+		<br>GOOD - UPBEAT
 		<br>OK - TIMID</td>
 	</tr>
 	<tr>
@@ -1915,18 +1917,20 @@ function filterQuestions() {
 		<td>OK - GLOOMY</td>
 	</tr>
 </table>
-<table>
+<table class="notCertain">
 	<tr>
-		<th colspan="2">Why don't you just leave me be?</th>
+		<th colspan="2">Won't you just leave me be? / Why don't you just leave me be?</th>
 	</tr>
 	<tr>
 		<td>Are you busy?</td>
-		<td>OK - GLOOMY
+		<td>GOOD - IRRITABLE
+		<br>OK - GLOOMY
 		<br>BAD - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>I just couldn't.</td>
-		<td>OK - IRRITABLE
+		<td>GOOD - TIMID
+		<br>OK - IRRITABLE
 		<br>OK - UPBEAT</td>
 	</tr>
 	<tr>
@@ -2008,23 +2012,6 @@ function filterQuestions() {
 		<td>Pretty cool, huh?</td>
 		<td>BAD - IRRITABLE
 		<br>BAD - TIMID</td>
-	</tr>
-</table>
-<table>
-	<tr>
-		<th colspan="2">I am inclined to turn you down but if you still wish to speak, I will perhaps consider it.</th>
-	</tr>
-	<tr>
-		<td>You have nothing I want.</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>Are you bored?</td>
-		<td>GOOD - UPBEAT</td>
-	</tr>
-	<tr>
-		<td>That's a horrible premise.</td>
-		<td></td>
 	</tr>
 </table>
 <table>
@@ -2914,24 +2901,6 @@ function filterQuestions() {
 </table>
 <table>
 	<tr>
-		<th colspan="2">I am inclined to turn you down, but if you still wish to speak, I will perhaps consider it.</th>
-	</tr>
-	<tr>
-		<td>You have nothing I want.</td>
-		<td>OK - GLOOMY</td>
-	</tr>
-	<tr>
-		<td>Are you bored?</td>
-		<td>GOOD - GLOOMY
-		<br>OK - TIMID</td>
-	</tr>
-	<tr>
-		<td>That's a horrible premise.</td>
-		<td></td>
-	</tr>
-</table>
-<table>
-	<tr>
 		<th colspan="2">You, however are talking to me right here. Are you the exception to this rule?</th>
 	</tr>
 	<tr>
@@ -3140,24 +3109,6 @@ function filterQuestions() {
 	<tr>
 		<td>I want to end this fate.</td>
 		<td>OK - IRRITABLE</td>
-	</tr>
-</table>
-<table>
-	<tr>
-		<th colspan="2">Won't you just leave me be?</th>
-	</tr>
-	<tr>
-		<td>Are you busy?</td>
-		<td>GOOD - IRRITABLE</td>
-	</tr>
-	<tr>
-		<td>I just couldn't.</td>
-		<td>GOOD - TIMID
-		<br>OK - UPBEAT</td>
-	</tr>
-	<tr>
-		<td>Is that reverse psychology?</td>
-		<td></td>
 	</tr>
 </table>
 <table>
