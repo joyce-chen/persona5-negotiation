@@ -1315,7 +1315,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Let me touch your paws.</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 </table>
 <table>
