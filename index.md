@@ -1951,7 +1951,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Nobody.</td>
-		<td>GOOD - GLOOMY</td>
+		<td>GOOD - GLOOMY
+    <br>GOOD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>Shuddup...</td>
