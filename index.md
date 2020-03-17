@@ -1639,7 +1639,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Being a kid is easy.</td>
-		<td>GOOD - IRRITABLE</td>
+		<td>GOOD - GLOOMY
+    <br>GOOD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>Being a kid is tough.</td>
