@@ -3,23 +3,48 @@
 
 @import "{{ site.theme }}";
 footer {
+  width: 100%;
   position: static !important;
 }
 section {
+  margin-top: 2rem;
   width: auto;
+  float: none;
 }
 header {
+  width: 100%;
+  position: static !important;
+}
+nav {
   width: auto;
   position: static !important;
 }
 
+.form-control:focus {
+  outline: 0 !important;
+  border-color: initial;
+  box-shadow: none;
+}
+
+#questions {
+  margin-top: 1rem;
+}
+
+a {
+  color: #dc3545;
+}
+a:hover {
+  color: #dc3545;
+}
+
+
 table {
   width: auto;
+  border: 1px solid #e5e5e5;
+
   th {
     font-weight: bold;
     text-align: center;
-  }
-  tbody tr:nth-of-type(odd) {
     background-color: rgba(0, 0, 0, .05);
     border-color: #fff;
   }
