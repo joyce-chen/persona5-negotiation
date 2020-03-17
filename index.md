@@ -24,6 +24,12 @@ function filterQuestions() {
 }
 </script>
 
+| Type      |  Likes  | Dislikes        |
+|-----------|---------|-----------------|
+| Gloomy    | Vague   | Serious, Funny  |
+| Irritable | Serious | Vague, Kind     |
+| Timid     | Kind    | Vague, Funny    |
+| Upbeat    | Funny   | Serious, Vague  |
 
 <div id="questions">
 <table>
@@ -395,11 +401,12 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>You seemed useful.</td>
-		<td>GOOD - GLOOMY</td>
+		<td>GOOD - GLOOMY
+    <br>GOOD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>No particular reason.</td>
-		<td></td>
+		<td>bad - irritable</td>
 	</tr>
 </table>
 <table>
@@ -574,6 +581,23 @@ function filterQuestions() {
 	<tr>
 		<td>It's what we call destiny.</td>
 		<td>GOOD - UPBEAT</td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">Me want you to give me some nice "words of compassion"--as my rival--as me pass away...!</th>
+	</tr>
+	<tr>
+		<td>Die in peace.</td>
+		<td>ok - irritable</td>
+	</tr>
+	<tr>
+		<td>Why show mercy to my enemy?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>... I got nothing.</td>
+		<td></td>
 	</tr>
 </table>
 <table>
@@ -866,7 +890,8 @@ function filterQuestions() {
 	<tr>
 		<td>I think there is.</td>
 		<td>GOOD - TIMID
-		<br>GOOD - UPBEAT</td>
+		<br>GOOD - UPBEAT
+    <br>OK - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>I can't promise that.</td>
@@ -1234,7 +1259,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Times have changed.</td>
-		<td>GOOD - TIMID</td>
+		<td>GOOD - IRRITABLE
+    <br>GOOD - TIMID</td>
 	</tr>
 	<tr>
 		<td>Humans are powerful.</td>
@@ -1504,7 +1530,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>A star?</td>
-		<td>OK - GLOOMY</td>
+		<td>GOOD - IRRITABLE
+    <br>OK - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>That's never happening.</td>
@@ -1530,7 +1557,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Nobody.</td>
-		<td></td>
+		<td>good - timid</td>
 	</tr>
 </table>
 <table>
@@ -1921,7 +1948,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Are you busy?</td>
-		<td>OK - GLOOMY
+		<td>GOOD - IRRITABLE
+    <br>OK - GLOOMY
 		<br>BAD - UPBEAT</td>
 	</tr>
 	<tr>
@@ -2370,7 +2398,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I have no friends.</td>
-		<td></td>
+		<td>good - irritable</td>
 	</tr>
 </table>
 <table>
@@ -2622,7 +2650,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Happy birthday.</td>
-		<td></td>
+		<td>good - irritable</td>
 	</tr>
 	<tr>
 		<td>I had no idea.</td>
@@ -3043,7 +3071,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Katsudon, coming right up.</td>
-		<td>GOOD - IRRITABLE</td>
+		<td>GOOD - IRRITABLE
+    <br>GOOD - TIMID</td>
 	</tr>
 	<tr>
 		<td>How about sushi...?</td>
@@ -3103,7 +3132,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Why does that matter?</td>
-		<td>GOOD - GLOOMY</td>
+		<td>GOOD - GLOOMY
+    <br>OK - IRRITABLE</td>
 	</tr>
 </table>
 <table>
@@ -3176,6 +3206,40 @@ function filterQuestions() {
 	<tr>
 		<td>Stop trying to act cool.</td>
 		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">If your girlfriend asked you if you were free to have [...] with her "friends," what would you say?</th>
+	</tr>
+	<tr>
+		<td>Sure.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'm busy.</td>
+		<td>good - upbeat</td>
+	</tr>
+	<tr>
+		<td>What are you talking about?</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">You know... If you're willing to let this go... I'll make it worth your while.</th>
+	</tr>
+	<tr>
+		<td>Worth my while...?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>No way.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'm already taken.</td>
+		<td>good - upbeat, irritable</td>
 	</tr>
 </table>
 <table>
