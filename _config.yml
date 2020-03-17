@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: Persona 5 Negotiation Guide
 description: Persona 5 Negotiation Guide
+baseurl: /persona5-negotiation
 
 plugins:
   - jekyll-seo-tag
