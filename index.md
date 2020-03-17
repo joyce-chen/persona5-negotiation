@@ -327,7 +327,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Don't be so selfish.</td>
-		<td></td>
+		<td>bad - irritable</td>
 	</tr>
 </table>
 <table>
@@ -376,7 +376,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>There's no need to explain.</td>
-		<td></td>
+		<td>ok - irritable</td>
 	</tr>
 	<tr>
 		<td>Just shut up.</td>
@@ -832,6 +832,7 @@ function filterQuestions() {
 	<tr>
 		<td>I didn't see any "vibes."</td>
 		<td>GOOD - TIMID
+    <br>BAD - IRRITABLE
 		<br>BAD - UPBEAT</td>
 	</tr>
 	<tr>
@@ -2929,7 +2930,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>That's right.</td>
-		<td>BAD - TIMID</td>
+		<td>OK - IRRITABLE
+    <br>BAD - TIMID</td>
 	</tr>
 	<tr>
 		<td>I have ulterior motives.</td>
@@ -3020,7 +3022,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>What are you talking about?</td>
-		<td></td>
+		<td>ok - irritable</td>
 	</tr>
 </table>
 <table>
