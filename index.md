@@ -1130,7 +1130,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>No, I thought this up myself.</td>
-		<td></td>
+		<td>BAD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>Want to join in?</td>
@@ -1958,7 +1958,8 @@ function filterQuestions() {
 	<tr>
 		<td>Nobody.</td>
 		<td>GOOD - GLOOMY
-    <br>GOOD - IRRITABLE</td>
+    <br>GOOD - IRRITABLE
+    <br>OK - TIMID</td>
 	</tr>
 	<tr>
 		<td>Shuddup...</td>
@@ -3164,7 +3165,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Aren't you scared?</td>
-		<td>GOOD - TIMID</td>
+		<td>GOOD - GLOOMY
+    <br>GOOD - TIMID</td>
 	</tr>
 	<tr>
 		<td>I'll have more fun first.</td>
@@ -3357,11 +3359,12 @@ function filterQuestions() {
 	<tr>
 		<td>Why do we fight?</td>
 		<td>GOOD - UPBEAT
+    <br>OK - GLOOMY
     <br>OK - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>I don't really know...</td>
-		<td></td>
+		<td>good - gloomy</td>
 	</tr>
 </table>
 <table>
@@ -3515,6 +3518,40 @@ function filterQuestions() {
 	<tr>
 		<td>Being alone is a luxury.</td>
 		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">What're you gonna tell your kids about this shit?</th>
+	</tr>
+	<tr>
+		<td>It was a hard-fought battle.</td>
+		<td>OK - TIMID</td>
+	</tr>
+	<tr>
+		<td>It was an easy win.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'll forget it happened.</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">Humans talk over drinks, right? How 'bout it? Hell, let me buy you a round, sonny.</th>
+	</tr>
+	<tr>
+		<td>Quit messing around.</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>You'll really treat me?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I'm a minor...</td>
+		<td>OK - IRRITABLE</td>
 	</tr>
 </table>
 </div>
