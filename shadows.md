@@ -59,7 +59,7 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Mandrake</td>
-      <td>Gallows-Flower</td>
+      <td>Gallows Flower</td>
       <td>Death</td>
       <td>Upbeat</td>
    </tr>
