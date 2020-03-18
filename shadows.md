@@ -682,7 +682,7 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Mara</td>
-      <td>Torn King of Desires</td>
+      <td>Throbbing King of Desire</td>
       <td>Tower</td>
       <td>Irritable</td>
    </tr>

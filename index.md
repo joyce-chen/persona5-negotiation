@@ -1,3 +1,5 @@
+<!-- If you are seeing this from Github, there is a user-friendly version of this page with an embeded search function at: http://joyce-chen.github.io/persona5-negotiation/ -->
+
 <div class="input-group">
 	<input class="form-control py-2 border-right-0 border" type="text" id="searchBar" onkeyup="filterQuestions()" placeholder="Search for questions or responses.." title="Type in a question or response">
 	<span class="input-group-append">
@@ -1480,24 +1482,6 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I've got enough on my plate...</td>
-		<td></td>
-	</tr>
-</table>
-<table>
-	<tr>
-		<th colspan="2">I'll make you into soup.</th>
-	</tr>
-	<tr>
-		<td>OK, I'll make you into soup.</td>
-		<td>BAD - IRRITABLE</td>
-	</tr>
-	<tr>
-		<td>Fine, I'll grill you.</td>
-		<td>GOOD - GLOOMY
-		<br>GOOD - IRRITABLE</td>
-	</tr>
-	<tr>
-		<td>Alright, I'll mince you.</td>
 		<td></td>
 	</tr>
 </table>
