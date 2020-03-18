@@ -1024,7 +1024,8 @@ function filterQuestions() {
 	<tr>
 		<td>Are you giving up?</td>
 		<td>GOOD - GLOOMY
-		<br>GOOD - IRRITABLE</td>
+		<br>GOOD - IRRITABLE
+		<br>GOOD - TIMID</td>
 	</tr>
 </table>
 <table>
@@ -1505,7 +1506,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I've got enough on my plate...</td>
-		<td></td>
+		<td>GOOD - TIMID</td>
 	</tr>
 </table>
 <table>
@@ -1944,7 +1945,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>No, not all.</td>
-		<td>GOOD - IRRITABLE</td>
+		<td>GOOD - IRRITABLE
+		<br>GOOD - TIMID</td>
 	</tr>
 	<tr>
 		<td>I look ok, I guess.</td>
@@ -1986,7 +1988,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Try and rip it off me.</td>
-		<td>GOOD - IRRITABLE</td>
+		<td>GOOD - IRRITABLE
+		<br>GOOD - TIMID</td>
 	</tr>
 </table>
 <table>
@@ -2082,7 +2085,7 @@ function filterQuestions() {
 <!-- LIST:M -->
 <table class="noAnswer">
 	<tr>
-		<th colspan="2">Maybe I'll tell'em that you were worse than you actually were!</th>
+		<th colspan="2">...Maybe I'll call the police. Maybe I'll tell 'em that you were worse than you actually were!</th>
 	</tr>
 	<tr>
 		<td>Call them. I dare you.</td>
@@ -3739,7 +3742,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>...Try me.</td>
-		<td>GOOD - IRRITABLE</td>
+		<td>GOOD - IRRITABLE
+		<br>GOOD - TIMID</td>
 	</tr>
 </table>
 <table>
