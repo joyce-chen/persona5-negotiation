@@ -24,13 +24,6 @@ function filterQuestions() {
 }
 </script>
 
-| Type      |  Likes  | Dislikes        |
-|-----------|---------|-----------------|
-| Gloomy    | Vague   | Serious, Funny  |
-| Irritable | Serious | Vague, Kind     |
-| Timid     | Kind    | Vague, Funny    |
-| Upbeat    | Funny   | Serious, Vague  |
-
 <div id="questions">
 <table>
 	<tr>

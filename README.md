@@ -11,4 +11,4 @@ Thank you to GooberSD/Chompobar for all the additional questions and answers the
 Please feel free to reach out if you want to contribute any changes.
 
 
-Direct Link: http://joyce-chen.github.io/persona5-negotiation/
+Direct Link to a user-friendly version: http://joyce-chen.github.io/persona5-negotiation/
