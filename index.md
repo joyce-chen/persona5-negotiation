@@ -31,7 +31,6 @@ function filterQuestions() {
 </script>
 
 <div id="questions">
-<!-- LIST:... -->
 <!-- LIST:A -->
 <table>
 	<tr>
@@ -49,6 +48,7 @@ function filterQuestions() {
 	<tr>
 		<td>I don't know any other way.</td>
 		<td>GOOD - UPBEAT
+		<br>OK - IRRITABLE
 		<br>BAD - TIMID</td>
 	</tr>
 </table>
@@ -76,7 +76,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>That's not true.</td>
-		<td></td>
+		<td>GOOD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>Age doesn't matter.</td>
@@ -85,7 +85,8 @@ function filterQuestions() {
 	<tr>
 		<td>This isn't extreme.</td>
 		<td>GOOD - GLOOMY
-		<br>GOOD - UPBEAT</td>
+		<br>GOOD - UPBEAT
+		<br>OK - TIMID</td>
 	</tr>
 </table>
 <table>
@@ -324,7 +325,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>There's no need to explain.</td>
-		<td>OK - IRRITABLE</td>
+		<td>OK - IRRITABLE
+		<br>BAD - TIMID</td>
 	</tr>
 	<tr>
 		<td>Just shut up.</td>
@@ -375,7 +377,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I'm a bit chilly, but...</td>
-		<td></td>
+		<td>BAD - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>I'm a little scared...</td>
@@ -429,7 +431,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Fried rice.</td>
-		<td></td>
+		<td>GOOD - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>Spaghetti carbonara.</td>
@@ -523,6 +525,23 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I'm past such things.</td>
+		<td></td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">Don't take this the wrong way, but man... Bein' a carefree kid sure must be nice.</th>
+	</tr>
+	<tr>
+		<td>I want to be a kid forever.</td>
+		<td>GOOD - UPBEAT</td>
+	</tr>
+	<tr>
+		<td>I prefer being an adult.</td>
+		<td>GOOD - IRRITABLE</td>
+	</tr>
+	<tr>
+		<td>I wish I was still a baby.</td>
 		<td></td>
 	</tr>
 </table>
@@ -958,7 +977,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Quit messing around.</td>
-		<td></td>
+		<td>BAD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>You'll really treat me?</td>
@@ -976,7 +995,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I just realized that.</td>
-		<td>BAD - GLOOMY</td>
+		<td>GOOD - TIMID
+		<br>BAD - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>None of your business.</td>
@@ -1053,7 +1073,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Like a disco ball.</td>
-		<td>OK - UPBEAT</td>
+		<td>GOOD - IRRITABLE
+		<br>OK - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>Not at all.</td>
@@ -1308,7 +1329,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Complaining won't help.</td>
-		<td></td>
+		<td>OK - GLOOMY</td>
 	</tr>
 </table>
 <table>
@@ -1428,7 +1449,8 @@ function filterQuestions() {
 	<tr>
 		<td>Take you to a taxidermist.</td>
 		<td>GOOD - TIMID
-		<br>GOOD - UPBEAT</td>
+		<br>GOOD - UPBEAT
+		<br>OK - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>You'll be my new stylish coat.</td>
@@ -1605,7 +1627,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>You've got a point there...</td>
-		<td></td>
+		<td>OK - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>That's absurd.</td>
@@ -1643,7 +1665,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>No one bothers me.</td>
-		<td>BAD - IRRITABLE</td>
+		<td>OK - GLOOMY
+		<br>BAD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>I hate everyone.</td>
@@ -1886,7 +1909,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I like younger women.</td>
-		<td>GOOD - UPBEAT</td>
+		<td>GOOD - TIMID
+		<br>GOOD - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>I like men.</td>
@@ -1957,7 +1981,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>It's part of my face.</td>
-		<td>OK - GLOOMY</td>
+		<td>GOOD - UPBEAT
+		<br>OK - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>Try and rip it off me.</td>
@@ -2207,7 +2232,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Just endure it.</td>
-		<td>OK - IRRITABLE</td>
+		<td>GOOD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>Want something delivered?</td>
@@ -2483,7 +2508,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I'm actually still young...</td>
-		<td>GOOD - UPBEAT</td>
+		<td>GOOD - IRRITABLE
+		<br>GOOD - UPBEAT</td>
 	</tr>
 </table>
 <table>
@@ -2533,11 +2559,13 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Nothing but bad things...</td>
-		<td>OK - GLOOMY</td>
+		<td>GOOD - UPBEAT
+		<br>OK - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>You're getting on my nerves!</td>
-		<td>GOOD - TIMID
+		<td>GOOD - IRRITABLE
+		<br>GOOD - TIMID
 		<br>BAD - UPBEAT</td>
 	</tr>
 </table>
@@ -2961,7 +2989,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>A place with western toilets.</td>
-		<td>GOOD - GLOOMY</td>
+		<td>GOOD - GLOOMY
+		<br>GOOD - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>You won't survive.</td>
@@ -3077,7 +3106,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>That's true.</td>
-		<td>OK - GLOOMY</td>
+		<td>GOOD - TIMID
+		<br>OK - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>That can't be true.</td>
@@ -3183,7 +3213,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Your lack of resolve.</td>
-		<td></td>
+		<td>GOOD - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>My natural talent.</td>
@@ -3226,7 +3256,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I'll forget it happened.</td>
-		<td></td>
+		<td>GOOD - UPBEAT</td>
 	</tr>
 </table>
 <table class="noAnswer">
@@ -3252,7 +3282,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>You tempt people.</td>
-		<td>GOOD - TIMID</td>
+		<td>GOOD - TIMID
+		<br>OK - UPBEAT</td>
 	</tr>
 	<tr>
 		<td>You're ugly.</td>
@@ -3342,7 +3373,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I'm ME!</td>
-		<td>GOOD - IRRITABLE</td>
+		<td>GOOD - IRRITABLE
+		<br>OK - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>I don't have to answer you.</td>
@@ -3431,7 +3463,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I haven't thought about it.</td>
-		<td>OK - IRRITABLE</td>
+		<td>GOOD - GLOOMY
+		<br>OK - IRRITABLE</td>
 	</tr>
 	<tr>
 		<td>Ugh, you talk too loud.</td>
@@ -3501,6 +3534,7 @@ function filterQuestions() {
 		<td>Are you busy?</td>
 		<td>GOOD - IRRITABLE
 		<br>OK - GLOOMY
+		<br>OK - TIMID
 		<br>BAD - UPBEAT</td>
 	</tr>
 	<tr>
@@ -3524,7 +3558,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>No, I wouldn't.</td>
-		<td>GOOD - GLOOMY</td>
+		<td>GOOD - GLOOMY
+		<br>OK - TIMID</td>
 	</tr>
 	<tr>
 		<td>This is a special exception.</td>
@@ -3642,7 +3677,7 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>I've thought about it.</td>
-		<td></td>
+		<td>GOOD - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>I don't want kids.</td>
@@ -3755,7 +3790,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>Not my problem.</td>
-		<td>BAD - GLOOMY</td>
+		<td>GOOD - UPBEAT
+		<br>BAD - GLOOMY</td>
 	</tr>
 	<tr>
 		<td>Don't lie.</td>
@@ -3799,7 +3835,7 @@ function filterQuestions() {
 </table>
 <table>
 	<tr>
-		<th colspan="2">You know... If you're willing to let this go... I'll make it worth your while.</th>
+		<th colspan="2">You know... If you're willin' to let this go... I'll make it worth your while.</th>
 	</tr>
 	<tr>
 		<td>Worth my while...?</td>
@@ -3825,7 +3861,8 @@ function filterQuestions() {
 	</tr>
 	<tr>
 		<td>She probably left.</td>
-		<td>OK - IRRITABLE
+		<td>GOOD - UPBEAT
+		<br>OK - IRRITABLE
 		<br>BAD - GLOOMY</td>
 	</tr>
 	<tr>
@@ -3921,6 +3958,23 @@ function filterQuestions() {
 		<td>I'm not mature anyway.</td>
 		<td>BAD - IRRITABLE
 		<br>BAD - UPBEAT</td>
+	</tr>
+</table>
+<table>
+	<tr>
+		<th colspan="2">You’re hitting on me, right? Don’t you think you’re totally doing it wrong?</th>
+	</tr>
+	<tr>
+		<td>Nothing wrong about it.</td>
+		<td>BAD - GLOOMY</td>
+	</tr>
+	<tr>
+		<td>What’s the right way, then?</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>I’m not hitting on you.</td>
+		<td></td>
 	</tr>
 </table>
 <table class="noAnswer">
