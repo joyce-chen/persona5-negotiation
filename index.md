@@ -1,4 +1,5 @@
-<!-- If you are seeing this from Github, there is a user-friendly version of this page with an embeded search function at: http://joyce-chen.github.io/persona5-negotiation/ -->
+<div style="display: none">If you are seeing this from Github, there is a user-friendly version of this page with an embeded searchbar at: http://joyce-chen.github.io/persona5-negotiation/
+</div>
 
 <div class="input-group">
 	<input class="form-control py-2 border-right-0 border" type="text" id="searchBar" onkeyup="filterQuestions()" placeholder="Search for questions or responses.." title="Type in a question or response">
