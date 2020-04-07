@@ -32,7 +32,7 @@ def create_table(q, flag, top_a, mid_a, bot_a, top_r, mid_r, bot_r):
 
     top = "\n\t<tr>\n\t\t<td>" + top_a + "</td>" + generate_result(top_r['gl']) + generate_result(top_r['ir']) + generate_result(top_r['ti']) + generate_result(top_r['up']) + "\n\t</tr>"
     mid = "\n\t<tr>\n\t\t<td>" + mid_a + "</td>" + generate_result(mid_r['gl']) + generate_result(mid_r['ir']) + generate_result(mid_r['ti']) + generate_result(mid_r['up']) + "\n\t</tr>"
-    bot = "\n\t<tr>\n\t\t<td>" + top_a + "</td>" + generate_result(bot_r['gl']) + generate_result(bot_r['ir']) + generate_result(bot_r['ti']) + generate_result(bot_r['up']) + "\n\t</tr>"
+    bot = "\n\t<tr>\n\t\t<td>" + bot_a + "</td>" + generate_result(bot_r['gl']) + generate_result(bot_r['ir']) + generate_result(bot_r['ti']) + generate_result(bot_r['up']) + "\n\t</tr>"
 
     if flag == "":
         return "\n<table>" + question + header + top + mid + bot + "\n</table>"
