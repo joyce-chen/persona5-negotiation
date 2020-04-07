@@ -26,9 +26,9 @@ function filterQuestions() {
 	table = div.getElementsByTagName("table");
     for (i = 0; i < table.length; i++) {
 		var question = table[i].getElementsByTagName("th")[0].textContent.toUpperCase();
-		var answerOne = table[i].getElementsByTagName("td")[0].textContent.toUpperCase();
-		var answerTwo = table[i].getElementsByTagName("td")[2].textContent.toUpperCase();
-		var answerThree = table[i].getElementsByTagName("td")[4].textContent.toUpperCase();
+		var answerOne = table[i].getElementsByTagName("td")[5].textContent.toUpperCase();
+		var answerTwo = table[i].getElementsByTagName("td")[10].textContent.toUpperCase();
+		var answerThree = table[i].getElementsByTagName("td")[15].textContent.toUpperCase();
 		
 		if (question.indexOf(filter) > -1 || answerOne.indexOf(filter) > -1 || answerTwo.indexOf(filter) > -1 || answerThree.indexOf(filter) > -1) {
 			table[i].style.display = "";
