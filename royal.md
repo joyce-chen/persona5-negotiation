@@ -1,32 +1,3 @@
-<p style="text-align: center; font-size: 60px;" id="timer"></p>
+There are minor wording differences in the questions and answers, but the results are still the same. For example, the second response will yield the same shadow's reaction in both versions of the game.
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Mar 31, 2020 12:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("timer").innerHTML = "Persona 5 Royal has been released. This pages will be updated with questions once I'm playing the game.";
-  }
-}, 1000);
-</script>
+So feel free to use the questions listed on the <a href="/persona5-negotiation">P5 QUESTIONS page</a>.

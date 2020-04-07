@@ -1,21 +1,17 @@
 <div style="display: none">If you are seeing this from Github, there is a user-friendly version of this page with an embeded searchbar at: http://joyce-chen.github.io/persona5-negotiation/<br><br>
 </div>
 
-<div style="display: flex; flex-wrap: wrap;">
-	<div style="flex: 3" class="input-group">
-		<input class="form-control py-2 border-right-0 border" type="text" id="searchBar" onkeyup="filterQuestions()" placeholder="Search for questions or responses.." title="Type in a question or response">
-		<span class="input-group-append">
-			<div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
-		</span>
-	</div>
-
-	<div style="flex: 1; text-align: center;">
-		<label class="switch">
-			<input type="checkbox" onClick="toggleSymbols()">
-			<span class="slider round"></span>
-		</label>
-	</div>
+<div class="input-group">
+	<input class="form-control py-2 border-right-0 border" type="text" id="searchBar" onkeyup="filterQuestions()" placeholder="Search for questions or responses.." title="Type in a question or response">
+	<span class="input-group-append">
+		<div class="input-group-text bg-transparent"><i class="fa fa-search"></i></div>
+	</span>
 </div>
+
+<label class="switch">
+  <input type="checkbox" onClick="toggleSymbols()">
+  <span class="slider round"></span>
+</label>
 
 <script>
 function filterQuestions() {
@@ -39,15 +35,15 @@ function filterQuestions() {
 }
 
 function toggleSymbols() {
-	var text = document.getElementsByClassName("text");
 	var symbol = document.getElementsByClassName("symbol");
-	for (var i = 0; i < text.length; i++) {
-		if (text[i].style.display === "none") {
+	var text = document.getElementsByClassName("text");
+	for (var i = 0; i < symbol.length; i++) {
+		if (symbol[i].style.display === "none") {
+			symbol[i].style.display = "block";
+			text[i].style.display = "none"
+		} else {
 			symbol[i].style.display = "none";
 			text[i].style.display = "block";
-		} else {
-			symbol[i].style.display = "block";
-			text[i].style.display = "none";
 		}
 	}
 }
