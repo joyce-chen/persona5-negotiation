@@ -1,6 +1,6 @@
-# Persona 5 Negotiation Guide
+# Persona 5 & Royal Negotiation Guide
 
-A tool to help with negotiations in Persona 5. 
+A tool to help with negotiations in Persona 5 and Persona 5 Royal. 
 
 (Incomplete. Work-in-progress.)
 
