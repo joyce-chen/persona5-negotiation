@@ -11,7 +11,7 @@
 
 	<div style="flex: 1; text-align: center;">
 		<label class="switch">
-			<input type="checkbox" onClick="toggleSymbols()">
+			<input type="checkbox" onClick="toggleCompact()">
 			<span class="slider round"></span>
 		</label>
 	</div>
@@ -38,7 +38,7 @@ function filterQuestions() {
     }
 }
 
-function toggleSymbols() {
+function toggleCompact() {
 	var text = document.getElementsByClassName("text");
 	var symbol = document.getElementsByClassName("symbol");
 	for (var i = 0; i < text.length; i++) {
@@ -48,6 +48,15 @@ function toggleSymbols() {
 		} else {
 			symbol[i].style.display = "block";
 			text[i].style.display = "none";
+		}
+	}
+
+	var extra = document.getElementsByClassName("extra");
+	for (var i = 0; i < extra.length; i++) {
+		if (extra[i].style.display === "none") {
+			extra[i].style.display = "inline";
+		} else {
+			extra[i].style.display = "none";
 		}
 	}
 }
@@ -60,10 +69,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're right.</td>
@@ -93,10 +102,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Then get serious now.</td>
@@ -126,10 +135,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's not true.</td>
@@ -159,10 +168,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You have a point there...</td>
@@ -192,10 +201,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Yeah, we sure are.</td>
@@ -225,10 +234,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A thrift shop.</td>
@@ -258,10 +267,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Yes, I'm bored.</td>
@@ -291,10 +300,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That?s right.</td>
@@ -324,10 +333,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Right after this, kid.</td>
@@ -357,10 +366,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>My rival.</td>
@@ -390,10 +399,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>All right, I suppose.</td>
@@ -423,10 +432,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I think it's fine.</td>
@@ -456,10 +465,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm acting on a whim.</td>
@@ -489,10 +498,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Hee-ho!</td>
@@ -522,10 +531,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Red.</td>
@@ -555,10 +564,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I can.</td>
@@ -588,10 +597,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It'd take a while to explain.</td>
@@ -621,10 +630,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I apologize.</td>
@@ -654,10 +663,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I don't have any.</td>
@@ -687,10 +696,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm a bit chilly, but...</td>
@@ -720,10 +729,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I suppose so...</td>
@@ -753,10 +762,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Being a kid is easy.</td>
@@ -786,10 +795,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Fried rice.</td>
@@ -819,10 +828,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Sometimes.</td>
@@ -852,10 +861,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Sin...?</td>
@@ -885,10 +894,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're a beloved neighbor.</td>
@@ -918,10 +927,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Yes.</td>
@@ -951,10 +960,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Now that you mention it...</td>
@@ -984,10 +993,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I want to be a kid forever.</td>
@@ -1017,10 +1026,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I do.</td>
@@ -1050,10 +1059,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That is sad.</td>
@@ -1083,10 +1092,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm not your dad.</td>
@@ -1116,10 +1125,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I have.</td>
@@ -1149,10 +1158,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're right.</td>
@@ -1182,10 +1191,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Really?</td>
@@ -1215,10 +1224,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>What do you want to eat?</td>
@@ -1248,10 +1257,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Not a bad idea.</td>
@@ -1281,10 +1290,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Are you OK?</td>
@@ -1314,10 +1323,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It looks cute.</td>
@@ -1347,10 +1356,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Hamburgers.</td>
@@ -1380,10 +1389,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A fashionable older woman.</td>
@@ -1413,10 +1422,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Later.</td>
@@ -1446,10 +1455,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>An average level of happiness.</td>
@@ -1479,10 +1488,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>My relationships...</td>
@@ -1512,10 +1521,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>An expensive French restaurant.</td>
@@ -1545,10 +1554,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's a school holiday.</td>
@@ -1578,10 +1587,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're more unique.</td>
@@ -1611,10 +1620,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I feel great.</td>
@@ -1644,10 +1653,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I do.</td>
@@ -1677,10 +1686,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A luxury cruise.</td>
@@ -1710,10 +1719,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm sorry.</td>
@@ -1743,10 +1752,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Some flyers.</td>
@@ -1776,10 +1785,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I want an autograph.</td>
@@ -1809,10 +1818,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Quit messing around.</td>
@@ -1842,10 +1851,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I just realized that.</td>
@@ -1875,10 +1884,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A star?</td>
@@ -1908,10 +1917,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I don't really train.</td>
@@ -1941,10 +1950,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>This is a misunderstanding.</td>
@@ -1974,10 +1983,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Like a disco ball.</td>
@@ -2007,10 +2016,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Give me something.</td>
@@ -2040,10 +2049,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's not bad.</td>
@@ -2073,10 +2082,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Yeah, sometimes.</td>
@@ -2106,10 +2115,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Relax at home.</td>
@@ -2139,10 +2148,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Because you resisted.</td>
@@ -2172,10 +2181,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's really boring.</td>
@@ -2205,10 +2214,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I don't think so.</td>
@@ -2238,10 +2247,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>We are friends.</td>
@@ -2271,10 +2280,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's too bad.</td>
@@ -2304,10 +2313,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I can't show you now.</td>
@@ -2337,10 +2346,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I agree.</td>
@@ -2370,10 +2379,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Eh, could be.</td>
@@ -2403,10 +2412,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>We would have dated.</td>
@@ -2436,10 +2445,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>What a pity...</td>
@@ -2469,10 +2478,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Too late for regrets.</td>
@@ -2502,10 +2511,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>All right.</td>
@@ -2535,10 +2544,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Don't toy with me.</td>
@@ -2568,10 +2577,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Of course, there's a point.</td>
@@ -2601,10 +2610,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Aren't you scared?</td>
@@ -2634,10 +2643,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>This is true.</td>
@@ -2667,10 +2676,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Eat you in a hot pot.</td>
@@ -2700,10 +2709,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Sure.</td>
@@ -2733,10 +2742,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You might be right...</td>
@@ -2766,10 +2775,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>If it pleases you.</td>
@@ -2799,10 +2808,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I want to meet them.</td>
@@ -2832,10 +2841,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Please forgive me.</td>
@@ -2865,10 +2874,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You do sound busy.</td>
@@ -2898,10 +2907,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You have nothing I want.</td>
@@ -2931,10 +2940,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's not it at all.</td>
@@ -2964,10 +2973,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm sorry.</td>
@@ -2997,10 +3006,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You've got a point there...</td>
@@ -3030,10 +3039,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Miracles don't exist.</td>
@@ -3063,10 +3072,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Older people trying to look young.</td>
@@ -3096,10 +3105,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Sure did.</td>
@@ -3129,10 +3138,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>When you put it that way...</td>
@@ -3162,10 +3171,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm telling you to die.</td>
@@ -3195,10 +3204,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Being old enough to drink.</td>
@@ -3228,10 +3237,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Yes.</td>
@@ -3261,10 +3270,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Fair enough.</td>
@@ -3294,10 +3303,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I cry like a baby.</td>
@@ -3327,10 +3336,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm younger, that's all.</td>
@@ -3360,10 +3369,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I think there is.</td>
@@ -3393,10 +3402,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's right.</td>
@@ -3426,10 +3435,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>What are you talking about?</td>
@@ -3459,10 +3468,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It doesn't change the facts.</td>
@@ -3492,10 +3501,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Happy birthday.</td>
@@ -3525,10 +3534,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I like older women.</td>
@@ -3558,10 +3567,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Give me everything you got.</td>
@@ -3591,10 +3600,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>How did you know?</td>
@@ -3624,10 +3633,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Parents are annoying.</td>
@@ -3657,10 +3666,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Nope.</td>
@@ -3690,10 +3699,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I noticed.</td>
@@ -3723,10 +3732,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Can it?</td>
@@ -3756,10 +3765,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're right, Senpai.</td>
@@ -3789,10 +3798,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Someone did once.</td>
@@ -3822,10 +3831,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You should have stayed home.</td>
@@ -3855,10 +3864,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Call them. I dare you.</td>
@@ -3888,10 +3897,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It does.</td>
@@ -3921,10 +3930,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're fine as is.</td>
@@ -3954,10 +3963,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I didn't know that.</td>
@@ -3987,10 +3996,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>OK, I'll make you into soup.</td>
@@ -4020,10 +4029,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's my intelligence.</td>
@@ -4053,10 +4062,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>This was my choice.</td>
@@ -4086,10 +4095,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm younger than you.</td>
@@ -4119,10 +4128,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Don't joke around.</td>
@@ -4152,10 +4161,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Bread dipped in coffee.</td>
@@ -4185,10 +4194,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Die in peace.</td>
@@ -4218,10 +4227,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Are you alright?</td>
@@ -4251,10 +4260,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Looks like it came true.</td>
@@ -4284,10 +4293,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's too far.</td>
@@ -4317,10 +4326,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's not true.</td>
@@ -4350,10 +4359,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's right.</td>
@@ -4383,10 +4392,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Sorry...</td>
@@ -4416,10 +4425,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I am.</td>
@@ -4449,10 +4458,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's unfair.</td>
@@ -4482,10 +4491,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Quit joking around.</td>
@@ -4515,10 +4524,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That would be troublesome.</td>
@@ -4548,10 +4557,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Yup.</td>
@@ -4581,10 +4590,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You'll be killed.</td>
@@ -4614,10 +4623,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Nobody.</td>
@@ -4647,10 +4656,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Times have changed.</td>
@@ -4680,10 +4689,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I had no intention. </td>
@@ -4713,10 +4722,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's not like that.</td>
@@ -4746,10 +4755,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I use those tips.</td>
@@ -4779,10 +4788,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Fine.</td>
@@ -4812,10 +4821,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's right.</td>
@@ -4845,10 +4854,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Not talking down to people.</td>
@@ -4878,10 +4887,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's not meaningless.</td>
@@ -4911,10 +4920,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I didn't know...</td>
@@ -4944,10 +4953,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It is a difficult topic.</td>
@@ -4977,10 +4986,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I probably should.</td>
@@ -5010,10 +5019,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I get that a lot.</td>
@@ -5043,10 +5052,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're beautiful.</td>
@@ -5076,10 +5085,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Don't scratch the furniture.</td>
@@ -5109,10 +5118,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>What are you talking about?</td>
@@ -5142,10 +5151,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Katsudon, coming right up.</td>
@@ -5175,10 +5184,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I like it.</td>
@@ -5208,10 +5217,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Wow, you got me.</td>
@@ -5241,10 +5250,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's "domestic violence."</td>
@@ -5274,10 +5283,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Quit messing with me.</td>
@@ -5307,10 +5316,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's just you.</td>
@@ -5340,10 +5349,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Slow walkers.</td>
@@ -5373,10 +5382,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Why can't we end war?</td>
@@ -5406,10 +5415,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I feel bad.</td>
@@ -5439,10 +5448,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Just go home.</td>
@@ -5472,10 +5481,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Life isn't like fairy tales.</td>
@@ -5505,10 +5514,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A place with no wait.</td>
@@ -5538,10 +5547,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Let's play tag.</td>
@@ -5571,10 +5580,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're kind of evil.</td>
@@ -5604,10 +5613,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Curry.</td>
@@ -5637,10 +5646,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>More sleep.</td>
@@ -5670,10 +5679,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It's cute.</td>
@@ -5703,10 +5712,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A thrilling adventure.</td>
@@ -5736,10 +5745,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's true.</td>
@@ -5769,10 +5778,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Slow-ass cashiers.</td>
@@ -5802,10 +5811,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Fate brought us together.</td>
@@ -5835,10 +5844,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A homemade dinner.</td>
@@ -5868,10 +5877,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A Hight School Outfit.</td>
@@ -5901,10 +5910,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A love letter.</td>
@@ -5934,10 +5943,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Your lack of resolve.</td>
@@ -5967,10 +5976,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I have homework tonight.</td>
@@ -6000,10 +6009,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>It was a hard-fought battle.</td>
@@ -6033,10 +6042,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'll make mincemeat of you.</td>
@@ -6066,10 +6075,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You tempt people.</td>
@@ -6099,10 +6108,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Fights are just luck.</td>
@@ -6132,10 +6141,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Soy sauce.</td>
@@ -6165,10 +6174,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>A pro athlete.</td>
@@ -6198,10 +6207,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Storks deliver them.</td>
@@ -6231,10 +6240,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I feel bad about that.</td>
@@ -6264,10 +6273,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>How should I know?</td>
@@ -6297,10 +6306,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Your looks.</td>
@@ -6330,10 +6339,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm here for the food.</td>
@@ -6363,10 +6372,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I want to get stronger.</td>
@@ -6396,10 +6405,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Sorry about that.</td>
@@ -6429,10 +6438,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You look terrifying.</td>
@@ -6462,10 +6471,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I care about my looks.</td>
@@ -6495,10 +6504,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I don't want to die.</td>
@@ -6528,10 +6537,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Are you busy?</td>
@@ -6561,10 +6570,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I sure would.</td>
@@ -6594,10 +6603,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>No need to worry.</td>
@@ -6627,10 +6636,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Sorry.</td>
@@ -6660,10 +6669,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'll just keep winning.</td>
@@ -6693,10 +6702,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's right.</td>
@@ -6726,10 +6735,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I downloaded an app.</td>
@@ -6759,10 +6768,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I never thought of that.</td>
@@ -6792,10 +6801,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I've thought about it.</td>
@@ -6825,10 +6834,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm not that young.</td>
@@ -6858,10 +6867,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>My pal who switched schools.</td>
@@ -6891,10 +6900,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>For real!?</td>
@@ -6924,10 +6933,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Yes, I want world peace.</td>
@@ -6957,10 +6966,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm not special.</td>
@@ -6990,10 +6999,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Sorry...</td>
@@ -7023,10 +7032,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm ready for it.</td>
@@ -7056,10 +7065,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Meat and potatoes.</td>
@@ -7089,10 +7098,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Worth my while...?</td>
@@ -7122,10 +7131,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Nope.</td>
@@ -7155,10 +7164,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>No.</td>
@@ -7188,10 +7197,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're right.</td>
@@ -7221,10 +7230,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>The world is almighty?</td>
@@ -7254,10 +7263,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's scary...</td>
@@ -7287,10 +7296,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Now that you mention it...</td>
@@ -7320,10 +7329,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>Nothing wrong about it.</td>
@@ -7353,10 +7362,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>That's right.</td>
@@ -7386,10 +7395,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You're misunderstanding.</td>
@@ -7419,10 +7428,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I'm smart.</td>
@@ -7452,10 +7461,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>I didn't know.</td>
@@ -7485,10 +7494,10 @@ function toggleSymbols() {
 	</tr>
 	<tr>
 		<td></td>
-		<td class='subheader'>gloomy</td>
-		<td class='subheader'>irritable</td>
-		<td class='subheader'>timid</td>
-		<td class='subheader'>upbeat</td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
 	</tr>
 	<tr>
 		<td>You got me.</td>

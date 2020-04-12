@@ -10,6 +10,7 @@ If you want to contribute any changes, please use the [open issue](https://githu
 
 - New copy of questions on Royal page
 - Added Royal personality on Shadows page
+- Improved toggle to change to a more compact table for smaller mobile screens
 - Added [a Google Forms link for negotiation submissions for non-Github users](https://forms.gle/JtH9YUekRKVEkYgc6)
 
 ---
