@@ -5,14 +5,11 @@ A tool to help with negotiations in Persona 5.
 (Incomplete. Work-in-progress.)
 
 
-April 7, 2020 Updates:
+April 12, 2020 Updates:
 
-Persona 5 Royal is out in the US.
-
-- Updated the tables to be more efficient
-- Updated the P5 Royal page
-- Added a toggle for switching between text and symbols
-- Added weakness on the Shadows page
+- New copy of questions on Royal page
+- Added Royal personality on Shadows page
+- Added [a Google Forms link for negotiation submissions for non-Github users](https://forms.gle/JtH9YUekRKVEkYgc6)
 
 
 
