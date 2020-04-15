@@ -1,7 +1,7 @@
 ##### This Project & Credits
 This is a tool/guide to help with negotiations in Persona 5 and Persona 5 Royal.
 
-If you want to help, contribute, or report mistakes, please use the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/15">open issue on Github</a> or the <a href="https://forms.gle/JtH9YUekRKVEkYgc6">Google Form</a>. Submitted questions are up-to-date as of April 13th.
+If you want to help, contribute, or report mistakes, please use the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/15">open issue on Github</a> or the <a href="https://forms.gle/JtH9YUekRKVEkYgc6">Google Form</a>. Submitted questions are up-to-date as of April 14th.
 
 Thank you to GooberSD/Chompobar for giving me permission to use <a href="https://docs.google.com/document/d/1Fq00lkODNAam7RZoczHU2kFyU3CZvyW59F0PwLnJoz8/">their guide</a> to update this guide.
 
