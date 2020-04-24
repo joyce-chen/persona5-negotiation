@@ -145,6 +145,14 @@ function filterShadows() {
       <td></td>
       <td>Electric, Curse</td>
    </tr>
+   <tr>
+      <td>Cait Sith</td>
+      <td>Hunting Puss in Boots</td>
+      <td>Magician</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+   </tr>
 </table>
 
 ##### Madarame's Palace
@@ -217,7 +225,7 @@ function filterShadows() {
    <tr>
       <td>Nue</td>
       <td>Night Chimera</td>
-      <td>Moon</td>
+      <td>Moon | Death <span class="badge badge-danger">Royal</span></td>
       <td>Irritable</td>
       <td></td>
       <td>Fire</td>
@@ -253,6 +261,14 @@ function filterShadows() {
       <td>Irritable</td>
       <td></td>
       <td>Nuclear</td>
+   </tr>
+   <tr>
+      <td>Shiisaa</td>
+      <td>Rooftop Lion</td>
+      <td></td>
+      <td>-</td>
+      <td>Upbeat</td>
+      <td>Psychic, Curse</td>
    </tr>
 </table>
 
@@ -543,7 +559,7 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Thunderbird</td>
-      <td></td>
+      <td>Storm-Invoking Ptarmigan</td>
       <td>Sun</td>
       <td>-</td>
       <td>Upbeat</td>
@@ -676,6 +692,7 @@ function filterShadows() {
       <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
+      <th>Royal</th>
       <th>Weakness</th>
    </tr>
    <tr>
@@ -683,6 +700,7 @@ function filterShadows() {
       <td>Guard Dog of Hades</td>
       <td>Chariot</td>
       <td>Irritable</td>
+      <td></td>
       <td>Ice</td>
    </tr>
    <tr>
@@ -690,6 +708,7 @@ function filterShadows() {
       <td>Blood-thirsty Demoness</td>
       <td>Empress</td>
       <td>Upbeat</td>
+      <td></td>
       <td>None</td>
    </tr>
    <tr>
@@ -697,6 +716,7 @@ function filterShadows() {
       <td>Strumming Veena Player</td>
       <td>Priestess</td>
       <td>Timid</td>
+      <td>Gloomy</td>
       <td>Nuclear</td>
    </tr>
    <tr>
@@ -704,6 +724,7 @@ function filterShadows() {
       <td>Self-Infatuated Star</td>
       <td>Lovers</td>
       <td>Timid</td>
+      <td></td>
       <td>Fire</td>
    </tr>
    <tr>
@@ -711,6 +732,7 @@ function filterShadows() {
       <td>Monarch of Snow</td>
       <td>Emperor</td>
       <td>Upbeat</td>
+      <td></td>
       <td>None</td>
    </tr>
    <tr>
@@ -718,6 +740,7 @@ function filterShadows() {
       <td>Scandalous Queen</td>
       <td>Empress</td>
       <td>Timid</td>
+      <td>Upbeat</td>
       <td>Psychic</td>
    </tr>
    <tr>
@@ -725,6 +748,7 @@ function filterShadows() {
       <td>Destructive Beauty</td>
       <td>Lovers</td>
       <td>Timid</td>
+      <td></td>
       <td>Curse</td>
    </tr>
    <tr>
@@ -732,6 +756,7 @@ function filterShadows() {
       <td>Monk of the Valley</td>
       <td>Hermit</td>
       <td>Irritable</td>
+      <td></td>
       <td>Ice</td>
    </tr>
    <tr>
@@ -739,6 +764,7 @@ function filterShadows() {
       <td>Dancing Lion</td>
       <td>Emperor</td>
       <td>Timid</td>
+      <td></td>
       <td>Wind, Curse</td>
    </tr>
    <tr>
@@ -746,6 +772,7 @@ function filterShadows() {
       <td>Rhetorician of the Sea</td>
       <td>Hierophant</td>
       <td>Timid</td>
+      <td></td>
       <td>Electric</td>
    </tr>
    <tr>
@@ -753,6 +780,7 @@ function filterShadows() {
       <td>Nimble Monkey King</td>
       <td>Star</td>
       <td>Upbeat</td>
+      <td></td>
       <td>Ice</td>
    </tr>
    <tr>
@@ -760,6 +788,7 @@ function filterShadows() {
       <td>Raging Bird God</td>
       <td>Star</td>
       <td>Irritable</td>
+      <td></td>
       <td>Gun</td>
    </tr>
    <tr>
@@ -767,6 +796,7 @@ function filterShadows() {
       <td>Heretic Goat</td>
       <td>Devil</td>
       <td>Timid</td>
+      <td></td>
       <td>Bless</td>
    </tr>
    <tr>
@@ -774,12 +804,14 @@ function filterShadows() {
       <td>Unfaithful Dream-King</td>
       <td>Emperor</td>
       <td>Irritable</td>
+      <td></td>
       <td>Nuclear</td>
    </tr>
    <tr>
       <td>Ongyo-Ki</td>
       <td>Shadow Cleaner</td>
       <td>Strength</td>
+      <td></td>
       <td></td>
       <td>None</td>
    </tr>
@@ -889,6 +921,7 @@ function filterShadows() {
       <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
+      <th>Royal</th>
       <th>Weakness</th>
    </tr>
    <tr>
@@ -896,6 +929,7 @@ function filterShadows() {
       <td>Merciless Inquisitor</td>
       <td>Justice</td>
       <td>Gloomy</td>
+      <td></td>
       <td>Gun</td>
    </tr>
    <tr>
@@ -903,12 +937,14 @@ function filterShadows() {
       <td>The Blackened Fury</td>
       <td>Empress</td>
       <td>Irritable</td>
+      <td></td>
       <td>None</td>
    </tr>
    <tr>
       <td>Uriel</td>
       <td>Herald of Death</td>
       <td>Justice</td>
+      <td></td>
       <td></td>
       <td>None</td>
    </tr>
@@ -917,6 +953,7 @@ function filterShadows() {
       <td>Cleanser of Heaven</td>
       <td>Lovers</td>
       <td></td>
+      <td></td>
       <td>None</td>
    </tr>
    <tr>
@@ -924,12 +961,147 @@ function filterShadows() {
       <td>Declarer of Anguish</td>
       <td>Temperance</td>
       <td></td>
+      <td></td>
       <td>None</td>
    </tr>
    <tr>
       <td>Michael</td>
       <td>Apocalyptic Guide</td>
       <td>Judgement</td>
+      <td></td>
+      <td></td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Crystal Skull</td>
+      <td>Treasure Demon</td>
+      <td>Fool</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>Throne</td>
+      <td>Fire Assassin</td>
+      <td>Justice</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+   </tr>
+</table>
+
+##### Maruki's Palace <span class="badge badge-danger">Royal</span>
+
+<table>
+   <tr>
+      <th>Shadow</th>
+      <th>Description</th>
+      <th>Arcana</th>
+      <th>Personality</th>
+      <th>Weakness</th>
+   </tr>
+   <tr>
+      <td>Orichalcum</td>
+      <td>Treasure Demon</td>
+      <td>Faith</td>
+      <td></td>
+      <td>Bless</td>
+   </tr>
+   <tr>
+      <td>Bugs</td>
+      <td>Killer Teddy Bear</td>
+      <td>Fool</td>
+      <td></td>
+      <td>Nuclear</td>
+   </tr>
+   <tr>
+      <td>Byakhee</td>
+      <td>Evil Synthetic Organism</td>
+      <td>Moon</td>
+      <td>Gloomy</td>
+      <td>Ice, Nuke</td>
+   </tr>
+   <tr>
+      <td>Loa</td>
+      <td>Dream-Dwelling Skull</td>
+      <td>Hermit</td>
+      <td></td>
+      <td>Psychic, Bless</td>
+   </tr>
+   <tr>
+      <td>Cu Chulainn</td>
+      <td>Brave Spear-Bearer</td>
+      <td>Faith</td>
+      <td></td>
+      <td>Electric</td>
+   </tr>
+   <tr>
+      <td>Dionysus</td>
+      <td>Hedonistic Braggart</td>
+      <td>Councilor</td>
+      <td></td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Macabre</td>
+      <td>Dancer of Death</td>
+      <td>Hanged Man</td>
+      <td></td>
+      <td>Bless</td>
+   </tr>
+   <tr>
+      <td>Chimera</td>
+      <td>Deformed Lion God</td>
+      <td>Strength</td>
+      <td></td>
+      <td>Wind, Curse</td>
+   </tr>
+   <tr>
+      <td>Nebiros</td>
+      <td>Wandering Reviver</td>
+      <td>Devil</td>
+      <td></td>
+      <td>Bless</td>
+   </tr>
+   <tr>
+      <td>Scathach</td>
+      <td>The Shadowed One</td>
+      <td>Priestess</td>
+      <td></td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Fafnir</td>
+      <td>Evil Voracious Dragon</td>
+      <td>Hermit</td>
+      <td></td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Alilat</td>
+      <td>Decadent False God</td>
+      <td>Empress</td>
+      <td></td>
+      <td>Fire, Curse</td>
+   </tr>
+   <tr>
+      <td>Baal</td>
+      <td>Reviled Dictator</td>
+      <td>Emperor</td>
+      <td></td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Belial</td>
+      <td>Missionary of Depravity</td>
+      <td>Devil</td>
+      <td></td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Hastur</td>
+      <td>Warped Abyss</td>
+      <td>Star</td>
       <td></td>
       <td>None</td>
    </tr>
