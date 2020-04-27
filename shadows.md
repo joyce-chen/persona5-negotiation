@@ -64,7 +64,7 @@ function filterShadows() {
       <th>Weakness</th>
    </tr>
    <tr>
-      <td>Jack-o-Lantern</td>
+      <td>Jack-o'-Lantern</td>
       <td>Crypt-dwelling Pyromaniac</td>
       <td>Magician</td>
       <td>Gloomy</td>
@@ -347,7 +347,7 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Oni</td>
-      <td>Chivalrous Fiend</td>
+      <td>Chivalrous Guard/Chivalrous Fiend</td>
       <td>Strength</td>
       <td>Upbeat</td>
       <td>Upbeat</td>
@@ -605,7 +605,7 @@ function filterShadows() {
       <td>Cruel Leopard</td>
       <td>Fool</td>
       <td>Upbeat</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>Bless</td>
    </tr>
    <tr>
@@ -613,7 +613,7 @@ function filterShadows() {
       <td>Expressionless Beast</td>
       <td>Hierophant</td>
       <td>Timid</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Curse</td>
    </tr>
    <tr>
@@ -685,7 +685,7 @@ function filterShadows() {
       <td>Quaking Lady of Shadow</td>
       <td>Priestess</td>
       <td>Timid</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>None</td>
    </tr>
    <tr>
