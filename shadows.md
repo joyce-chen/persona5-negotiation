@@ -56,8 +56,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -181,8 +181,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -298,8 +298,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -415,8 +415,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -492,8 +492,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -593,8 +593,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -710,8 +710,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -794,7 +794,7 @@ function filterShadows() {
       <td>Rhetorician of the Sea</td>
       <td>Hierophant</td>
       <td>Timid</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Electric</td>
    </tr>
    <tr>
@@ -843,8 +843,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -952,8 +952,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
@@ -1029,8 +1029,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Weakness</th>
@@ -1146,8 +1146,8 @@ function filterShadows() {
 
 <table>
    <tr>
+      <th>Persona</th>
       <th>Shadow</th>
-      <th>Description</th>
       <th>Arcana</th>
       <th>Personality</th>
       <th>Royal</th>
