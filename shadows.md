@@ -84,7 +84,7 @@ function filterShadows() {
       <td>Bedside Brute</td>
       <td>Devil</td>
       <td>Timid</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Gun, Bless</td>
    </tr>
    <tr>
@@ -140,8 +140,8 @@ function filterShadows() {
       <td>Twilight Prostitute</td>
       <td>Moon</td>
       <td>Irritable</td>
-      <td>?</td>
-      <td>Gun, Bless</td>
+      <td>Gloomy</td>
+      <td>Gun, Bless | Wind, Bless <span class="badge badge-danger">Royal</span></td>
    </tr>
    <tr>
       <td>Andras</td>
@@ -193,7 +193,7 @@ function filterShadows() {
       <td>Night-Walking Warrior</td>
       <td>Death</td>
       <td>Gloomy</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Wind</td>
    </tr>
    <tr>
@@ -217,7 +217,7 @@ function filterShadows() {
       <td>Leafy Old Man</td>
       <td>Hermit</td>
       <td>Timid</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Fire</td>
    </tr>
    <tr>
@@ -257,7 +257,7 @@ function filterShadows() {
       <td>Mocking Snowman</td>
       <td>Magician</td>
       <td>Timid</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Fire</td>
    </tr>
    <tr>
@@ -326,8 +326,8 @@ function filterShadows() {
       <td>Zealous Messenger</td>
       <td>Justice</td>
       <td>Irritable</td>
-      <td>?</td>
-      <td>Curse</td>
+      <td>Upbeat</td>
+      <td>Curse | Gun, Curse <span class="badge badge-danger">Royal</span></td>
    </tr>
    <tr>
       <td>Orthrus</td>
@@ -427,7 +427,7 @@ function filterShadows() {
       <td>Envoy of Slumber</td>
       <td>Magician</td>
       <td>Irritable</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>Electric</td>
    </tr>
    <tr>
@@ -504,7 +504,7 @@ function filterShadows() {
       <td>Vicious Pentagram</td>
       <td>Fool</td>
       <td>Gloomy</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Physical</td>
    </tr>
    <tr>
@@ -528,7 +528,7 @@ function filterShadows() {
       <td>Rebellious Elephant</td>
       <td>Moon</td>
       <td>Gloomy</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>Bless</td>
    </tr>
    <tr>
@@ -552,7 +552,7 @@ function filterShadows() {
       <td>Woman Who Brings Ruin</td>
       <td>Devil</td>
       <td>Gloomy</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Gun, Wind, Bless</td>
    </tr>
    <tr>
@@ -576,7 +576,7 @@ function filterShadows() {
       <td>Wishless Star</td>
       <td>Star</td>
       <td>Timid</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Nuclear</td>
    </tr>
    <tr>
@@ -653,7 +653,7 @@ function filterShadows() {
       <td>Midnight Queen</td>
       <td>Magician</td>
       <td>Gloomy</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Wind</td>
    </tr>
    <tr>
@@ -677,7 +677,7 @@ function filterShadows() {
       <td>Dancing Witch</td>
       <td>Magician</td>
       <td>Gloomy</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Electric, Bless</td>
    </tr>
    <tr>
@@ -693,7 +693,7 @@ function filterShadows() {
       <td>Final Measerer</td>
       <td>Fortune</td>
       <td>Upbeat</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>None</td>
    </tr>
    <tr>
@@ -1174,7 +1174,7 @@ function filterShadows() {
       <td>Wavering Tree Spirit</td>
       <td>Star</td>
       <td>Upbeat</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>Fire</td>
    </tr>
    <tr>
