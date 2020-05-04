@@ -1,11 +1,14 @@
 - text: Info
   url: /persona5-negotiation/info
 
-- text: Shadows
+- text: P5 Shadows
   url: /persona5-negotiation/shadows
 
 - text: P5 Questions
   url: /persona5-negotiation/
 
-- text: Royal
+- text: Royal Shadows
+  url: /persona5-negotiation/shadows_royal
+
+- text: Royal Questions
   url: /persona5-negotiation/royal

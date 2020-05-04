@@ -66,7 +66,7 @@ function filterShadows() {
       <td>Crypt-dwelling Pyromaniac</td>
       <td>Magician</td>
       <td>Gloomy</td>
-      <td>Gun, Ice, Wind</td>
+      <td>Ice, Wind</td>
    </tr>
    <tr>
       <td>Pixie</td>
@@ -80,7 +80,7 @@ function filterShadows() {
       <td>Bedside Brute</td>
       <td>Devil</td>
       <td>Timid</td>
-      <td>Gun, Bless</td>
+      <td>Fire, Bless</td>
    </tr>
    <tr>
       <td>Mandrake</td>
@@ -93,7 +93,7 @@ function filterShadows() {
       <td>Bicorn</td>
       <td>Dirty Two-horned Beast</td>
       <td>Hermit</td>
-      <td>Irritable</td>
+      <td>Gloomy</td>
       <td>Electric</td>
    </tr>
    <tr>
@@ -121,28 +121,21 @@ function filterShadows() {
       <td>Kelpie</td>
       <td>Mad Marsh Horse</td>
       <td>Strength</td>
-      <td>Upbeat</td>
+      <td>Gloomy</td>
       <td>Electric</td>
    </tr>
    <tr>
       <td>Succubus</td>
       <td>Twilight Prostitute</td>
       <td>Moon</td>
-      <td>Irritable</td>
-      <td>Gun, Bless</td>
-   </tr>
-   <tr>
-      <td>Andras</td>
-      <td>Menacing Owlman</td>
-      <td>Devil</td>
-      <td>Timid</td>
-      <td>Gun, Fire</td>
+      <td>Gloomy</td>
+      <td>Wind, Bless</td>
    </tr>
    <tr>
       <td>Eligor</td>
       <td>War-hungry Horseman</td>
       <td>Emperor</td>
-      <td>Irritable</td>
+      <td>Upbeat</td>
       <td>Electric</td>
    </tr>
    <tr>
@@ -151,6 +144,20 @@ function filterShadows() {
       <td>Justice</td>
       <td>Irritable</td>
       <td>Electric, Curse</td>
+   </tr>
+   <tr>
+      <td>Cait Sith <span class="badge badge-danger">Royal</span></td>
+      <td>Hunting Puss in Boots</td>
+      <td>Magician</td>
+      <td>Upbeat</td>
+      <td>Wind</td>
+   </tr>
+   <tr>
+      <td>Angel</td>
+      <td>Zealous Messenger</td>
+      <td>Justice</td>
+      <td>Upbeat</td>
+      <td>Gun, Curse</td>
    </tr>
 </table>
 
@@ -175,14 +182,14 @@ function filterShadows() {
       <td>Apsaras</td>
       <td>Waterside Nymph</td>
       <td>Priestess</td>
-      <td>Upbeat</td>
-      <td>Electric</td>
+      <td>Timid</td>
+      <td>Fire, Electric</td>
    </tr>
    <tr>
       <td>Hua Po</td>
       <td>Girl of the Hanging Tree</td>
       <td>Hanged Man</td>
-      <td>Upbeat</td>
+      <td>Irritable</td>
       <td>Gun, Ice</td>
    </tr>
    <tr>
@@ -197,13 +204,13 @@ function filterShadows() {
       <td>Corpse Bird</td>
       <td>Moon</td>
       <td>Gloomy</td>
-      <td>Gun, Bless</td>
+      <td>Ice, Bless</td>
    </tr>
    <tr>
       <td>Ippon-Datara</td>
       <td>Embittered Blacksmith</td>
       <td>Hermit</td>
-      <td>Upbeat</td>
+      <td>Timid</td>
       <td>Ice</td>
    </tr>
    <tr>
@@ -216,7 +223,7 @@ function filterShadows() {
    <tr>
       <td>Nue</td>
       <td>Night Chimera</td>
-      <td>Moon</td>
+      <td>Death</td>
       <td>Irritable</td>
       <td>Fire</td>
    </tr>
@@ -231,7 +238,7 @@ function filterShadows() {
       <td>Makami</td>
       <td>Hunting Wolf Spirit</td>
       <td>Temperance</td>
-      <td>Upbeat</td>
+      <td>Gloomy</td>
       <td>Electric</td>
    </tr>
    <tr>
@@ -247,6 +254,20 @@ function filterShadows() {
       <td>Chariot</td>
       <td>Irritable</td>
       <td>Nuclear</td>
+   </tr>
+   <tr>
+      <td>Shiisaa <span class="badge badge-danger">Royal</span></td>
+      <td>Rooftop Lion</td>
+      <td>Strength</td>
+      <td>Upbeat</td>
+      <td>Curse</td>
+   </tr>
+   <tr>
+      <td>Ame no Uzume <span class="badge badge-danger">Royal</span></td>
+      <td>Captivating Dancer</td>
+      <td>Lovers</td>
+      <td>?</td>
+      <td>Psychic</td>
    </tr>
 </table>
 
@@ -271,33 +292,33 @@ function filterShadows() {
       <td>High Pixie</td>
       <td>Prankster Leader</td>
       <td>Fool</td>
-      <td>Irritable</td>
+      <td>Upbeat</td>
       <td>Gun, Nuclear</td>
    </tr>
    <tr>
       <td>Angel</td>
       <td>Zealous Messenger</td>
       <td>Justice</td>
-      <td>Irritable</td>
-      <td>Curse</td>
+      <td>Upbeat</td>
+      <td>Gun, Curse</td>
    </tr>
    <tr>
       <td>Orthrus</td>
       <td>Twin-headed Guardian</td>
       <td>Hanged Man</td>
-      <td>Irritable</td>
+      <td>Gloomy</td>
       <td>Ice</td>
    </tr>
    <tr>
       <td>Orobas</td>
       <td>Equine Sage</td>
       <td>Hierophant</td>
-      <td>Timid</td>
-      <td>Bless</td>
+      <td>?</td>
+      <td>Ice</td>
    </tr>
    <tr>
       <td>Oni</td>
-      <td>Chivalrous Guard/Chivalrous Fiend</td>
+      <td>Chivalrous Fiend</td>
       <td>Strength</td>
       <td>Upbeat</td>
       <td>None</td>
@@ -313,26 +334,40 @@ function filterShadows() {
       <td>Leanan Sidhe</td>
       <td>Jealous Lover</td>
       <td>Lovers</td>
-      <td>Irritable</td>
+      <td>Timid</td>
       <td>Fire</td>
    </tr>
    <tr>
       <td>Rakshasa</td>
       <td>Battle Fiend</td>
       <td>Strength</td>
-      <td>Irritable</td>
+      <td>Upbeat</td>
       <td>Wind, Bless</td>
    </tr>
    <tr>
       <td>Take-Minakata</td>
       <td>Defeated Avenger</td>
       <td>Hanged Man</td>
-      <td>Gloomy</td>
+      <td>Irritable</td>
       <td>Psychic</td>
    </tr>
    <tr>
+      <td>Kurama Tengu</td>
+      <td>Monk of the Valley</td>
+      <td>Hermit</td>
+      <td>Irritable</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Black Ooze</td>
+      <td>Pulsing Mud</td>
+      <td>Moon</td>
+      <td>Timid</td>
+      <td>Electric, Psychic, Bless</td>
+   </tr>
+   <tr>
       <td>Sui-ki</td>
-      <td>Floodbringer Demon</td>
+      <td>Raging Water Demon</td>
       <td>Moon</td>
       <td>Gloomy</td>
       <td>Nuclear</td>
@@ -346,10 +381,10 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Kin-ki</td>
-      <td>Demonic Warlord</td>
+      <td>Samurai Killer</td>
       <td>Chariot</td>
-      <td>Gloomy</td>
-      <td>Psychic</td>
+      <td>Irritable</td>
+      <td>None</td>
    </tr>
 </table>
 
@@ -367,14 +402,14 @@ function filterShadows() {
       <td>Sandman</td>
       <td>Envoy of Slumber</td>
       <td>Magician</td>
-      <td>Irritable</td>
-      <td>Electric</td>
+      <td>Upbeat</td>
+      <td>Fire, Electric</td>
    </tr>
    <tr>
       <td>Anzu</td>
       <td>Thief of Tablets</td>
       <td>Hierophant</td>
-      <td>Irritable</td>
+      <td>Timid</td>
       <td>Gun, Nuclear</td>
    </tr>
    <tr>
@@ -389,34 +424,41 @@ function filterShadows() {
       <td>Slithering Snakewoman</td>
       <td>Empress</td>
       <td>Gloomy</td>
-      <td>Ice</td>
+      <td>Ice, Nuclear</td>
    </tr>
    <tr>
       <td>Thoth</td>
       <td>Chanting Baboon</td>
       <td>Emperor</td>
-      <td>Gloomy</td>
+      <td>Irritable</td>
       <td>Psychic</td>
    </tr>
    <tr>
       <td>Isis</td>
       <td>She of Life and Death</td>
       <td>Priestess</td>
-      <td>Timid</td>
+      <td>Irritable</td>
       <td>Psychic</td>
    </tr>
    <tr>
       <td>Anubis</td>
       <td>Bearer of the Scales</td>
       <td>Judgement</td>
-      <td>Gloomy</td>
+      <td>Timid</td>
       <td>None</td>
+   </tr>
+   <tr>
+      <td>Andras</td>
+      <td>Menacing Owlman</td>
+      <td>Devil</td>
+      <td>Timid</td>
+      <td>Fire, Bless</td>
    </tr>
    <tr>
       <td>Mot</td>
       <td>Coffin-borne God</td>
       <td>Death</td>
-      <td>Timid</td>
+      <td>?</td>
       <td>Wind</td>
    </tr>
 </table>
@@ -434,15 +476,15 @@ function filterShadows() {
    <tr>
       <td>Decarabia</td>
       <td>Vicious Pentagram</td>
-      <td>Fool</td>
-      <td>Gloomy</td>
+      <td>Councillor</td>
+      <td>Timid</td>
       <td>Physical</td>
    </tr>
    <tr>
       <td>Black Ooze</td>
       <td>Pulsing Mud</td>
       <td>Moon</td>
-      <td>Irritable</td>
+      <td>Timid</td>
       <td>Electric, Psychic, Bless</td>
    </tr>
    <tr>
@@ -456,21 +498,21 @@ function filterShadows() {
       <td>Girimehkala</td>
       <td>Rebellious Elephant</td>
       <td>Moon</td>
-      <td>Gloomy</td>
+      <td>Irritable</td>
       <td>Bless</td>
    </tr>
    <tr>
       <td>Mothman</td>
       <td>Vampire Moth</td>
       <td>Moon</td>
-      <td>Timid</td>
+      <td>?</td>
       <td>Gun</td>
    </tr>
    <tr>
       <td>Belphegor</td>
       <td>Ambassador of Filth</td>
       <td>Tower</td>
-      <td>Irritable</td>
+      <td>?</td>
       <td>Fire</td>
    </tr>
    <tr>
@@ -478,7 +520,7 @@ function filterShadows() {
       <td>Woman Who Brings Ruin</td>
       <td>Devil</td>
       <td>Gloomy</td>
-      <td>Gun, Wind, Bless</td>
+      <td>Wind, Bless</td>
    </tr>
    <tr>
       <td>Mithras</td>
@@ -488,18 +530,25 @@ function filterShadows() {
       <td>Psychic</td>
    </tr>
    <tr>
-      <td>Scathach</td>
-      <td>The Shadowed One</td>
-      <td>Priestess</td>
-      <td>Upbeat</td>
-      <td>None</td>
-   </tr>
-   <tr>
       <td>Kaiwan</td>
       <td>Wishless Star</td>
       <td>Star</td>
       <td>Timid</td>
       <td>Nuclear</td>
+   </tr>
+   <tr>
+      <td>Thunderbird <span class="badge badge-danger">Royal</span></td>
+      <td>Storm-Invoking Ptarmigan</td>
+      <td>Sun</td>
+      <td>Upbeat</td>
+      <td>Psychic, Curse</td>
+   </tr>
+   <tr>
+      <td>Kumbhanda</td>
+      <td>Life-Draining Spirit</td>
+      <td>Hermit</td>
+      <td>Gloomy</td>
+      <td>Psychic</td>
    </tr>
 </table>
 
@@ -517,13 +566,13 @@ function filterShadows() {
       <td>Ose</td>
       <td>Cruel Leopard</td>
       <td>Fool</td>
-      <td>Upbeat</td>
+      <td>Irritable</td>
       <td>Bless</td>
    </tr>
    <tr>
       <td>Unicorn</td>
       <td>Expressionless Beast</td>
-      <td>Hierophant</td>
+      <td>Faith</td>
       <td>Timid</td>
       <td>Curse</td>
    </tr>
@@ -531,7 +580,7 @@ function filterShadows() {
       <td>Kikuri-Hime</td>
       <td>Mountain Girl</td>
       <td>Priestess</td>
-      <td>Gloomy</td>
+      <td>Timid</td>
       <td>Fire</td>
    </tr>
    <tr>
@@ -539,20 +588,20 @@ function filterShadows() {
       <td>Funerary Warrior</td>
       <td>Strength</td>
       <td>Irritable</td>
-      <td>None</td>
+      <td>Fire</td>
    </tr>
    <tr>
       <td>Power</td>
       <td>Divine Warrior</td>
       <td>Justice</td>
-      <td>Irritable</td>
-      <td>Gun, Curse</td>
+      <td>?</td>
+      <td>Curse</td>
    </tr>
    <tr>
       <td>Ganesha</td>
       <td>Auspicious Pachyderm</td>
       <td>Sun</td>
-      <td>Upbeat</td>
+      <td>?</td>
       <td>Psychic</td>
    </tr>
    <tr>
@@ -563,18 +612,11 @@ function filterShadows() {
       <td>Wind</td>
    </tr>
    <tr>
-      <td>Kumbhanda</td>
-      <td>Life-Draining Spirit</td>
-      <td>Hermit</td>
-      <td>Irritable</td>
-      <td>Ice</td>
-   </tr>
-   <tr>
       <td>Kushinada-Hime</td>
       <td>Lamenting Sacrifice</td>
       <td>Lovers</td>
-      <td>Upbeat</td>
-      <td>Nuclear</td>
+      <td>?</td>
+      <td>Ice, Nuclear</td>
    </tr>
    <tr>
       <td>Rangda</td>
@@ -587,7 +629,7 @@ function filterShadows() {
       <td>Skadi</td>
       <td>Quaking Lady of Shadow</td>
       <td>Priestess</td>
-      <td>Timid</td>
+      <td>Irritable</td>
       <td>None</td>
    </tr>
    <tr>
@@ -596,6 +638,13 @@ function filterShadows() {
       <td>Fortune</td>
       <td>Upbeat</td>
       <td>None</td>
+   </tr>
+   <tr>
+      <td>Jatayu <span class="badge badge-danger">Royal</span></td>
+      <td>Arrogant Vulture</td>
+      <td>Hanged Man</td>
+      <td>?</td>
+      <td>Nuclear</td>
    </tr>
    <tr>
       <td>Raja Naga</td>
@@ -634,7 +683,7 @@ function filterShadows() {
       <td>Sarasvati</td>
       <td>Strumming Veena Player</td>
       <td>Priestess</td>
-      <td>Timid</td>
+      <td>Gloomy</td>
       <td>Nuclear</td>
    </tr>
    <tr>
@@ -655,41 +704,34 @@ function filterShadows() {
       <td>Titania</td>
       <td>Scandalous Queen</td>
       <td>Empress</td>
-      <td>Timid</td>
+      <td>Upbeat</td>
       <td>Psychic</td>
    </tr>
    <tr>
       <td>Parvati</td>
       <td>Destructive Beauty</td>
       <td>Lovers</td>
-      <td>Timid</td>
+      <td>?</td>
       <td>Curse</td>
-   </tr>
-   <tr>
-      <td>Kurama Tengu</td>
-      <td>Monk of the Valley</td>
-      <td>Hermit</td>
-      <td>Irritable</td>
-      <td>Ice</td>
    </tr>
    <tr>
       <td>Barong</td>
       <td>Dancing Lion</td>
       <td>Emperor</td>
-      <td>Timid</td>
+      <td>?</td>
       <td>Wind, Curse</td>
    </tr>
    <tr>
       <td>Forneus</td>
       <td>Rhetorician of the Sea</td>
-      <td>Hierophant</td>
-      <td>Timid</td>
+      <td>Magician</td>
+      <td>Gloomy</td>
       <td>Electric</td>
    </tr>
    <tr>
       <td>Hanuman</td>
       <td>Nimble Monkey King</td>
-      <td>Star</td>
+      <td>Strength</td>
       <td>Upbeat</td>
       <td>Ice</td>
    </tr>
@@ -697,14 +739,14 @@ function filterShadows() {
       <td>Garuda</td>
       <td>Raging Bird God</td>
       <td>Star</td>
-      <td>Irritable</td>
-      <td>Gun</td>
+      <td>?</td>
+      <td>None</td>
    </tr>
    <tr>
       <td>Baphomet</td>
       <td>Heretic Goat</td>
       <td>Devil</td>
-      <td>Timid</td>
+      <td>?</td>
       <td>Bless</td>
    </tr>
    <tr>
@@ -715,9 +757,23 @@ function filterShadows() {
       <td>Nuclear</td>
    </tr>
    <tr>
+      <td>Atavaka <span class="badge badge-danger">Royal</span></td>
+      <td>Infuriated Dream-King</td>
+      <td>Faith</td>
+      <td>Irritable</td>
+      <td>None</td>
+   </tr>
+   <tr>
       <td>Ongyo-Ki</td>
       <td>Shadow Cleaner</td>
-      <td>Strength</td>
+      <td>Hermit</td>
+      <td>?</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Kali</td>
+      <td>The Blackened Fury</td>
+      <td>Empress</td>
       <td>?</td>
       <td>None</td>
    </tr>
@@ -737,85 +793,85 @@ function filterShadows() {
       <td>Lilith</td>
       <td>Harlot of Desire</td>
       <td>Moon</td>
-      <td>Timid</td>
+      <td>?</td>
       <td>Fire</td>
    </tr>
    <tr>
       <td>Moloch</td>
       <td>Sacrificial Pyrekeeper</td>
       <td>Hanged Man</td>
-      <td>Gloomy</td>
+      <td>?</td>
       <td>Ice</td>
    </tr>
    <tr>
       <td>Nebiros</td>
       <td>Wandering Reviver</td>
       <td>Devil</td>
-      <td>Upbeat</td>
+      <td>?</td>
       <td>Bless</td>
    </tr>
    <tr>
       <td>Dionysus</td>
       <td>Hedonistic Braggart</td>
-      <td>Fool</td>
-      <td>Irritable</td>
+      <td>Councillor</td>
+      <td>?</td>
       <td>None</td>
    </tr>
    <tr>
       <td>Melchizedek</td>
       <td>Pagan Savior</td>
       <td>Justice</td>
-      <td>Irritable</td>
+      <td>?</td>
       <td>Wind</td>
    </tr>
    <tr>
       <td>Chernobog</td>
       <td>The Black Avenger</td>
       <td>Death</td>
-      <td>Gloomy</td>
+      <td>?</td>
       <td>Fire, Bless</td>
    </tr>
    <tr>
       <td>Baal</td>
       <td>Reviled Dictator</td>
       <td>Emperor</td>
-      <td>Upbeat</td>
+      <td>?</td>
       <td>None</td>
    </tr>
    <tr>
       <td>Thor</td>
       <td>Thunder Emperor</td>
       <td>Chariot</td>
-      <td>Irritable</td>
-      <td>Psychic</td>
+      <td>?</td>
+      <td>None</td>
    </tr>
    <tr>
       <td>Yamata-no-Orochi</td>
       <td>Drunken Serpents</td>
       <td>Judgement</td>
-      <td>Gloomy</td>
-      <td>Nuclear</td>
+      <td>?</td>
+      <td>None</td>
    </tr>
    <tr>
       <td>Belial</td>
       <td>Missionary of Depravity</td>
       <td>Devil</td>
-      <td>Gloomy</td>
+      <td>?</td>
       <td>None</td>
    </tr>
    <tr>
       <td>Mara</td>
       <td>Throbbing King of Desire</td>
       <td>Tower</td>
-      <td>Irritable</td>
-      <td>Ice</td>
+      <td>?</td>
+      <td>None</td>
    </tr>
    <tr>
       <td>Abaddon</td>
       <td>Abyssal King of Avarice</td>
       <td>Judgement</td>
-      <td>Irritable</td>
-      <td>Psychic</td>
+      <td>?</td>
+      <td>None</td>
    </tr>
 </table>
 
@@ -833,15 +889,8 @@ function filterShadows() {
       <td>Dominion</td>
       <td>Merciless Inquisitor</td>
       <td>Justice</td>
-      <td>Gloomy</td>
-      <td>Gun</td>
-   </tr>
-   <tr>
-      <td>Kali</td>
-      <td>The Blackened Fury</td>
-      <td>Empress</td>
-      <td>Irritable</td>
-      <td>None</td>
+      <td>?</td>
+      <td>Electric</td>
    </tr>
    <tr>
       <td>Uriel</td>
@@ -871,6 +920,137 @@ function filterShadows() {
       <td>?</td>
       <td>None</td>
    </tr>
+   <tr>
+      <td>Crystal Skull</td>
+      <td>Treasure Demon</td>
+      <td>Fool</td>
+      <td>?</td>
+      <td>Wind</td>
+   </tr>
+   <tr>
+      <td>Throne</td>
+      <td>Fire Assassin</td>
+      <td>Justice</td>
+      <td>?</td>
+      <td>Nuclear</td>
+   </tr>
+</table>
+
+##### Maruki's Palace <span class="badge badge-danger">Royal</span>
+
+<table>
+   <tr>
+      <th>Persona</th>
+      <th>Shadow</th>
+      <th>Arcana</th>
+      <th>Personality</th>
+      <th>Weakness</th>
+   </tr>
+   <tr>
+      <td>Orichalcum</td>
+      <td>Treasure Demon</td>
+      <td>Faith</td>
+      <td>?</td>
+      <td>Bless</td>
+   </tr>
+   <tr>
+      <td>Bugs</td>
+      <td>Killer Teddy Bear</td>
+      <td>Fool</td>
+      <td>?</td>
+      <td>Nuclear</td>
+   </tr>
+   <tr>
+      <td>Byakhee</td>
+      <td>Evil Synthetic Organism</td>
+      <td>Moon</td>
+      <td>Gloomy</td>
+      <td>Ice, Nuke</td>
+   </tr>
+   <tr>
+      <td>Loa</td>
+      <td>Dream-Dwelling Skull</td>
+      <td>Hermit</td>
+      <td>?</td>
+      <td>Psychic, Bless</td>
+   </tr>
+   <tr>
+      <td>Cu Chulainn</td>
+      <td>Brave Spear-Bearer</td>
+      <td>Faith</td>
+      <td>?</td>
+      <td>Electric</td>
+   </tr>
+   <tr>
+      <td>Dionysus</td>
+      <td>Hedonistic Braggart</td>
+      <td>Councillor</td>
+      <td>?</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Macabre</td>
+      <td>Dancer of Death</td>
+      <td>Hanged Man</td>
+      <td>?</td>
+      <td>Bless</td>
+   </tr>
+   <tr>
+      <td>Chimera</td>
+      <td>Deformed Lion God</td>
+      <td>Strength</td>
+      <td>?</td>
+      <td>Wind, Curse</td>
+   </tr>
+   <tr>
+      <td>Nebiros</td>
+      <td>Wandering Reviver</td>
+      <td>Devil</td>
+      <td>Upbeat</td>
+      <td>Bless</td>
+   </tr>
+   <tr>
+      <td>Scathach</td>
+      <td>The Shadowed One</td>
+      <td>Priestess</td>
+      <td>?</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Fafnir</td>
+      <td>Evil Voracious Dragon</td>
+      <td>Hermit</td>
+      <td>?</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Alilat</td>
+      <td>Decadent False God</td>
+      <td>Empress</td>
+      <td>?</td>
+      <td>Fire, Curse</td>
+   </tr>
+   <tr>
+      <td>Baal</td>
+      <td>Reviled Dictator</td>
+      <td>Emperor</td>
+      <td>?</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Belial</td>
+      <td>Missionary of Depravity</td>
+      <td>Devil</td>
+      <td>?</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>Hastur</td>
+      <td>Warped Abyss</td>
+      <td>Star</td>
+      <td>?</td>
+      <td>None</td>
+   </tr>
 </table>
 
 ##### Mementos
@@ -887,8 +1067,8 @@ function filterShadows() {
       <td>Regent</td>
       <td>Treasure Demon</td>
       <td>Emperor</td>
-      <td>Upbeat</td>
-      <td>Psychic, Nuclear</td>
+      <td>?</td>
+      <td>Nuclear</td>
    </tr>
    <tr>
       <td>Slime</td>
@@ -915,7 +1095,7 @@ function filterShadows() {
       <td>Pisaca</td>
       <td>Corpse-eating Corpse</td>
       <td>Death</td>
-      <td>Gloomy</td>
+      <td>?</td>
       <td>Fire, Bless</td>
    </tr>
    <tr>
@@ -928,9 +1108,9 @@ function filterShadows() {
    <tr>
       <td>Queen's Necklace</td>
       <td>Zealous Messenger</td>
-      <td>Justice</td>
-      <td>Upbeat</td>
-      <td>Gun</td>
+      <td>Empress</td>
+      <td>?</td>
+      <td>Psychic</td>
    </tr>
    <tr>
       <td>Choronzon</td>
@@ -943,137 +1123,14 @@ function filterShadows() {
       <td>Sandman</td>
       <td>Envoy of Slumber</td>
       <td>Magician</td>
-      <td>Irritable</td>
-      <td>Electric</td>
+      <td>Upbeat</td>
+      <td>Fire, Electric</td>
    </tr>
    <tr>
       <td>Legion</td>
       <td>Fused Ghost</td>
       <td>Fool</td>
-      <td>Upbeat</td>
+      <td>?</td>
       <td>Bless</td>
    </tr>
 </table>
-
-<!-- 
-
-| Description               | Shadow           | Personality |
-|---------------------------|------------------|-------------|
-| Crypt-dwelling Pyromaniac | Jack-o-Lantern   | Gloomy      |
-| Beguiling Girl            | Pixie            | Timid       |
-| Bedside Brute             | Incubus          | Timid       |
-| Gallows-Flower            | Mandrake         | Upbeat      |
-| Dirty Two-horned Beast    | Bicorn           | Irritable   |
-| Apprentice in a Jug       | Agathion         | Timid       |
-| Brutal Cavalryman         | Berith           | Irritable   |
-| Troublesome Housemaid     | Silky            | Gloomy      |
-| Mad Marsh Horse           | Kelpie           | Upbeat      |
-| Twilight Prostitute       | Succubus         | Irritable   |
-| Menacing Owlman           | Andras           | Timid       |
-| War-hungry Horseman       | Eligor           | Irritable   |
-| Heavenly Punisher         | Archangel        |             |
-| Viscid Rotting Meat       | Slime            |             |
-|                           |                  |             |
-| Night-Walking Warrior     | Mokoi            | Gloomy      |
-| Waterside Nymph           | Apsaras          | Upbeat      |
-| Girl of the Hanging Tree  | Hua Po           | Upbeat      |
-| Leafy Old Man             | Koropokguru      | Timid       |
-| Corpse Bird               | Onmoraki         | Gloomy      |
-| Embittered Blacksmith     | Ippon-Datara     | Upbeat      |
-| Foolish Monk              | Koppa Tengu      | Upbeat      |
-| Night Chimera             | Nue              | Irritable   |
-| Mocking Snowman           | Jack Frost       | Timid       |
-| Hunting Wolf Spirit       | Makami           | Upbeat      |
-| Possessing Ghost Dog      | Inugami          | Timid       |
-| Bringer of Misfortune     | Shiki-Ouji       | Irritable   |
-|                           |                  |             |
-| Ascended Feline           | Nekomata         | Upbeat      |
-| Prankster Leader          | High Pixie       |             |
-| Zealous Messenger         | Angel            |             |
-| Twin-headed Guardian      | Orthrus          | Irritable   |
-| Equine Sage               | Orobas           | Timid       |
-| Chivalrous Fiend          | Oni              |             |
-| Human-eating Lady         | Yaksini          | Irritable   |
-| Jealous Lover             | Leanan Sidhe     | Irritable   |
-| Battle Fiend              | Rakshasa         | Irritable   |
-| Defeated Avenger          | Take-Minakata    | Gloomy      |
-| Floodbringer Demon        | Sui-ki           |             |
-| Tornado Devil             | Fuu-ki           | Gloomy      |
-| Demonic Warrior           | Kin-ki           |             |
-|                           |                  |             |
-| Envoy of Slumber          | Sandman          | Irritable   |
-| Thief of Tablets          | Anzu             | Irritable   |
-| Cavern Snakeman           | Naga             | Gloomy      |
-| Slithering Snakewoman     | Lamia            | Gloomy      |
-| Chanting Baboon           | Thoth            | Gloomy      |
-| She of Life and Death     | Isis             | Timid       |
-| Bearer of the Scales      | Anubis           | Gloomy      |
-| Coffin-borne God          | Mot              | Timid       |
-|                           |                  |             |
-| Vicious Pentagram         | Decarabia        | Gloomy      |
-| Pulsing Mud               | Black Ooze       | Irritable   |
-| Awakened God              | Arahabaki        | Gloomy      |
-| Rebellious Elephant       | Girimehkala      | Gloomy      |
-| Vampire Moth              | Mothman          | Timid       |
-| Ambassador of Filth       | Belphegor        | Irritable   |
-| Woman Who Brings Ruin     | Lilim            | Gloomy      |
-| Dark Sun                  | Mithras          | Gloomy      |
-| The Shadowed One          | Scathatch        | Upbeat      |
-| Star-Faced Enemy          | Kaiwan           |             |
-|                           |                  |             |
-| Cruel Leopard             | Ose              | Upbeat      |
-| 777: Obvious Unicorn      | Unicorn          | Timid       |
-| Floating Priestess        | Kikuri-Hime      | Gloomy      |
-| Funerary Warrior          | Valkyrie         | Irritable   |
-| Divine Warrior            | Power            | Irritable   |
-| Auspicious Pachyderm      | Ganesha          | Upbeat      |
-| 777: Full-Hair Woman      | Queen Mab        | Gloomy      |
-| Horse Warrior             | Kumbhanda        | Irritable   |
-| Lamenting Sacrifice       | Kushinada-Hime   | Upbeat      |
-| Dancing Witch             | Rangda           | Gloomy      |
-| Quaking Lady of Shadow    | Skadi            | Timid       |
-| Final Assessor            | Norn             | Upbeat      |
-| Wandering Reviver         | Nebiros          | Upbeat      |
-| Snake King                | Raja Naga        |             |
-| Thunder Emperor           | Thor             | Irritable   |
-|                           |                  |             |
-| Guard Doge of Hades       | Cerberus         | Irritable   |
-| Bloodthirst Demoness      | Dakini           | Upbeat      |
-| Strumming Veena Player    | Sarasvati        | Timid       |
-| Self-Infatuated Star      | Narcissus        | Timid       |
-| Monarch of Snow           | King Frost       | Upbeat      |
-| Scandalous Queen          | Titania          | Timid       |
-| Destructive Beauty        | Parvati          | Timid       |
-| Monk of the Valley        | Kurama Tengu     | Irritable   |
-| Dancing Lion              | Barong           | Timid       |
-| Rhetorician of the Sea    | Forneus          | Timid       |
-| Nimble Monkey King        | Hanuman          | Upbeat      |
-| Raging Bird God           | Garuda           | Irritable   |
-| Heretic Goat              | Baphomet         | Timid       |
-| Unfaithful Dream-King     | Oberon           | Irritable   |
-| Drunken Serpents          | Yamata-no-Orochi | Gloomy      |
-| Shadow Cleaner            | Ongyo-Ki         |             |
-| Spear-Wielding General    | Cu Chulainn      |             |
-|                           |                  |             |
-| Scarificial Pyrekeeper    | Moloch           | Gloomy      |
-| Hedonistic Braggart       | Dionysus         | Irritable   |
-| Pagan Avenger             | Melchizedek      | Irritable   |
-| The Black Avenger         | Chernobog        | Gloomy      |
-| Reviled Dictator          | Baal             | Upbeat      |
-| Missionary of Deparivity  | Belial           | Gloomy      |
-| Torn King of Desires      | Mara             | Irritable   |
-| Abyssal King of Avarice   | Abaddon          | Irritable   |
-|                           |                  |             |
-| Merciless Inquisitor      | Dominion         | Gloomy      |
-| The Blackened Fury        | Kali             | Irritable   |
-| Herald of Death           | Uriel            |             |
-| Cleanser of Heaven        | Raphael          |             |
-| Declarer of Anguish       | Gabriel          |             |
-| Apocalyptic Guide         | Michael          |             |
-|                           |                  |             |
-| Wavering Tree Spirit      | Kodama           | Upbeat      |
-| Piggyback Demon           | Obariyon         | Irritable   |
-| Corpse-eating Corpse      | Pisaca           | Gloomy      |
-| Noisy Mountain Spirit     | Sudama           | Timid       |
-| Gathering Devil           | Choronzon        | Timid       |
-| Fused Ghost               | Legion           | Upbeat      | -->
