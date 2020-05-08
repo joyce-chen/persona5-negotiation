@@ -263,10 +263,10 @@ function filterShadows() {
       <td>Curse</td>
    </tr>
    <tr>
-      <td>Ame no Uzume <span class="badge badge-danger">Royal</span></td>
+      <td>Ame-no-Uzume <span class="badge badge-danger">Royal</span></td>
       <td>Captivating Dancer</td>
       <td>Lovers</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>Psychic</td>
    </tr>
 </table>
@@ -458,7 +458,7 @@ function filterShadows() {
       <td>Mot</td>
       <td>Coffin-borne God</td>
       <td>Death</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Wind</td>
    </tr>
 </table>
@@ -800,7 +800,7 @@ function filterShadows() {
       <td>Moloch</td>
       <td>Sacrificial Pyrekeeper</td>
       <td>Hanged Man</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>Ice</td>
    </tr>
    <tr>
@@ -931,7 +931,7 @@ function filterShadows() {
       <td>Throne</td>
       <td>Fire Assassin</td>
       <td>Justice</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Nuclear</td>
    </tr>
 </table>
@@ -1130,7 +1130,7 @@ function filterShadows() {
       <td>Legion</td>
       <td>Fused Ghost</td>
       <td>Fool</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Bless</td>
    </tr>
 </table>
