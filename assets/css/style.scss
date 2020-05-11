@@ -138,3 +138,38 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+
+
+
+
+
+
+
+.filter-btn {
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: small;
+  margin: .2rem .2rem;
+}
+
+.filter-btn:hover {
+  background-color: #ddd;
+}
+
+.filter-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.filter-btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

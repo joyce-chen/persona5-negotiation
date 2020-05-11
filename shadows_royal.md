@@ -505,14 +505,14 @@ function filterShadows() {
       <td>Mothman</td>
       <td>Vampire Moth</td>
       <td>Moon</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Gun</td>
    </tr>
    <tr>
       <td>Belphegor</td>
       <td>Ambassador of Filth</td>
       <td>Tower</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Fire</td>
    </tr>
    <tr>
@@ -814,7 +814,7 @@ function filterShadows() {
       <td>Dionysus</td>
       <td>Hedonistic Braggart</td>
       <td>Councillor</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>None</td>
    </tr>
    <tr>
@@ -992,7 +992,7 @@ function filterShadows() {
       <td>Macabre</td>
       <td>Dancer of Death</td>
       <td>Hanged Man</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Bless</td>
    </tr>
    <tr>

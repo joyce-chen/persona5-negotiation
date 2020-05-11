@@ -6,7 +6,14 @@ Direct link to a user-friendly version: http://joyce-chen.github.io/persona5-neg
 
 If you want to contribute any changes, please use the [open issue for P5 Royal](https://github.com/joyce-chen/persona5-negotiation/issues/16), the [open issue for P5](https://github.com/joyce-chen/persona5-negotiation/issues/17), or [the form](https://forms.gle/JtH9YUekRKVEkYgc6). Thank you!
 
-Submitted questions are up-to-date as of **May 7th**.
+Submitted questions are up-to-date as of **May 10th**.
+
+
+---
+
+May 10th, 2020 Update:
+- Royal and Original shadow info have been split between two pages.
+- Added new filter for questions. You can show questions asked by a specific shadow. Lots of questions have not been tagged, especially for the original game. Will be filling those missing ones soon.
 
 ---
 
