@@ -36,7 +36,6 @@
 				<button class="btn filter-btn" onclick="filterByShadows('Apsaras')"> Apsaras</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Arahabaki')"> Arahabaki</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Archangel')"> Archangel</button>
-				<button class="btn filter-btn" onclick="filterByShadows('Asparas')"> Asparas</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Atavaka')"> Atavaka</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Berith')"> Berith</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Bicorn')"> Bicorn</button>
@@ -803,7 +802,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv High_Pixie Asparas Valkyrie Isis">
+<table class="filterDiv High_Pixie Apsaras Valkyrie Isis">
 	<tr>
 		<th colspan="5">Care to explain yourself? I certainly hope you have a good reason for this boorish treatment.</th>
 	</tr>
