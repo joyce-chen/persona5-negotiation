@@ -444,7 +444,7 @@ function filterShadows() {
       <td>Anubis</td>
       <td>Bearer of the Scales</td>
       <td>Judgement</td>
-      <td>Timid</td>
+      <td>Irritable</td>
       <td>None</td>
    </tr>
    <tr>
@@ -601,7 +601,7 @@ function filterShadows() {
       <td>Ganesha</td>
       <td>Auspicious Pachyderm</td>
       <td>Sun</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>Psychic</td>
    </tr>
    <tr>
@@ -634,7 +634,7 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Norn</td>
-      <td>Final Measerer</td>
+      <td>Final Assessor</td>
       <td>Fortune</td>
       <td>Upbeat</td>
       <td>None</td>
@@ -643,7 +643,7 @@ function filterShadows() {
       <td>Jatayu <span class="badge badge-danger">Royal</span></td>
       <td>Arrogant Vulture</td>
       <td>Hanged Man</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>Nuclear</td>
    </tr>
    <tr>
@@ -711,7 +711,7 @@ function filterShadows() {
       <td>Parvati</td>
       <td>Destructive Beauty</td>
       <td>Lovers</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Curse</td>
    </tr>
    <tr>
