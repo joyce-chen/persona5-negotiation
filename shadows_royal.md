@@ -758,7 +758,7 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Atavaka <span class="badge badge-danger">Royal</span></td>
-      <td>Infuriated Dream-King</td>
+      <td>Infuriated Wisdom King</td>
       <td>Faith</td>
       <td>Irritable</td>
       <td>None</td>
