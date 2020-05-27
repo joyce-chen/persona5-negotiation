@@ -594,7 +594,7 @@ function filterShadows() {
       <td>Power</td>
       <td>Divine Warrior</td>
       <td>Justice</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>Curse</td>
    </tr>
    <tr>
@@ -774,7 +774,7 @@ function filterShadows() {
       <td>Kali</td>
       <td>The Blackened Fury</td>
       <td>Empress</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>None</td>
    </tr>
 </table>
@@ -1020,7 +1020,7 @@ function filterShadows() {
       <td>Fafnir</td>
       <td>Evil Voracious Dragon</td>
       <td>Hermit</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>None</td>
    </tr>
    <tr>
@@ -1048,7 +1048,7 @@ function filterShadows() {
       <td>Hastur</td>
       <td>Warped Abyss</td>
       <td>Star</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>None</td>
    </tr>
 </table>
