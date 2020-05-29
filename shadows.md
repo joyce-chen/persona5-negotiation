@@ -236,7 +236,7 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Inugami</td>
-      <td>Possessing Ghost Dog</td>
+      <td>Possessing Dog Ghost</td>
       <td>Hanged Man</td>
       <td>Timid</td>
       <td>Wind</td>
