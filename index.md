@@ -27,8 +27,7 @@
 		<div id="shadowFilters" class="collapse hide" data-parent="#accordion">
 			<div class="card-body" id="shadowFilterBtns">
 				<button class="btn filter-btn active" style="font-weight:bold;" onclick="filterByShadows('all')"> Show all</button>
-				<button class="btn filter-btn" style="font-weight:bold;" onclick="filterByShadows('None')"> Uncategorized</button> 
-				<button class="btn filter-btn" onclick="filterByShadows('')"> </button>
+				<button class="btn filter-btn" style="font-weight:bold;" onclick="filterByShadows('None')"> Uncategorized</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Agathion')"> Agathion</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Andras')"> Andras</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Angel')"> Angel</button>
@@ -47,6 +46,7 @@
 				<button class="btn filter-btn" onclick="filterByShadows('Cerberus')"> Cerberus</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Chernobog')"> Chernobog</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Choronzon')"> Choronzon</button>
+				<button class="btn filter-btn" onclick="filterByShadows('Dakini')"> Dakini</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Decarabia')"> Decarabia</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Dominion')"> Dominion</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Eligor')"> Eligor</button>
@@ -62,7 +62,7 @@
 				<button class="btn filter-btn" onclick="filterByShadows('Ippon-Datara')"> Ippon-Datara</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Isis')"> Isis</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Jack_Frost')"> Jack Frost</button>
-				<button class="btn filter-btn" onclick="filterByShadows('Jack-o\'-Lantern')"> Jack-o'-Lantern</button>
+				<button class="btn filter-btn" onclick="filterByShadows('Jack-o-Lantern')"> Jack-o-Lantern</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Kaiwan')"> Kaiwan</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Kali')"> Kali</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Kelpie')"> Kelpie</button>
@@ -105,6 +105,7 @@
 				<button class="btn filter-btn" onclick="filterByShadows('Rangda')"> Rangda</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Sandman')"> Sandman</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Sarasvati')"> Sarasvati</button>
+				<button class="btn filter-btn" onclick="filterByShadows('Saravati')"> Saravati</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Scathach')"> Scathach</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Shiki-Ouji')"> Shiki-Ouji</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Silky')"> Silky</button>
@@ -379,7 +380,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Lilim Mandrake Succubus">
+<table class="filterDiv Lilim Mandrake Succubus Angel">
 	<tr>
 		<th colspan="5">Are there only men's versions? Where did you get it?</th>
 	</tr>
@@ -577,7 +578,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv High_Pixie Silky">
+<table class="filterDiv High_Pixie Silky Isis Lamia Parvati Sarasvati">
 	<tr>
 		<th colspan="5">But is it fair to the others if I find this happiness, leaving them all in the dust?</th>
 	</tr>
@@ -676,7 +677,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Oberon Naga Mithras">
+<table class="filterDiv Oberon Naga Mithras Mokoi">
 	<tr>
 		<th colspan="5">But what if I ripped your body apart? ...What color blood would come pouring out?</th>
 	</tr>
@@ -742,7 +743,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Apsaras Titania Silky">
+<table class="filterDiv Apsaras Titania Silky High_Pixie Leanan_Sidhe Isis Lamia Scathach Valkyrie Queen_Mab Saravati">
 	<tr>
 		<th colspan="5">Care to explain yourself? I certainly hope you have a good reason for this boorish treatment.</th>
 	</tr>
@@ -922,7 +923,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td>I suppose so...</td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 	<tr>
@@ -1006,7 +1007,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Lilim Mandrake Succubus">
+<table class="filterDiv Lilim Mandrake Succubus Angel">
 	<tr>
 		<th colspan="5">Do you have a lot of friends? Ever feel like the things they do are annoying?</th>
 	</tr>
@@ -1033,7 +1034,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>I have no friends.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
@@ -1204,7 +1205,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Parvati Silky">
+<table class="filterDiv Parvati Silky Apsaras Leanan_Sidhe Lamia Queen_Mab">
 	<tr>
 		<th colspan="5">Don't you think expecting your would-be victim to be receptive to your words is unreasonable?</th>
 	</tr>
@@ -1237,7 +1238,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv None">
+<table class="filterDiv Dakini">
 	<tr>
 		<th colspan="5">Don't you think it's sad that slang and sayings can grow old and get outdated?</th>
 	</tr>
@@ -1253,7 +1254,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 	<tr>
 		<td>I don't think so.</td>
@@ -1270,7 +1271,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Agathion Obariyon Kodama">
+<table class="filterDiv Agathion Obariyon Kodama Onmoraki">
 	<tr>
 		<th colspan="5">Guess what I want you to read to me before you tuck me into bed!</th>
 	</tr>
@@ -1402,7 +1403,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Mandrake">
+<table class="filterDiv Mandrake Angel">
 	<tr>
 		<th colspan="5">Hey. Aren't you hungry? Can we take a break and go eat somewhere?</th>
 	</tr>
@@ -1435,7 +1436,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Mandrake">
+<table class="filterDiv Mandrake Lilim">
 	<tr>
 		<th colspan="5">Hey, how about this? If you don't shoot me, then I'll kiss you. Not a bad deal, right?</th>
 	</tr>
@@ -1468,7 +1469,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 	</tr>
 </table>
-<table class="filterDiv Bicorn Berith Koropokguru Anubis Kumbhanda Ippon-Datara Eligor">
+<table class="filterDiv Bicorn Berith Koropokguru Anubis Kumbhanda Ippon-Datara Eligor Belphegor">
 	<tr>
 		<th colspan="5">Hey, if you got any medicine, lend me some. They're supposed ta work miracles, right...?</th>
 	</tr>
@@ -1501,7 +1502,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Succubus">
+<table class="filterDiv Succubus Angel Lilim">
 	<tr>
 		<th colspan="5">Hey, is my hair flat? Does it look weird?</th>
 	</tr>
@@ -1567,7 +1568,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Mandrake Lilim Pixie">
+<table class="filterDiv Mandrake Lilim Pixie Angel">
 	<tr>
 		<th colspan="5">Hey mister, if I grew up, what do you think the future me would've been like?</th>
 	</tr>
@@ -1798,7 +1799,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Sandman Kaiwan">
+<table class="filterDiv Sandman Kaiwan Girimehkala">
 	<tr>
 		<th colspan="5">How 'bout we have an interview? You're the winner, after all. I'll listen to whatever you gotta say.</th>
 	</tr>
@@ -1897,7 +1898,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">How can you do such terrible things to a cute hee-ho like me!?</th>
 	</tr>
@@ -1930,7 +1931,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern Jack_Frost">
+<table class="filterDiv Jack-o-Lantern Jack_Frost">
 	<tr>
 		<th colspan="5">How did I lose to you? I mean... I win when it comes to looks, ho.</th>
 	</tr>
@@ -1963,7 +1964,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">How did you find out about me, ho?</th>
 	</tr>
@@ -1996,7 +1997,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">Humans always want either an autograph or a self-hee, ho. Which is it, ho?</th>
 	</tr>
@@ -2062,7 +2063,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Silky">
+<table class="filterDiv Silky High_Pixie Isis Lamia Valkyrie">
 	<tr>
 		<th colspan="5">I also have loved ones who would miss me. You do catch my meaning, yes?</th>
 	</tr>
@@ -2095,7 +2096,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">I can't sadden my fans, ho. ...You catch my drift, don't you?</th>
 	</tr>
@@ -2194,7 +2195,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Archangel">
+<table class="filterDiv Archangel Power">
 	<tr>
 		<th colspan="5">I fear neither death... nor you.</th>
 	</tr>
@@ -2260,7 +2261,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Apsaras Leanan_Sidhe Silky">
+<table class="filterDiv Apsaras Leanan_Sidhe Silky High_Pixie Isis Lamia Scathach Valkyrie Kikuri-Hime">
 	<tr>
 		<th colspan="5">I insist you surrender yourself to the authorities.</th>
 	</tr>
@@ -2425,7 +2426,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Silky">
+<table class="filterDiv Silky Parvati Queen_Mab Scathach Isis">
 	<tr>
 		<th colspan="5">I occasionally wish to pamper myself as a reward for working hard. How would you do that?</th>
 	</tr>
@@ -2656,7 +2657,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Skadi">
+<table class="filterDiv Skadi Rangda">
 	<tr>
 		<th colspan="5">I wish they would leave us old people alone. After all, it's not like we have much time left.</th>
 	</tr>
@@ -2722,7 +2723,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Sarasvati Titania Silky">
+<table class="filterDiv Sarasvati Titania Silky Apsaras High_Pixie Leanan_Sidhe Lamia Norn Kikuri-Hime Valkyrie Queen_Mab Parvati">
 	<tr>
 		<th colspan="5">I wonder if us speaking together like this now means that we are somehow connected...</th>
 	</tr>
@@ -2887,7 +2888,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Succubus">
+<table class="filterDiv Succubus Angel">
 	<tr>
 		<th colspan="5">If that's true, then I don't think there's any real point in killing me...</th>
 	</tr>
@@ -2920,7 +2921,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Ippon-Datara Bicorn Berith Oni Anubis Belphegor Hanuman">
+<table class="filterDiv Ippon-Datara Bicorn Berith Oni Anubis Belphegor Hanuman Kumbhanda">
 	<tr>
 		<th colspan="5">If yer gonna kill me, do me a solid and make it quick.</th>
 	</tr>
@@ -3013,7 +3014,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>You'll be my new stylish coat.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -3052,7 +3053,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Oberon Chernobog">
+<table class="filterDiv Oberon Chernobog Naga">
 	<tr>
 		<th colspan="5">If your parents could see you now, I'm sure it would break their hearts...</th>
 	</tr>
@@ -3184,7 +3185,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">I'm busy, ho. It's tough being so popular.</th>
 	</tr>
@@ -3217,7 +3218,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Apsaras Lamia Titania Silky Sarasvati Parvati Valkyrie Norn Scathach Isis ">
+<table class="filterDiv Apsaras Lamia Titania Silky Sarasvati Parvati Valkyrie Norn Scathach Isis High_Pixie Leanan_Sidhe">
 	<tr>
 		<th colspan="5">I'm inclined to turn you down, but if you still wish to speak, I will perhaps consider it.</th>
 	</tr>
@@ -3349,7 +3350,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Incubus">
+<table class="filterDiv Incubus Black_Ooze Girimehkala">
 	<tr>
 		<th colspan="5">I'm sure a miracle's gonna happen to me, right?</th>
 	</tr>
@@ -3382,7 +3383,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Succubus">
+<table class="filterDiv Succubus Angel Lilim">
 	<tr>
 		<th colspan="5">I'm sure there're other people in the world who'd irritate you more. You know, like-</th>
 	</tr>
@@ -3415,7 +3416,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Agathion Obariyon Kodama">
+<table class="filterDiv Agathion Obariyon Kodama Onmoraki">
 	<tr>
 		<th colspan="5">I'm tired of being a kid. Didn't you feel that way when you were little, too?</th>
 	</tr>
@@ -3448,7 +3449,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Bicorn">
+<table class="filterDiv Bicorn Anubis">
 	<tr>
 		<th colspan="5">In the end, killin' me's just a waste of yer time and energy. You get what I'm sayin', right?</th>
 	</tr>
@@ -3481,7 +3482,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Koropokguru Choronzon Bicorn Berith Anubis Decarabia Kumbhanda Fuu-ki">
+<table class="filterDiv Koropokguru Choronzon Bicorn Berith Anubis Decarabia Kumbhanda Fuu-ki Belphegor">
 	<tr>
 		<th colspan="5">In the very end, what the hell are you tryin' ta tell me?</th>
 	</tr>
@@ -3613,7 +3614,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Agathion">
+<table class="filterDiv Agathion Onmoraki">
 	<tr>
 		<th colspan="5">Is it scary to get a shot? Does it make you cry, mister?</th>
 	</tr>
@@ -3679,7 +3680,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Silky">
+<table class="filterDiv Silky Leanan_Sidhe Isis Lamia Kikuri-Hime Queen_Mab">
 	<tr>
 		<th colspan="5">Is there really any benefit for me if I joined with you?</th>
 	</tr>
@@ -3811,7 +3812,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Ganesha Girimehkala Kaiwan">
+<table class="filterDiv Ganesha Girimehkala Kaiwan Koppa-Tengu Take-Minakata Orobas Rakshasa Sandman Black_Ooze Ose">
 	<tr>
 		<th colspan="5">It'd prolly be a big downer if the birthday boy didn't show to his party, sooo...</th>
 	</tr>
@@ -3910,7 +3911,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Mandrake Succubus">
+<table class="filterDiv Mandrake Succubus Angel Lilim">
 	<tr>
 		<th colspan="5">It's hard to tell under the mask, but... you're actually handsome, aren't you?</th>
 	</tr>
@@ -3943,7 +3944,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Pixie Mandrake Succubus">
+<table class="filterDiv Pixie Mandrake Succubus Angel Lilim">
 	<tr>
 		<th colspan="5">It's no fun going home when only my annoying mom and dad are there.</th>
 	</tr>
@@ -3976,7 +3977,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Incubus Koppa-Tengu Take-Minakata Rakshasa Sandman Kaiwan Girimehkala Ose">
+<table class="filterDiv Incubus Koppa-Tengu Take-Minakata Rakshasa Sandman Kaiwan Girimehkala Ose Orobas Black_Ooze">
 	<tr>
 		<th colspan="5">It's pretty rude, man.</th>
 	</tr>
@@ -4009,7 +4010,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Lamia Silky Valkyrie Leanan_Sidhe Apsaras">
+<table class="filterDiv Lamia Silky Valkyrie Leanan_Sidhe Apsaras Sarasvati Isis">
 	<tr>
 		<th colspan="5">I've been sending you serious "don't speak to me" vibes.</th>
 	</tr>
@@ -4024,7 +4025,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td>I noticed.</td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 	<tr>
@@ -4075,7 +4076,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Rakshasa Black_Ooze">
+<table class="filterDiv Rakshasa Black_Ooze Girimehkala">
 	<tr>
 		<th colspan="5">Just thinkin' about hierarchy, you should be showin' me a little more respect, shouldn't you?</th>
 	</tr>
@@ -4108,7 +4109,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Bicorn">
+<table class="filterDiv Bicorn Koropokguru Chernobog">
 	<tr>
 		<th colspan="5">Know how they say, "Be kind ta yer elders"? Has no one ever taught you that?</th>
 	</tr>
@@ -4141,7 +4142,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Take-Minakata Sandman Black_Ooze">
+<table class="filterDiv Take-Minakata Sandman Black_Ooze Girimehkala">
 	<tr>
 		<th colspan="5">Life's nothing but pain anyways. Just do whatever you want.</th>
 	</tr>
@@ -4207,7 +4208,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">Maybe I should try something new! I don't want to fall into mediocrity, ho...</th>
 	</tr>
@@ -4240,7 +4241,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Angel">
+<table class="filterDiv Angel Lilim">
 	<tr>
 		<th colspan="5">...Maybe I'll call the police. Maybe I'll tell 'em that you were worse than you actually were!</th>
 	</tr>
@@ -4253,14 +4254,14 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>Call them. I dare you.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 	<tr>
 		<td>Please don't.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -4306,7 +4307,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 	</tr>
 </table>
-<table class="filterDiv Kelpie Slime Arahabaki Anzu Shiki-Ouji Nue Makami Andras">
+<table class="filterDiv Kelpie Slime Arahabaki Anzu Shiki-Ouji Nue Makami Andras Orthrus Thoth">
 	<tr>
 		<th colspan="5">Me am really in soup, now. Do what you want. Me am ready if you want grill me, so...</th>
 	</tr>
@@ -4537,7 +4538,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">My chest is beating so fast. What is this feeling?</th>
 	</tr>
@@ -4570,7 +4571,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Angel Mandrake">
+<table class="filterDiv Angel Mandrake Lilim">
 	<tr>
 		<th colspan="5">My horoscope said I was going to have relationship troubles today.</th>
 	</tr>
@@ -4603,7 +4604,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">My only choice now... is to retire, ho.</th>
 	</tr>
@@ -4669,7 +4670,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Rangda">
+<table class="filterDiv Rangda Dakini">
 	<tr>
 		<th colspan="5">Oh, they're so self-assured that they'll be so successful in the future. Are you like that, child?</th>
 	</tr>
@@ -4685,7 +4686,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 	</tr>
 	<tr>
 		<td>That's not true.</td>
@@ -4702,7 +4703,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Mandrake Succubus">
+<table class="filterDiv Mandrake Succubus Angel">
 	<tr>
 		<th colspan="5">Ooh, what if this leaves a scar and it's permanent?</th>
 	</tr>
@@ -4735,7 +4736,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Archangel">
+<table class="filterDiv Archangel Power">
 	<tr>
 		<th colspan="5">Out of respect for our Father, let us take a moment's respite...</th>
 	</tr>
@@ -4768,7 +4769,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Incubus Kaiwan Black_Ooze Sandman Rakshasa Take-Minakata Koppa-Tengu">
+<table class="filterDiv Incubus Kaiwan Black_Ooze Sandman Rakshasa Take-Minakata Koppa-Tengu Ganesha Ose Girimehkala">
 	<tr>
 		<th colspan="5">Seriously, cosplaying in a place like this? Are you just really freakin' bored?</th>
 	</tr>
@@ -4900,7 +4901,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Black_Ooze Incubus">
+<table class="filterDiv Black_Ooze Incubus Koppa-Tengu Sandman Kaiwan Girimehkala Ganesha Rakshasa">
 	<tr>
 		<th colspan="5">...So uh, instead of killin' me, you started chattin' with me... You tryin' to get somethin' from me?</th>
 	</tr>
@@ -4966,7 +4967,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Incubus Sui-ki Ose Kaiwan Black_Ooze Sandman Rakshasa Koppa-Tengu">
+<table class="filterDiv Incubus Sui-ki Ose Kaiwan Black_Ooze Sandman Rakshasa Koppa-Tengu Girimehkala">
 	<tr>
 		<th colspan="5">So who're you tryin' to impress with that mask?</th>
 	</tr>
@@ -5065,7 +5066,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Bicorn Berith Koropokguru Decarabia Ippon-Datara Choronzon Fuu-ki">
+<table class="filterDiv Bicorn Berith Koropokguru Decarabia Ippon-Datara Choronzon Fuu-ki Oni Kumbhanda Belphegor Anubis">
 	<tr>
 		<th colspan="5">Somethin' bad happen in yer life or somethin', sonny?</th>
 	</tr>
@@ -5131,7 +5132,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">Sorry, but I want you to go hee-home now. I'm already feeling so tired and weary, ho...</th>
 	</tr>
@@ -5164,7 +5165,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Silky">
+<table class="filterDiv Silky Sarasvati Valkyrie Lamia Isis">
 	<tr>
 		<th colspan="5">Taking that into consideration, do you still want me?</th>
 	</tr>
@@ -5197,7 +5198,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Kikuri-Hime Silky">
+<table class="filterDiv Kikuri-Hime Silky Isis Lamia Valkyrie">
 	<tr>
 		<th colspan="5">Tell me, what does "equality" mean to you?</th>
 	</tr>
@@ -5230,7 +5231,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Lamia Titania Silky">
+<table class="filterDiv Lamia Titania Silky Queen_Mab Valkyrie Norn Scathach Leanan_Sidhe High_Pixie">
 	<tr>
 		<th colspan="5">That may be because my life may also be meaningless. All I've known is the way of life here.</th>
 	</tr>
@@ -5296,7 +5297,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Archangel Dominion">
+<table class="filterDiv Archangel Dominion Power">
 	<tr>
 		<th colspan="5">That power, vow that you will use it in the name of our Father.</th>
 	</tr>
@@ -5362,7 +5363,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
-<table class="filterDiv Incubus">
+<table class="filterDiv Incubus Take-Minakata Rakshasa Sandman Ganesha Koppa-Tengu Girimehkala">
 	<tr>
 		<th colspan="5">That's whack, man. Maybe you should get your head checked out.</th>
 	</tr>
@@ -5395,7 +5396,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
-<table class="filterDiv Dominion">
+<table class="filterDiv Dominion Power">
 	<tr>
 		<th colspan="5">...The least I can do is extend this small mercy. Confess the calamity that you can bear.</th>
 	</tr>
@@ -5494,7 +5495,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Andras Inugami Makami Nue Shiki-Ouji Orthrus Anzu Thoth Arahabaki Cerberus Slime">
+<table class="filterDiv Andras Inugami Makami Nue Shiki-Ouji Orthrus Anzu Thoth Arahabaki Cerberus Slime Take-Minakata">
 	<tr>
 		<th colspan="5">There something you want say to me, right?</th>
 	</tr>
@@ -5560,7 +5561,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Incubus Sui-ki Ose Sandman Rakshasa Orobas Koppa-Tengu">
+<table class="filterDiv Incubus Sui-ki Ose Sandman Rakshasa Orobas Koppa-Tengu Black_Ooze">
 	<tr>
 		<th colspan="5">They always give the guys katsudon! You got anything like that for me!?</th>
 	</tr>
@@ -5626,7 +5627,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern Jack_Frost">
+<table class="filterDiv Jack-o-Lantern Jack_Frost">
 	<tr>
 		<th colspan="5">This is all some kind of thing for the TV, ho! Where's the camera?</th>
 	</tr>
@@ -5692,7 +5693,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Power">
+<table class="filterDiv Power Archangel">
 	<tr>
 		<th colspan="5">To view me as an enemy is to incur our Father's wrath. Man's future rests in your hands.</th>
 	</tr>
@@ -5758,7 +5759,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Incubus">
+<table class="filterDiv Incubus Black_Ooze Girimehkala">
 	<tr>
 		<th colspan="5">...Um, this has been buggin' me for a while, but... Is it me, or does something stink?</th>
 	</tr>
@@ -5923,7 +5924,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Mandrake Succubus">
+<table class="filterDiv Mandrake Succubus Lilim">
 	<tr>
 		<th colspan="5">We'll just say you win. So can we stop this?</th>
 	</tr>
@@ -6154,7 +6155,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Pixie">
+<table class="filterDiv Pixie Lilim Angel">
 	<tr>
 		<th colspan="5">What do you think I should wear? I admit it, I wanna draw some attention to myself</th>
 	</tr>
@@ -6174,7 +6175,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>Kimono</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -6517,7 +6518,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Girimehkala Rakshasa">
+<table class="filterDiv Girimehkala Rakshasa Kaiwan">
 	<tr>
 		<th colspan="5">What's gonna happen to me?</th>
 	</tr>
@@ -6715,7 +6716,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">Where should I go? I want something yummy, ho!</th>
 	</tr>
@@ -6847,7 +6848,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Lamia Silky">
+<table class="filterDiv Lamia Silky High_Pixie Leanan_Sidhe Isis Valkyrie Queen_Mab Parvati">
 	<tr>
 		<th colspan="5">Why have you decided to be more communicative with me?</th>
 	</tr>
@@ -6880,7 +6881,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Kin-ki Kelpie Slime Cerberus Unicorn Mothman Thoth Anzu Orthrus Shiki-Ouji Nue Makami Inugami Andras">
+<table class="filterDiv Kin-ki Kelpie Slime Cerberus Unicorn Mothman Thoth Anzu Orthrus Shiki-Ouji Nue Makami Inugami Andras Arahabaki">
 	<tr>
 		<th colspan="5">Why you come all the way here?</th>
 	</tr>
@@ -7012,7 +7013,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Andras Kelpie Unicorn Arahabaki Thoth Anzu Shiki-Ouji Makami Nue">
+<table class="filterDiv Andras Kelpie Unicorn Arahabaki Thoth Anzu Shiki-Ouji Makami Nue Inugami Orthrus">
 	<tr>
 		<th colspan="5">Why you wear mask to fight, anyway?</th>
 	</tr>
@@ -7045,7 +7046,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Incubus Sui-ki Ose Ganesha Girimehkala Kaiwan Sandman Rakshasa Take-Minakata">
+<table class="filterDiv Incubus Sui-ki Ose Ganesha Girimehkala Kaiwan Sandman Rakshasa Take-Minakata Orobas">
 	<tr>
 		<th colspan="5">Why're you so desperate?</th>
 	</tr>
@@ -7078,7 +7079,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
-<table class="filterDiv Apsaras Silky">
+<table class="filterDiv Apsaras Silky High_Pixie Isis Lamia Scathach Norn Queen_Mab Sarasvati Leanan_Sidhe">
 	<tr>
 		<th colspan="5">Won't you just leave me be?</th>
 	</tr>
@@ -7177,7 +7178,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Berith Koropokguru Kumbhanda Ippon-Datara Eligor Fuu-ki Bicorn">
+<table class="filterDiv Berith Koropokguru Kumbhanda Ippon-Datara Eligor Fuu-ki Bicorn Belphegor">
 	<tr>
 		<th colspan="5">Y'know, if I'm gonna be killed, I'd rather be offed by some beautiful, classy woman.</th>
 	</tr>
@@ -7243,7 +7244,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Angel">
+<table class="filterDiv Angel Lilim">
 	<tr>
 		<th colspan="5">You carry a gun because you think it'll make you more popular with the girls?</th>
 	</tr>
@@ -7408,7 +7409,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Kelpie Slime Cerberus Arahabaki Thoth Anzu Orthrus Shiki-Ouji Nue Makami Inugami">
+<table class="filterDiv Kelpie Slime Cerberus Arahabaki Thoth Anzu Orthrus Shiki-Ouji Nue Makami Inugami Mothman">
 	<tr>
 		<th colspan="5">You go back to your mother' arms. You need take nap now.</th>
 	</tr>
@@ -7540,7 +7541,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Silky">
+<table class="filterDiv Silky Apsaras High_Pixie Isis">
 	<tr>
 		<th colspan="5">You, however are talking to me right here. Are you the exception to this rule?</th>
 	</tr>
@@ -7573,7 +7574,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Koppa-Tengu Take-Minakata Rakshasa Ose Mot">
+<table class="filterDiv Koppa-Tengu Take-Minakata Rakshasa Ose Mot Girimehkala">
 	<tr>
 		<th colspan="5">You knocked me down, and now my goddamn watch is broken!</th>
 	</tr>
@@ -7606,7 +7607,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern Jack_Frost">
+<table class="filterDiv Jack-o-Lantern Jack_Frost">
 	<tr>
 		<th colspan="5">You know, a mascot's life isn't hee-easy. Are you sure you could handle all the adversity, ho?</th>
 	</tr>
@@ -7705,7 +7706,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Berith Choronzon Ippon-Datara Kumbhanda Belphegor Koropokguru">
+<table class="filterDiv Berith Choronzon Ippon-Datara Kumbhanda Belphegor Koropokguru Anubis">
 	<tr>
 		<th colspan="5">...You know what I'm getting' at, right? You think you could let me go see my girl?</th>
 	</tr>
@@ -7738,7 +7739,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Skadi">
+<table class="filterDiv Skadi Rangda">
 	<tr>
 		<th colspan="5">You must be one of those delinquents I hear about. Do you have poor grades in school?</th>
 	</tr>
@@ -7771,7 +7772,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">You new? Did you get hee-hired, ho?</th>
 	</tr>
@@ -7804,7 +7805,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Kelpie Slime Unicorn Mothman Arahabaki Thoth Anzu Orthrus Shiki-Ouji Makami Inugami">
+<table class="filterDiv Kelpie Slime Unicorn Mothman Arahabaki Thoth Anzu Orthrus Shiki-Ouji Makami Inugami Andras">
 	<tr>
 		<th colspan="5">You not worry you get in trouble if those groups hear what you are doing to me?</th>
 	</tr>
@@ -7858,7 +7859,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>I'm not beleaguered.</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
@@ -7870,7 +7871,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">You'll probably break down in tears when you see my angry face. I'm a real monstrosity, ho!</th>
 	</tr>
@@ -7936,7 +7937,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 	</tr>
 </table>
-<table class="filterDiv Succubus">
+<table class="filterDiv Succubus Lilim">
 	<tr>
 		<th colspan="5">You're hitting on me, right? Don't you think you're totally doing it wrong?</th>
 	</tr>
@@ -8002,7 +8003,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">You're showing off your strength to me, aren't you? I total-hee read your mind, ho.</th>
 	</tr>
@@ -8101,7 +8102,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Jack-o'-Lantern">
+<table class="filterDiv Jack-o-Lantern">
 	<tr>
 		<th colspan="5">...You've come from some other company to scout me-hee out. There's no mistaking it, ho!</th>
 	</tr>
