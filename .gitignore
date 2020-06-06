@@ -1,6 +1,6 @@
 
+.vscode/
 _site/
 data/
-data/tableConverter.py
-data/input.html
+p5env/
 quick_start.cmd

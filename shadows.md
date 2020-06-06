@@ -927,7 +927,7 @@ function filterShadows() {
    </tr>
    <tr>
       <td>Queen's Necklace</td>
-      <td>Zealous Messenger</td>
+      <td>Treasure Demon</td>
       <td>Justice</td>
       <td>Upbeat</td>
       <td>Gun</td>

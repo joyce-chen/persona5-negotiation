@@ -1,7 +1,7 @@
 ##### This Project & Credits
 This is a tool/guide to help with negotiations in Persona 5 and Persona 5 Royal.
 
-The Royal section takes the negotiation information from Persona 5, so there can be discrepancies between the versions. If you want to help, contribute, or report mistakes, please use the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/16">open issue on Github for P5 Royal</a>, the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/17">open issue for P5</a>, or the <a href="https://forms.gle/JtH9YUekRKVEkYgc6">Google Form</a>. Submitted questions are up-to-date as of **May 31st**.
+The Royal section takes the negotiation information from Persona 5, so there can be discrepancies between the versions. If you want to help, contribute, or report mistakes, please use the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/16">open issue on Github for P5 Royal</a>, the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/17">open issue for P5</a>, or the <a href="https://forms.gle/JtH9YUekRKVEkYgc6">Google Form</a>. Submitted questions are up-to-date as of **June 5th**.
 
 Thank you to GooberSD/Chompobar for giving me permission to use <a href="https://docs.google.com/document/d/1Fq00lkODNAam7RZoczHU2kFyU3CZvyW59F0PwLnJoz8/">their guide</a> to update this guide.
 
@@ -9,9 +9,11 @@ Thank you to GooberSD/Chompobar for giving me permission to use <a href="https:/
 
 ##### Addressing Feedback
 
-4/26: <a href="https://docs.google.com/forms/d/e/1FAIpQLScRI3ZTaHf4RlNuTgYJysCVWzX1e58rB6WoMhPq5gGjlzJZ1A/viewform?usp=pp_url&entry.497268018=Persona+5+Royal">Here is a link to the form with "Persona 5 Royal" pre-selected</a>. Google Forms doesn't allow default answers. Other edits were incorportated. The selection for the different wording and reaction is generalized; the reactions can either be a correction or addition.
+6/5: Who is the Persona with the Shadow name "General of Hell" from the original game? Is it Nebiros?
 
 5/3: The Shadows between the two versions have enough difference that the tables were getting crowded. As per your suggestion, I've split the data over two pages.
+
+4/26: <a href="https://docs.google.com/forms/d/e/1FAIpQLScRI3ZTaHf4RlNuTgYJysCVWzX1e58rB6WoMhPq5gGjlzJZ1A/viewform?usp=pp_url&entry.497268018=Persona+5+Royal">Here is a link to the form with "Persona 5 Royal" pre-selected</a>. Google Forms doesn't allow default answers. Other edits were incorportated. The selection for the different wording and reaction is generalized; the reactions can either be a correction or addition.
 
 ---
 
