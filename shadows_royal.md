@@ -821,7 +821,7 @@ function filterShadows() {
       <td>Melchizedek</td>
       <td>Pagan Savior</td>
       <td>Justice</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>Wind</td>
    </tr>
    <tr>
@@ -835,14 +835,14 @@ function filterShadows() {
       <td>Baal</td>
       <td>Reviled Dictator</td>
       <td>Emperor</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>None</td>
    </tr>
    <tr>
       <td>Thor</td>
       <td>Thunder Emperor</td>
       <td>Chariot</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>None</td>
    </tr>
    <tr>
@@ -985,7 +985,7 @@ function filterShadows() {
       <td>Dionysus</td>
       <td>Hedonistic Braggart</td>
       <td>Councillor</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>None</td>
    </tr>
    <tr>
@@ -1034,7 +1034,7 @@ function filterShadows() {
       <td>Baal</td>
       <td>Reviled Dictator</td>
       <td>Emperor</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>None</td>
    </tr>
    <tr>
