@@ -6,14 +6,14 @@ Direct link to a user-friendly version: http://joyce-chen.github.io/persona5-neg
 
 If you want to contribute any changes, please use the [open issue for P5 Royal](https://github.com/joyce-chen/persona5-negotiation/issues/16), the [open issue for P5](https://github.com/joyce-chen/persona5-negotiation/issues/17), or [the form](https://forms.gle/JtH9YUekRKVEkYgc6). Thank you!
 
-Submitted questions are up-to-date as of **June 11th**.
+Submitted questions are up-to-date as of **June 17th**.
 
 
 ---
 
-June 6th, 2020 Update:
 - TODO: Organizing the filters to show all the questions for pools of Shadows.
 - TODO: Making and merging PRs from other users that forked this repo.
+- TODO: Maybe a dark mode of the theme.
 
 ---
 

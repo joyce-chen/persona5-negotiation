@@ -889,7 +889,7 @@ function filterShadows() {
       <td>Dominion</td>
       <td>Merciless Inquisitor</td>
       <td>Justice</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Electric</td>
    </tr>
    <tr>
