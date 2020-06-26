@@ -1660,7 +1660,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td>Live fast, die young.</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 	<tr>
@@ -1869,7 +1869,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Girimehkala Rakshasa Black_Ooze">
+<table class="filterDiv Girimehkala Rakshasa Black_Ooze Sandman">
 	<tr>
 		<th colspan="5">How 'bout you? You wanna get married someday?</th>
 	</tr>
@@ -1883,7 +1883,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>I do.</td>
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
@@ -4043,7 +4043,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td>But we may never meet again...</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
@@ -4371,7 +4371,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>Girl power.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -4888,7 +4888,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 	<tr>
 		<td>I could carry that weight.</td>
@@ -5421,7 +5421,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>I always manage to step in gum.</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
+		<td class='result'><div class='text'>OK/GOOD?</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
@@ -5925,7 +5925,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
 <table class="filterDiv None">
@@ -6552,7 +6552,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
 <table class="filterDiv None">
@@ -8205,7 +8205,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Girimehkala Kaiwan Sui-ki Ose Ganesha Black_Ooze Rakshasa Take-Minakata Koppa-Tengu">
+<table class="filterDiv Girimehkala Kaiwan Sui-ki Ose Ganesha Black_Ooze Rakshasa Take-Minakata Koppa-Tengu Sandman">
 	<tr>
 		<th colspan="5">You're violatin' the weapons code or whatever, man.</th>
 	</tr>
@@ -8219,7 +8219,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>I didn't know.</td>
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
