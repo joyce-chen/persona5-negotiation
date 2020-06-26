@@ -793,7 +793,7 @@ function filterShadows() {
       <td>Lilith</td>
       <td>Harlot of Desire</td>
       <td>Moon</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Fire</td>
    </tr>
    <tr>
