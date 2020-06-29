@@ -11,9 +11,13 @@ Submitted questions are up-to-date as of **June 25th**.
 
 ---
 
-- TODO: Organizing the filters to show all the questions for pools of Shadows.
-- TODO: Making and merging PRs from other users that forked this repo.
-- TODO: Maybe a dark mode of the theme.
+TODOS: 
+
+- Organize the filters to show all the questions for pools of Shadows.
+- Show corresponding personality only when filtering by Persona.
+- Organize Shadows by level instead.
+- Make and merge PRs from other users that forked this repo.
+- Maybe add a dark mode of the theme.
 
 ---
 

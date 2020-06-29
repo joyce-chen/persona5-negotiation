@@ -76,15 +76,15 @@ function filterShadows() {
       <td>Gun, Ice, Curse</td>
    </tr>
    <tr>
-      <td>Incubus</td>
-      <td>Bedside Brute</td>
-      <td>Devil</td>
+      <td>Agathion</td>
+      <td>Apprentice in a Jug</td>
+      <td>Chariot</td>
       <td>Timid</td>
-      <td>Fire, Bless</td>
+      <td>Wind</td>
    </tr>
    <tr>
       <td>Mandrake</td>
-      <td>Gallows Flower</td>
+      <td>Gallows-Flower</td>
       <td>Death</td>
       <td>Upbeat</td>
       <td>Fire</td>
@@ -94,56 +94,7 @@ function filterShadows() {
       <td>Dirty Two-horned Beast</td>
       <td>Hermit</td>
       <td>Gloomy</td>
-      <td>Electric</td>
-   </tr>
-   <tr>
-      <td>Agathion</td>
-      <td>Apprentice in a Jug</td>
-      <td>Chariot</td>
-      <td>Timid</td>
-      <td>Wind</td>
-   </tr>
-   <tr>
-      <td>Berith</td>
-      <td>Brutal Cavalryman</td>
-      <td>Hierophant</td>
-      <td>Irritable</td>
-      <td>Ice</td>
-   </tr>
-   <tr>
-      <td>Silky</td>
-      <td>Troublesome Housemaid</td>
-      <td>Priestess</td>
-      <td>Gloomy</td>
-      <td>Fire, Electric</td>
-   </tr>
-   <tr>
-      <td>Kelpie</td>
-      <td>Mad Marsh Horse</td>
-      <td>Strength</td>
-      <td>Gloomy</td>
-      <td>Electric</td>
-   </tr>
-   <tr>
-      <td>Succubus</td>
-      <td>Twilight Prostitute</td>
-      <td>Moon</td>
-      <td>Gloomy</td>
-      <td>Wind, Bless</td>
-   </tr>
-   <tr>
-      <td>Eligor</td>
-      <td>War-hungry Horseman</td>
-      <td>Emperor</td>
-      <td>Upbeat</td>
-      <td>Electric</td>
-   </tr>
-   <tr>
-      <td>Archangel</td>
-      <td>Heavenly Punisher</td>
-      <td>Justice</td>
-      <td>Irritable</td>
-      <td>Electric, Curse</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>Cait Sith <span class="badge badge-danger">Royal</span></td>
@@ -153,11 +104,60 @@ function filterShadows() {
       <td>Wind</td>
    </tr>
    <tr>
+      <td>Incubus</td>
+      <td>Bedside Brute</td>
+      <td>Devil</td>
+      <td>Timid</td>
+      <td>Fire, Bless</td>
+   </tr>
+   <tr>
+      <td>Kelpie</td>
+      <td>Mad Marsh Horse</td>
+      <td>Strength</td>
+      <td>Upbeat</td>
+      <td>Elec</td>
+   </tr>
+   <tr>
+      <td>Silky</td>
+      <td>Troublesome Housemaid</td>
+      <td>Priestess</td>
+      <td>Gloomy</td>
+      <td>Fire, Elec</td>
+   </tr>
+   <tr>
+      <td>Succubus</td>
+      <td>Twilight Prostitute</td>
+      <td>Moon</td>
+      <td>Gloomy</td>
+      <td>Wind, Bless</td>
+   </tr>
+   <tr>
       <td>Angel</td>
       <td>Zealous Messenger</td>
       <td>Justice</td>
       <td>Upbeat</td>
       <td>Gun, Curse</td>
+   </tr>
+   <tr>
+      <td>Berith</td>
+      <td>Brutal Cavalryman</td>
+      <td>Hierophant</td>
+      <td>Irritable</td>
+      <td>Ice</td>
+   </tr>
+   <tr>
+      <td>Archangel</td>
+      <td>Heavenly Punisher</td>
+      <td>Justice</td>
+      <td>Irritable</td>
+      <td>Elec, Curse</td>
+   </tr>
+   <tr>
+      <td>Eligor</td>
+      <td>War-hungry Horseman</td>
+      <td>Emperor</td>
+      <td>Upbeat</td>
+      <td>Elec</td>
    </tr>
 </table>
 
@@ -183,7 +183,7 @@ function filterShadows() {
       <td>Waterside Nymph</td>
       <td>Priestess</td>
       <td>Timid</td>
-      <td>Fire, Electric</td>
+      <td>Fire, Elec</td>
    </tr>
    <tr>
       <td>Hua Po</td>
@@ -239,7 +239,7 @@ function filterShadows() {
       <td>Hunting Wolf Spirit</td>
       <td>Temperance</td>
       <td>Gloomy</td>
-      <td>Electric</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>Inugami</td>
@@ -286,7 +286,7 @@ function filterShadows() {
       <td>Ascended Feline</td>
       <td>Magician</td>
       <td>Upbeat</td>
-      <td>Electric</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>High Pixie</td>
@@ -363,7 +363,7 @@ function filterShadows() {
       <td>Pulsing Mud</td>
       <td>Moon</td>
       <td>Timid</td>
-      <td>Electric, Psychic, Bless</td>
+      <td>Elec, Psychic, Bless</td>
    </tr>
    <tr>
       <td>Sui-ki</td>
@@ -377,7 +377,7 @@ function filterShadows() {
       <td>Tornado Devil</td>
       <td>Star</td>
       <td>Gloomy</td>
-      <td>Electric</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>Kin-ki</td>
@@ -403,7 +403,7 @@ function filterShadows() {
       <td>Envoy of Slumber</td>
       <td>Magician</td>
       <td>Upbeat</td>
-      <td>Fire, Electric</td>
+      <td>Fire, Elec</td>
    </tr>
    <tr>
       <td>Anzu</td>
@@ -485,7 +485,7 @@ function filterShadows() {
       <td>Pulsing Mud</td>
       <td>Moon</td>
       <td>Timid</td>
-      <td>Electric, Psychic, Bless</td>
+      <td>Elec, Psychic, Bless</td>
    </tr>
    <tr>
       <td>Arahabaki</td>
@@ -623,7 +623,7 @@ function filterShadows() {
       <td>Dancing Witch</td>
       <td>Magician</td>
       <td>Gloomy</td>
-      <td>Electric, Bless</td>
+      <td>Elec, Bless</td>
    </tr>
    <tr>
       <td>Skadi</td>
@@ -726,7 +726,7 @@ function filterShadows() {
       <td>Rhetorician of the Sea</td>
       <td>Magician</td>
       <td>Gloomy</td>
-      <td>Electric</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>Hanuman</td>
@@ -890,7 +890,7 @@ function filterShadows() {
       <td>Merciless Inquisitor</td>
       <td>Justice</td>
       <td>Timid</td>
-      <td>Electric</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>Uriel</td>
@@ -979,7 +979,7 @@ function filterShadows() {
       <td>Brave Spear-Bearer</td>
       <td>Faith</td>
       <td>?</td>
-      <td>Electric</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>Dionysus</td>
@@ -1089,7 +1089,7 @@ function filterShadows() {
       <td>Piggyback Demon</td>
       <td>Fool</td>
       <td>Irritable</td>
-      <td>Electric</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>Pisaca</td>
@@ -1124,7 +1124,7 @@ function filterShadows() {
       <td>Envoy of Slumber</td>
       <td>Magician</td>
       <td>Upbeat</td>
-      <td>Fire, Electric</td>
+      <td>Fire, Elec</td>
    </tr>
    <tr>
       <td>Legion</td>
