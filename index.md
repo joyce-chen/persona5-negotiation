@@ -5369,7 +5369,7 @@ for (var i = 0; i < btns.length; i++) {
 </table>
 <table class="filterDiv Incubus Take-Minakata Rakshasa Sandman Ganesha Koppa-Tengu Girimehkala">
 	<tr>
-		<th colspan="5">That's whack, man. Maybe you should get your head checked out.</th>
+		<th colspan="5">That's wack, man. Maybe you should get your head checked out.</th>
 	</tr>
 	<tr>
 		<td></td>
