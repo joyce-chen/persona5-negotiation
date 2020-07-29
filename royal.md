@@ -3101,7 +3101,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
-<table class="filterDiv None">
+<table class="filterDiv Kushinada">
 	<tr>
 		<th colspan="5">I wonder how things might have been between us if circumstances had been different somehow?</th>
 	</tr>
@@ -3128,7 +3128,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>Nothing would've changed.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -3827,9 +3827,9 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Kikuri-Hime">
+<table class="filterDiv Kikuri-Hime Angel">
 	<tr>
-		<th colspan="5">I'm sure there're other people in the world who'd irritate you more. You know, like-</th>
+		<th colspan="5">I'm sure there're other people in the world who'd irritate you more. C'mon, tell me.</th>
 	</tr>
 	<tr>
 		<td></td>
@@ -3843,7 +3843,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result unconfirmed'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 	<tr>
 		<td>No one bothers me.</td>
@@ -8216,7 +8216,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result unconfirmed'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 	</tr>
 </table>
-<table class="filterDiv Slime Thunderbird Inugami Anzu Jatayu">
+<table class="filterDiv Slime Thunderbird Inugami Anzu Jatayu Arahabaki">
 	<tr>
 		<th colspan="5">You given much thought, what if you go to place where you could die at any moment?</th>
 	</tr>
@@ -8243,7 +8243,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>I'm not comfortable with this.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
