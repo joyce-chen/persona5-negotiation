@@ -2521,7 +2521,7 @@ function filterShadows() {
    </tr>
 </table>
 
-##### Mementos - Path of Da'at <span class="badge badge-danger">Royal</span></td>
+##### Mementos - Path of Da'at <span class="badge badge-danger">Royal</span>
 
 <table>
    <tr>

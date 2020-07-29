@@ -19,7 +19,7 @@
 <div style="margin-top: 1rem;">TIP: Reactions with a white background have been either sent in or are from my own playthrough; they are less likely to be wrong. Reactions that are empty or have a dash (-) are lacking data. Reactions with <span style="background-color: rgba(144, 36, 48, 0.75); color: white;">red backgrounds</span> are unconfirmed and are from the original game.
 </div>
 
-<div id="accordion" style="margin-top: 20px;">
+<div id="accordion" style="margin-top: 1rem;">
 	<div class="card">
 		<div class="card-header" style="padding: 0;">
 			<a class="card-link" data-toggle="collapse" href="#shadowFilters" style="display: block; padding:.75rem 1.25rem">
