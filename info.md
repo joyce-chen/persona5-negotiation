@@ -23,7 +23,7 @@ Underneath, there is a filter questions by Shadows collapsable card with Shadow 
 
 **Negotiation Table Legend:**
 - White Background: Either sent in or are from my playthrough, so are more likely to be correct.
-- <span style="background-color: rgba(144, 36, 48, 0.75); color: white;">Red Background</span>: Unconfirmed.
+- <span class="unconfirmed">Pink Background</span>: Unconfirmed.
 - Have a dash (-): Lacking data.
 
 ---
