@@ -11,7 +11,7 @@
 
 	<div style="flex: 1; text-align: center;">
 		<label class="switch">
-			<input type="checkbox" onClick="toggleCompact()">
+			<input type="checkbox" id="royalCompact" onClick="toggleCompact(false)">
 			<span class="slider round"></span>
 		</label>
 	</div>
@@ -161,25 +161,31 @@ function filterQuestions() {
     }
 }
 
-function toggleCompact() {
+function toggleCompact(loading) {
+	var compactSwitch = document.getElementById("royalCompact");
+	if (!loading) {
+		localStorage.setItem(compactSwitch.id, compactSwitch.checked);
+	}
+	var checked = JSON.parse(localStorage.getItem(compactSwitch.id));
+
 	var text = document.getElementsByClassName("text");
 	var symbol = document.getElementsByClassName("symbol");
 	for (var i = 0; i < text.length; i++) {
-		if (text[i].style.display === "none") {
-			symbol[i].style.display = "none";
-			text[i].style.display = "block";
-		} else {
+		if (checked) {
 			symbol[i].style.display = "block";
 			text[i].style.display = "none";
+		} else {
+			symbol[i].style.display = "none";
+			text[i].style.display = "block";
 		}
 	}
 
 	var extra = document.getElementsByClassName("extra");
 	for (var i = 0; i < extra.length; i++) {
-		if (extra[i].style.display === "none") {
-			extra[i].style.display = "inline";
-		} else {
+		if (checked) {
 			extra[i].style.display = "none";
+		} else {
+			extra[i].style.display = "inline";
 		}
 	}
 }
@@ -190,7 +196,6 @@ function filterByShadows(shadow) {
 	for (var i = 0; i < target.length; i++) {
 		filterAddClass(target[i], "hidden");
 		if (target[i].className.indexOf(shadow) > -1) {
-			console.log(target[i])
 			filterRemoveClass(target[i], "hidden");
 		}
 	}
@@ -9042,3 +9047,17 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 </table>
 </div>
+
+<!-- LOCAL STORAGE OF SWITCH STATE -->
+<script>
+window.onload = onPageLoad();
+
+function onPageLoad() {
+	var switchState = JSON.parse(localStorage["royalCompact"] || false);
+	var compactSwitch = document.getElementById("royalCompact");
+	if (switchState) {
+		compactSwitch.checked = true;
+		toggleCompact(true);
+	}
+}
+</script>
