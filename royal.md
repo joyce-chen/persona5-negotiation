@@ -268,7 +268,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Isis">
+<table class="filterDiv Isis Queen_Mab">
 	<tr>
 		<th colspan="5">After all, isn't it not pitiable when one denies one's own feelings?</th>
 	</tr>
@@ -281,7 +281,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>It is a difficult topic.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -730,7 +730,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Dakini Kali">
+<table class="filterDiv Dakini Kali Skadi">
 	<tr>
 		<th colspan="5">But I've been around the block, so I know--there's something else you want from me, isn't there?</th>
 	</tr>
@@ -744,7 +744,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>Nope.</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
@@ -1700,7 +1700,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>Not a bad idea.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
@@ -2096,7 +2096,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>I can't live with you.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -2677,7 +2677,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
-<table class="filterDiv Nekomata Yaksini">
+<table class="filterDiv Nekomata Yaksini Lamia">
 	<tr>
 		<th colspan="5">I lost. Here I lay, at your feet, at your mercy. Just what do you want from me?</th>
 	</tr>
@@ -2704,7 +2704,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>I don't know.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result unconfirmed'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -3271,7 +3271,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv Andras Narcissus">
+<table class="filterDiv Andras Narcissus Kurama_Tengu">
 	<tr>
 		<th colspan="5">If so, then won't you overlook this? Let's make a deal...</th>
 	</tr>
@@ -3285,7 +3285,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>All right.</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
@@ -3337,7 +3337,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv None">
+<table class="filterDiv Lilim">
 	<tr>
 		<th colspan="5">If that's true, then I don't think there's any real point in killing me...</th>
 	</tr>
@@ -3364,7 +3364,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>Then who's the real enemy?</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -3865,7 +3865,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Skadi">
+<table class="filterDiv Skadi Rangda">
 	<tr>
 		<th colspan="5">I'm thinking that maybe I can be more grandmotherly. How can I go ahead and do that for you?</th>
 	</tr>
@@ -3892,7 +3892,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>You don't have to do anything.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -4558,7 +4558,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
-<table class="filterDiv None">
+<table class="filterDiv Lilim">
 	<tr>
 		<th colspan="5">It's no fun going home when only my annoying mom and dad are there.</th>
 	</tr>
@@ -4571,7 +4571,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>Parents are annoying.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result unconfirmed'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
@@ -5350,6 +5350,39 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
+<table class="filterDiv Skadi">
+	<tr>
+		<th colspan="5">Now, people don't even know who lives next door to them. Shouldn't we know our neighbors better?</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
+	</tr>
+	<tr>
+		<td>It's saddening.</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+	<tr>
+		<td>I don't really think about it.</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+	<tr>
+		<td>Privacy is important.</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+</table>
 <table class="filterDiv Kali Rangda Skadi">
 	<tr>
 		<th colspan="5">Oh, they're so self-assured that they'll be so successful in the future. Are you like that, child?</th>
@@ -5449,7 +5482,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Kaiwan Mot Girimehkala Sui-ki">
+<table class="filterDiv Kaiwan Mot Girimehkala Sui-ki Sandman">
 	<tr>
 		<th colspan="5">Seriously, cosplaying in a place like this? Are you just bored outta your mind?</th>
 	</tr>
@@ -5479,7 +5512,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result unconfirmed'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 	</tr>
 </table>
 <table class="filterDiv Obariyon">
@@ -5810,6 +5843,39 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+</table>
+<table class="filterDiv Dakini">
+	<tr>
+		<th colspan="5">Some old people refuse to make use of special seats reserved for the elderly. What do you think of that?</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
+	</tr>
+	<tr>
+		<td>No problem with it.</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+	<tr>
+		<td>They shouldn't push themselves.</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+	<tr>
+		<td>They must be young inside.</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
 <table class="filterDiv Shiki-Ouji Koropokguru Berith Fuu-ki Bicorn Oni Belphegor">
@@ -6703,39 +6769,6 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Unicorn Inugami Nue Cerberus Makami">
-	<tr>
-		<th colspan="5">What you thinking now?</th>
-	</tr>
-	<tr>
-		<td></td>
-		<td class='subheader'>gl<span class='extra'>oomy</span></td>
-		<td class='subheader'>ir<span class='extra'>ritable</span></td>
-		<td class='subheader'>ti<span class='extra'>mid</span></td>
-		<td class='subheader'>up<span class='extra'>beat</span></td>
-	</tr>
-	<tr>
-		<td>How to negotiate..</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-	<tr>
-		<td>Nothing.</td>
-		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-	<tr>
-		<td>How can I get popular?</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
-		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-</table>
 <table class="filterDiv Kurama_Tengu">
 	<tr>
 		<th colspan="5">What did I do to deserve this?</th>
@@ -7196,6 +7229,39 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+</table>
+<table class="filterDiv Unicorn Inugami Nue Cerberus Makami Jatayu">
+	<tr>
+		<th colspan="5">What you thinking now?</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
+	</tr>
+	<tr>
+		<td>How to negotiate..</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+	<tr>
+		<td>Nothing.</td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+	<tr>
+		<td>How can I get popular?</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
 <table class="filterDiv Macabre Choronzon">
@@ -7792,7 +7858,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
-<table class="filterDiv None">
+<table class="filterDiv Nue">
 	<tr>
 		<th colspan="5">Why you wear mask to fight, anyway?</th>
 	</tr>
@@ -7820,7 +7886,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>That's what I want to know.</td>
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
@@ -8617,7 +8683,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="filterDiv Chimera Arahabaki Anzu Thoth Cerberus">
+<table class="filterDiv Chimera Arahabaki Anzu Thoth Cerberus Thunderbird">
 	<tr>
 		<th colspan="5">You not worry you get in trouble if those groups hear what you are doing to me?</th>
 	</tr>
@@ -8646,6 +8712,39 @@ for (var i = 0; i < btns.length; i++) {
 		<td>It's for love.</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+	</tr>
+</table>
+<table class="filterDiv Rangda Skadi Dakini">
+	<tr>
+		<th colspan="5">You were so sure of yourself, so it's embarrassing now to admit you're struggling here. Right?</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td class='subheader'>gl<span class='extra'>oomy</span></td>
+		<td class='subheader'>ir<span class='extra'>ritable</span></td>
+		<td class='subheader'>ti<span class='extra'>mid</span></td>
+		<td class='subheader'>up<span class='extra'>beat</span></td>
+	</tr>
+	<tr>
+		<td>That's right.</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+	</tr>
+	<tr>
+		<td>No.</td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+	</tr>
+	<tr>
+		<td>Don't make fun of me.</td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
@@ -8848,7 +8947,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result unconfirmed'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 	</tr>
 </table>
-<table class="filterDiv None">
+<table class="filterDiv Lilim">
 	<tr>
 		<th colspan="5">You're hitting on me, right? Don't you think you're totally doing it wrong?</th>
 	</tr>
@@ -8868,7 +8967,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>What's the right way, then?</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -8901,7 +9000,7 @@ for (var i = 0; i < btns.length; i++) {
 	</tr>
 	<tr>
 		<td>I choose my targets carefully.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
@@ -9044,105 +9143,6 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result unconfirmed'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
-	</tr>
-</table>
-<table class="filterDiv Skadi">
-	<tr>
-		<th colspan="5">Now, people don't even know who lives next door to them. Shouldn't we know our neighbors better?</th>
-	</tr>
-	<tr>
-		<td></td>
-		<td class='subheader'>gl<span class='extra'>oomy</span></td>
-		<td class='subheader'>ir<span class='extra'>ritable</span></td>
-		<td class='subheader'>ti<span class='extra'>mid</span></td>
-		<td class='subheader'>up<span class='extra'>beat</span></td>
-	</tr>
-	<tr>
-		<td>It's saddening.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-	<tr>
-		<td>I don't really think about it.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-	<tr>
-		<td>Privacy is important.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-</table>
-<table class="filterDiv Rangda Skadi Dakini">
-	<tr>
-		<th colspan="5">You were so sure of yourself, so it's embarrassing now to admit you're struggling here. Right?</th>
-	</tr>
-	<tr>
-		<td></td>
-		<td class='subheader'>gl<span class='extra'>oomy</span></td>
-		<td class='subheader'>ir<span class='extra'>ritable</span></td>
-		<td class='subheader'>ti<span class='extra'>mid</span></td>
-		<td class='subheader'>up<span class='extra'>beat</span></td>
-	</tr>
-	<tr>
-		<td>That's right.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-	</tr>
-	<tr>
-		<td>No.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-	<tr>
-		<td>Don't make fun of me.</td>
-		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-</table>
-<table class="filterDiv Dakini">
-	<tr>
-		<th colspan="5">Some old people refuse to make use of special seats reserved for the elderly. What do you think of that?</th>
-	</tr>
-	<tr>
-		<td></td>
-		<td class='subheader'>gl<span class='extra'>oomy</span></td>
-		<td class='subheader'>ir<span class='extra'>ritable</span></td>
-		<td class='subheader'>ti<span class='extra'>mid</span></td>
-		<td class='subheader'>up<span class='extra'>beat</span></td>
-	</tr>
-	<tr>
-		<td>No problem with it.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-	<tr>
-		<td>They shouldn't push themselves.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-	</tr>
-	<tr>
-		<td>They must be young inside.</td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
 </div>

@@ -1175,7 +1175,7 @@ function filterShadows() {
       <td>Chernobog</td>
       <td>The Black Avenger</td>
       <td>Death</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Fire, Bless</td>
    </tr>
    <tr>
@@ -1199,7 +1199,7 @@ function filterShadows() {
       <td>Yamata-no-Orochi</td>
       <td>Drunken Serpents</td>
       <td>Judgement</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>None</td>
    </tr>
    <tr>
