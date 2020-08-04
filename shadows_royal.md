@@ -498,7 +498,7 @@ function filterShadows() {
       <td>Psy</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>31</td>
       <td>Kurama Tengu</td>
       <td>Monk of the Valley</td>
       <td>Hermit</td>
@@ -660,7 +660,7 @@ function filterShadows() {
       <td>Raging Bird God</td>
       <td>Star</td>
       <td>Miniboss</td>
-      <td>?</td>
+      <td>None</td>
    </tr>
    <tr>
       <td>N/A</td>
@@ -845,7 +845,7 @@ function filterShadows() {
       <td>Kushinada</td>
       <td>Lamenting Sacrifice</td>
       <td>Lovers</td>
-      <td>?</td>
+      <td>Gloomy</td>
       <td>Ice, Nuke</td>
    </tr>
    <tr>
@@ -912,15 +912,15 @@ function filterShadows() {
       <td>Irritable</td>
       <td>None</td>
    </tr>
-   <!-- <tr>
-      <td>N/A</td>
+   <tr>
+      <td>30</td>
       <td>Orlov</td>
       <td>(Treasure Demon)</td>
-      <td>Miniboss</td>
+      <td>Strength</td>
       <td>None</td>
       <td>Curse</td>
    </tr>
-   <tr>
+   <!-- <tr>
       <td>N/A</td>
       <td>Ose</td>
       <td>Cruel Leopard</td>
@@ -1018,7 +1018,7 @@ function filterShadows() {
       <td>Garuda</td>
       <td>Raging Bird God</td>
       <td>Star</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>None</td>
    </tr>
    <tr>
@@ -1102,12 +1102,12 @@ function filterShadows() {
       <td>Nuke</td>
    </tr>
    <tr>
-      <td>40</td>
+      <td>35</td>
       <td>Emperor's Amulet</td>
       <td>(Treasure Demon)</td>
       <td>Hanged Man</td>
       <td>None</td>
-      <td>None</td>
+      <td>Elec</td>
    </tr>
    <!-- <tr>
       <td>N/A</td>
@@ -1313,7 +1313,7 @@ function filterShadows() {
       <td>Orichalcum</td>
       <td>(Treasure Demon)</td>
       <td>Faith</td>
-      <td>?</td>
+      <td>None</td>
       <td>Bless</td>
    </tr>
    <tr>
@@ -1535,7 +1535,7 @@ function filterShadows() {
       <td>Regent</td>
       <td>(Treasure Demon)</td>
       <td>Emperor</td>
-      <td>Upbeat</td>
+      <td>None</td>
       <td>1</td>
       <td>Psy, Nuke</td>
    </tr>
@@ -1675,7 +1675,7 @@ function filterShadows() {
       <td>Regent</td>
       <td>(Treasure Demon)</td>
       <td>Emperor</td>
-      <td>Upbeat</td>
+      <td>None</td>
       <td>All</td>
       <td>Psy, Nuke</td>
    </tr>
@@ -1752,7 +1752,7 @@ function filterShadows() {
       <td>Regent</td>
       <td>(Treasure Demon)</td>
       <td>Emperor</td>
-      <td>Upbeat</td>
+      <td>None</td>
       <td>All</td>
       <td>Psy, Nuke</td>
    </tr>
@@ -1883,7 +1883,7 @@ function filterShadows() {
       <td>Queen's Necklace</td>
       <td>(Treasure Demon)</td>
       <td>Justice</td>
-      <td>Upbeat</td>
+      <td>None</td>
       <td>All</td>
       <td>Gun</td>
    </tr>
@@ -2022,8 +2022,8 @@ function filterShadows() {
       <td>20</td>
       <td>Stone of Scone</td>
       <td>(Treasure Demon)</td>
-      <td>Upbeat</td>
       <td>Fortune</td>
+      <td>None</td>
       <td>All</td>
       <td>Curse</td>
    </tr>
@@ -2118,7 +2118,7 @@ function filterShadows() {
       <td>Koh-i-Noor</td>
       <td>(Treasure Demon)</td>
       <td>Priestess</td>
-      <td>Gloomy</td>
+      <td>None</td>
       <td>All</td>
       <td>None</td>
    </tr>
@@ -2240,7 +2240,7 @@ function filterShadows() {
       <td>Orlov</td>
       <td>(Treasure Demon)</td>
       <td>Strength</td>
-      <td>Upbeat</td>
+      <td>None</td>
       <td>1-5</td>
       <td>Curse</td>
    </tr>
@@ -2373,7 +2373,7 @@ function filterShadows() {
       <td>Hanged Man</td>
       <td>None</td>
       <td>7-13</td>
-      <td>None</td>
+      <td>Elec</td>
    </tr> 
    <tr>
       <td>40</td>
@@ -2434,7 +2434,7 @@ function filterShadows() {
       <td>Garuda</td>
       <td>Raging Bird God</td>
       <td>Star</td>
-      <td>Irritable</td>
+      <td>Upbeat</td>
       <td>12</td>
       <td>Gun</td>
    </tr>
@@ -2540,6 +2540,6 @@ function filterShadows() {
       <td>Hanged Man</td>
       <td>None</td>
       <td>7-13</td>
-      <td>None</td>
+      <td>Elec</td>
    </tr>  -->
 </table>
