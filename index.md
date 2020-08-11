@@ -9,7 +9,7 @@
 		</span>
 	</div>
 
-	<div style="flex: 1; text-align: center;">
+	<div style="flex: 1; text-align: center; margin-top: auto; margin-bottom: auto;">
 		<label class="switch">
 			<input type="checkbox" id="originalCompact" onClick="toggleOriginalCompact(false)">
 			<span class="slider round">
