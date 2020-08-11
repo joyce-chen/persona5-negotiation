@@ -1333,11 +1333,11 @@ function filterShadows() {
       <td>Ice, Nuke</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>70</td>
       <td>Loa</td>
       <td>Dream-Dwelling Skull</td>
       <td>Hermit</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>Psy, Bless</td>
    </tr>
    <tr>
