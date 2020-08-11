@@ -1010,7 +1010,7 @@ function filterShadows() {
       <td>Barong</td>
       <td>Dancing Lion</td>
       <td>Emperor</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>Wind, Curse</td>
    </tr>
    <tr>
@@ -1050,7 +1050,7 @@ function filterShadows() {
       <td>Baphomet</td>
       <td>Heretic Goat</td>
       <td>Devil</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Bless</td>
    </tr>
    <tr>
@@ -1131,39 +1131,15 @@ function filterShadows() {
       <th>Weakness</th>
    </tr>
    <tr>
-      <td>?</td>
-      <td>Lilith</td>
-      <td>Harlot of Desire</td>
-      <td>Moon</td>
-      <td>Timid</td>
-      <td>Fire</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Moloch</td>
-      <td>Sacrificial Pyrekeeper</td>
-      <td>Hanged Man</td>
-      <td>Upbeat</td>
-      <td>Ice</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Nebiros</td>
-      <td>Wandering Reviver</td>
-      <td>Devil</td>
-      <td>?</td>
-      <td>Bless</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Dionysus</td>
-      <td>Hedonistic Braggart</td>
-      <td>Councillor</td>
-      <td>Upbeat</td>
+      <td>40</td>
+      <td>Hope Diamond</td>
+      <td>(Treasure Demon)</td>
+      <td>Death</td>
+      <td>None</td>
       <td>None</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>58</td>
       <td>Melchizedek</td>
       <td>Pagan Savior</td>
       <td>Justice</td>
@@ -1171,7 +1147,23 @@ function filterShadows() {
       <td>Wind</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>60</td>
+      <td>Lilith</td>
+      <td>Harlot of Desire</td>
+      <td>Moon</td>
+      <td>Timid</td>
+      <td>Fire</td>
+   </tr>
+   <tr>
+      <td>60</td>
+      <td>Moloch</td>
+      <td>Sacrificial Pyrekeeper</td>
+      <td>Hanged Man</td>
+      <td>Upbeat</td>
+      <td>Ice</td>
+   </tr>
+   <tr>
+      <td>62</td>
       <td>Chernobog</td>
       <td>The Black Avenger</td>
       <td>Death</td>
@@ -1179,15 +1171,7 @@ function filterShadows() {
       <td>Fire, Bless</td>
    </tr>
    <tr>
-      <td>?</td>
-      <td>Baal</td>
-      <td>Reviled Dictator</td>
-      <td>Emperor</td>
-      <td>Upbeat</td>
-      <td>None</td>
-   </tr>
-   <tr>
-      <td>?</td>
+      <td>64</td>
       <td>Thor</td>
       <td>Thunder Emperor</td>
       <td>Chariot</td>
@@ -1195,7 +1179,7 @@ function filterShadows() {
       <td>None</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>64</td>
       <td>Yamata-no-Orochi</td>
       <td>Drunken Serpents</td>
       <td>Judgement</td>
@@ -1203,29 +1187,29 @@ function filterShadows() {
       <td>None</td>
    </tr>
    <tr>
-      <td>?</td>
-      <td>Belial</td>
-      <td>Missionary of Depravity</td>
-      <td>Devil</td>
-      <td>?</td>
-      <td>None</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Mara</td>
-      <td>Throbbing King of Desire</td>
-      <td>Tower</td>
-      <td>?</td>
-      <td>None</td>
-   </tr>
-   <tr>
-      <td>?</td>
+      <td>75</td>
       <td>Abaddon</td>
       <td>Abyssal King of Avarice</td>
       <td>Judgement</td>
       <td>Irritable</td>
       <td>None</td>
    </tr>
+   <!-- <tr>
+      <td>?</td>
+      <td>Dominion</td>
+      <td>Merciless Inquisitor</td>
+      <td>Justice</td>
+      <td>Miniboss</td>
+      <td>Elec</td>
+   </tr> 
+   <tr>
+      <td>?</td>
+      <td>Throne</td>
+      <td>Fire Assassin</td>
+      <td>Justice</td>
+      <td>Miniboss</td>
+      <td>Nuke</td>
+   </tr> -->
 </table>
 
 ##### Qliphoth World
@@ -1240,47 +1224,7 @@ function filterShadows() {
       <th>Weakness</th>
    </tr>
    <tr>
-      <td>?</td>
-      <td>Dominion</td>
-      <td>Merciless Inquisitor</td>
-      <td>Justice</td>
-      <td>Timid</td>
-      <td>Elec</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Uriel</td>
-      <td>Herald of Death</td>
-      <td>Justice</td>
-      <td>?</td>
-      <td>None</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Raphael</td>
-      <td>Cleanser of Heaven</td>
-      <td>Lovers</td>
-      <td>?</td>
-      <td>None</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Gabriel</td>
-      <td>Declarer of Anguish</td>
-      <td>Temperance</td>
-      <td>?</td>
-      <td>None</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Michael</td>
-      <td>Apocalyptic Guide</td>
-      <td>Judgement</td>
-      <td>?</td>
-      <td>None</td>
-   </tr>
-   <tr>
-      <td>?</td>
+      <td>50</td>
       <td>Crystal Skull</td>
       <td>(Treasure Demon)</td>
       <td>Fool</td>
@@ -1288,13 +1232,69 @@ function filterShadows() {
       <td>Wind</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>68</td>
+      <td>Dominion</td>
+      <td>Merciless Inquisitor</td>
+      <td>Justice</td>
+      <td>Timid</td>
+      <td>Elec</td>
+   </tr>
+   <tr>
+      <td>72</td>
+      <td>Mot</td>
+      <td>Coffin-borne God</td>
+      <td>Death</td>
+      <td>Gloomy</td>
+      <td>Wind</td>
+   </tr>
+   <tr>
+      <td>72</td>
       <td>Throne</td>
       <td>Fire Assassin</td>
       <td>Justice</td>
       <td>Gloomy</td>
       <td>Nuke</td>
    </tr>
+   <tr>
+      <td>73</td>
+      <td>Mara</td>
+      <td>Throbbing King of Desire</td>
+      <td>Tower</td>
+      <td>Timid</td>
+      <td>None</td>
+   </tr>
+   <!-- <tr>
+      <td>?</td>
+      <td>Uriel</td>
+      <td>Herald of Death</td>
+      <td>Justice</td>
+      <td>Miniboss</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>?</td>
+      <td>Raphael</td>
+      <td>Cleanser of Heaven</td>
+      <td>Lovers</td>
+      <td>Miniboss</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>?</td>
+      <td>Gabriel</td>
+      <td>Declarer of Anguish</td>
+      <td>Temperance</td>
+      <td>Miniboss</td>
+      <td>None</td>
+   </tr>
+   <tr>
+      <td>?</td>
+      <td>Michael</td>
+      <td>Apocalyptic Guide</td>
+      <td>Judgement</td>
+      <td>Miniboss</td>
+      <td>None</td>
+   </tr> -->
 </table>
 
 ##### 9 - Maruki's Palace <span class="badge badge-danger">Royal</span>
@@ -1309,7 +1309,7 @@ function filterShadows() {
       <th>Weakness</th>
    </tr>
    <tr>
-      <td>?</td>
+      <td>60</td>
       <td>Orichalcum</td>
       <td>(Treasure Demon)</td>
       <td>Faith</td>
@@ -1317,11 +1317,11 @@ function filterShadows() {
       <td>Bless</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>65</td>
       <td>Bugs</td>
       <td>Killer Teddy Bear</td>
       <td>Fool</td>
-      <td>?</td>
+      <td>Irritable</td>
       <td>Nuke</td>
    </tr>
    <tr>
@@ -1365,19 +1365,19 @@ function filterShadows() {
       <td>Bless</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>74</td>
       <td>Chimera</td>
       <td>Deformed Lion God</td>
       <td>Strength</td>
-      <td>?</td>
+      <td>Upbeat</td>
       <td>Wind, Curse</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>74</td>
       <td>Nebiros</td>
       <td>Wandering Reviver</td>
       <td>Devil</td>
-      <td>Upbeat</td>
+      <td>Timid</td>
       <td>Bless</td>
    </tr>
    <tr>
@@ -1465,30 +1465,7 @@ function filterShadows() {
       <td>Upbeat</td>
       <td>Fire</td>
    </tr>
-   <tr>
-      <td>4</td>
-      <td>Bicorn</td>
-      <td>Dirty Two-horned Beast</td>
-      <td>Hermit</td>
-      <td>Gloomy</td>
-      <td>Elec</td>
-   </tr>
-   <tr>
-      <td>6</td>
-      <td>Slime</td>
-      <td>Viscid Rotting Meat</td>
-      <td>Chariot</td>
-      <td>Timid</td>
-      <td>Fire, Wind</td>
-   </tr>
-   <tr>
-      <td>9</td>
-      <td>Berith</td>
-      <td>Brutal Cavalryman</td>
-      <td>Hierophant</td>
-      <td>Irritable</td>
-      <td>Ice</td>
-   </tr>
+
 </table>
 
 ##### Mementos - Path of Qimranut
@@ -1529,6 +1506,24 @@ function filterShadows() {
       <td>Upbeat</td>
       <td>1</td>
       <td>Fire</td>
+   </tr>
+      <tr>
+      <td>4</td>
+      <td>Bicorn</td>
+      <td>Dirty Two-horned Beast</td>
+      <td>Hermit</td>
+      <td>Gloomy</td>
+      <td>1</td>
+      <td>Elec</td>
+   </tr>
+   <tr>
+      <td>9</td>
+      <td>Berith</td>
+      <td>Brutal Cavalryman</td>
+      <td>Hierophant</td>
+      <td>Irritable</td>
+      <td>1</td>
+      <td>Ice</td>
    </tr>
    <tr>
       <td>10</td>
@@ -1603,7 +1598,7 @@ function filterShadows() {
       <td>Bicorn</td>
       <td>Dirty Two-horned Beast</td>
       <td>Hermit</td>
-      <td>Irritable</td>
+      <td>Gloomy</td>
       <td>1-2</td>
       <td>Elec</td>
    </tr>
@@ -2425,7 +2420,7 @@ function filterShadows() {
       <td>Barong</td>
       <td>Dancing Lion</td>
       <td>Emperor</td>
-      <td>Timid</td>
+      <td>Upbeat</td>
       <td>11-12</td>
       <td>Wind, Curse</td>
    </tr>
