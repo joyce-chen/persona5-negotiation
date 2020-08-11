@@ -12,7 +12,10 @@
 	<div style="flex: 1; text-align: center;">
 		<label class="switch">
 			<input type="checkbox" id="originalCompact" onClick="toggleOriginalCompact(false)">
-			<span class="slider round"></span>
+			<span class="slider round">
+				<i class="fas fa-icons"></i>
+                <i class="fas fa-font"></i>
+			</span>
 		</label>
 	</div>
 </div>

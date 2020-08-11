@@ -11,13 +11,19 @@ Submitted questions are up-to-date as of **August 10th**.
 
 ---
 
-TODOS: 
+August 10th: 
+- Added a dark mode.
+- Added icon labels to the text/icon toggle for both question pages.
+- Used local storage to keep toggle state.
+
+
+TODOS:
 
 - Organize the filters to show all the questions for pools of Shadows.
 - Show corresponding personality only when filtering by Persona.
 - Organize Shadows by level instead.
 - Make and merge PRs from other users that forked this repo.
-- Maybe add a dark mode of the theme.
+
 
 ---
 
