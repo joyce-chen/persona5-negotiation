@@ -54,7 +54,7 @@ function filterShadows() {
 
 ##### 1 - Kamoshida's Palace - Castle
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -171,7 +171,7 @@ function filterShadows() {
 
 ##### 2 - Madarame's Palace - Museum
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -280,7 +280,7 @@ function filterShadows() {
 
 ##### 3 - Kaneshiro's Palace - Bank
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -397,7 +397,7 @@ function filterShadows() {
 
 ##### 4 - Futaba's Palace - Tomb
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -474,7 +474,7 @@ function filterShadows() {
 
 ##### 5 - Okumura's Palace - Space Station
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -567,7 +567,7 @@ function filterShadows() {
 
 ##### 6 - Niijima's Palace - Casino
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -684,7 +684,7 @@ function filterShadows() {
 
 ##### 7 - Shido's Palace - Ship
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -817,7 +817,7 @@ function filterShadows() {
 
 ##### 8 - Depths of Mementos
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -926,7 +926,7 @@ function filterShadows() {
 
 ##### Qliphoth World
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -1008,7 +1008,7 @@ function filterShadows() {
 
 ##### Mementos - Path of Qimranut
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -1067,7 +1067,7 @@ function filterShadows() {
 
 ##### Mementos - Path of Aiyatsbus
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -1225,7 +1225,7 @@ function filterShadows() {
 
 ##### Mementos - Path of Chemdah
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -1374,7 +1374,7 @@ function filterShadows() {
 
 ##### Mementos - Path of Kaitul
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -1523,7 +1523,7 @@ function filterShadows() {
 
 ##### Mementos - Path of Akzeriyyuth
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -1618,7 +1618,7 @@ function filterShadows() {
 
 ##### Mementos - Path of Adyeshach
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -1740,7 +1740,7 @@ function filterShadows() {
 
 ##### Mementos - Path of Sheriruth 1-5
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>
@@ -1871,7 +1871,7 @@ function filterShadows() {
 
 ##### Mementos - Path of Sheriruth 7-13
 
-<table>
+<table class='table-responsive-sm'>
    <tr>
       <th>Level</th>
       <th>Persona</th>

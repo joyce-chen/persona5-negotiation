@@ -15,6 +15,7 @@ August 10th:
 - Added a dark mode.
 - Added icon labels to the text/icon toggle for both question pages.
 - Used local storage to keep toggle state.
+- Made tables responsive for small screens.
 
 
 TODOS:
