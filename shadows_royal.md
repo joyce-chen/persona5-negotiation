@@ -1430,44 +1430,6 @@ function filterShadows() {
    </tr>
 </table>
 
-##### Path of Qimranut
-
-<table class='table-responsive-sm'>
-   <tr>
-      <th>Level</th>
-      <th>Persona</th>
-      <th>Shadow</th>
-      <th>Arcana</th>
-      <th>Personality</th>
-      <th>Weakness</th>
-   </tr>
-   <tr>
-      <td>2</td>
-      <td>Jack-o'-Lantern</td>
-      <td>Crypt-dwelling Pyromaniac</td>
-      <td>Magician</td>
-      <td>Gloomy</td>
-      <td>Ice, Wind</td>
-   </tr>
-   <tr>
-      <td>2</td>
-      <td>Pixie</td>
-      <td>Beguiling Girl</td>
-      <td>Lovers</td>
-      <td>Timid</td>
-      <td>Gun, Ice, Curse</td>
-   </tr>
-   <tr>
-      <td>3</td>
-      <td>Mandrake</td>
-      <td>Gallows-Flower</td>
-      <td>Death</td>
-      <td>Upbeat</td>
-      <td>Fire</td>
-   </tr>
-
-</table>
-
 ##### Mementos - Path of Qimranut
 
 <table class='table-responsive-sm'>
