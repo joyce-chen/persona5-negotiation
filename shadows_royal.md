@@ -253,6 +253,14 @@ function filterShadows() {
       <td>Wind</td>
    </tr>
    <tr>
+      <td>10</td>
+      <td>Regent</td>
+      <td>(Treasure Demon)</td>
+      <td>Emperor</td>
+      <td>None</td>
+      <td>Nuke</td>
+   </tr>
+   <tr>
       <td>11</td>
       <td>Apsaras</td>
       <td>Waterside Nymph</td>
@@ -332,14 +340,6 @@ function filterShadows() {
       <td>Irritable</td>
       <td>Nuke</td>
    </tr>
-   <tr>
-      <td>10</td>
-      <td>Regent</td>
-      <td>(Treasure Demon)</td>
-      <td>Emperor</td>
-      <td>None</td>
-      <td>Nuke</td>
-   </tr>
    <!-- <tr>
       <td>N/A</td>
       <td>Nue</td>
@@ -400,6 +400,14 @@ function filterShadows() {
       <th>Arcana</th>
       <th>Personality</th>
       <th>Weakness</th>
+   </tr>
+   <tr>
+      <td>15</td>
+      <td>Queen's Necklace</td>
+      <td>(Treasure Demon)</td>
+      <td>Empress</td>
+      <td>None</td>
+      <td>Psy</td>
    </tr>
    <tr>
       <td>16</td>
@@ -487,14 +495,6 @@ function filterShadows() {
       <td>Defeated Avenger</td>
       <td>Hanged Man</td>
       <td>Irritable</td>
-      <td>Psy</td>
-   </tr>
-   <tr>
-      <td>15</td>
-      <td>Queen's Necklace</td>
-      <td>(Treasure Demon)</td>
-      <td>Empress</td>
-      <td>None</td>
       <td>Psy</td>
    </tr>
    <tr>
@@ -589,6 +589,15 @@ function filterShadows() {
       <th>Arcana</th>
       <th>Personality</th>
       <th>Weakness</th>
+   </tr>
+   <tr>
+      <td>20</td>
+      <td>Stone of Scone</td>
+      <td>(Treasure Demon)</td>
+      <td>Fortune</td>
+      <td>None</td>
+      <td>All</td>
+      <td>Curse</td>
    </tr>
    <tr>
       <td>24</td>
@@ -708,6 +717,14 @@ function filterShadows() {
       <th>Weakness</th>
    </tr>
    <tr>
+      <td>25</td>
+      <td>Koh-i-Noor</td>
+      <td>(Treasure Demon)</td>
+      <td>Priestess</td>
+      <td>None</td>
+      <td>Gun</td>
+   </tr>
+   <tr>
       <td>32</td>
       <td>Decarabia</td>
       <td>Vicious Pentagram</td>
@@ -787,14 +804,6 @@ function filterShadows() {
       <td>Irritable</td>
       <td>Bless</td>
    </tr>
-   <tr>
-      <td>25</td>
-      <td>Koh-i-Noor</td>
-      <td>(Treasure Demon)</td>
-      <td>Priestess</td>
-      <td>None</td>
-      <td>Gun</td>
-   </tr>
    <!-- <tr>
       <td>N/A</td>
       <td>Melchizedek</td>
@@ -815,6 +824,14 @@ function filterShadows() {
       <th>Arcana</th>
       <th>Personality</th>
       <th>Weakness</th>
+   </tr>
+   <tr>
+      <td>30</td>
+      <td>Orlov</td>
+      <td>(Treasure Demon)</td>
+      <td>Strength</td>
+      <td>None</td>
+      <td>Curse</td>
    </tr>
    <tr>
       <td>39</td>
@@ -912,14 +929,6 @@ function filterShadows() {
       <td>Irritable</td>
       <td>None</td>
    </tr>
-   <tr>
-      <td>30</td>
-      <td>Orlov</td>
-      <td>(Treasure Demon)</td>
-      <td>Strength</td>
-      <td>None</td>
-      <td>Curse</td>
-   </tr>
    <!-- <tr>
       <td>N/A</td>
       <td>Ose</td>
@@ -980,6 +989,14 @@ function filterShadows() {
       <th>Arcana</th>
       <th>Personality</th>
       <th>Weakness</th>
+   </tr>
+   <tr>
+      <td>35</td>
+      <td>Emperor's Amulet</td>
+      <td>(Treasure Demon)</td>
+      <td>Hanged Man</td>
+      <td>None</td>
+      <td>Elec</td>
    </tr>
    <tr>
       <td>48</td>
@@ -1101,14 +1118,7 @@ function filterShadows() {
       <td>Irritable</td>
       <td>Nuke</td>
    </tr>
-   <tr>
-      <td>35</td>
-      <td>Emperor's Amulet</td>
-      <td>(Treasure Demon)</td>
-      <td>Hanged Man</td>
-      <td>None</td>
-      <td>Elec</td>
-   </tr>
+   
    <!-- <tr>
       <td>N/A</td>
       <td>Ongyo-Ki</td>
@@ -1325,7 +1335,7 @@ function filterShadows() {
       <td>Nuke</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>70</td>
       <td>Byakhee</td>
       <td>Evil Synthetic Organism</td>
       <td>Moon</td>
@@ -1341,15 +1351,7 @@ function filterShadows() {
       <td>Psy, Bless</td>
    </tr>
    <tr>
-      <td>?</td>
-      <td>Cu Chulainn</td>
-      <td>Brave Spear-Bearer</td>
-      <td>Faith</td>
-      <td>?</td>
-      <td>Elec</td>
-   </tr>
-   <tr>
-      <td>?</td>
+      <td>71</td>
       <td>Dionysus</td>
       <td>Hedonistic Braggart</td>
       <td>Councillor</td>
@@ -1357,7 +1359,7 @@ function filterShadows() {
       <td>None</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>73</td>
       <td>Macabre</td>
       <td>Dancer of Death</td>
       <td>Hanged Man</td>
@@ -1381,31 +1383,31 @@ function filterShadows() {
       <td>Bless</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>76</td>
+      <td>Cu Chulainn</td>
+      <td>Brave Spear-Bearer</td>
+      <td>Faith</td>
+      <td>Irritable</td>
+      <td>Elec</td>
+   </tr>
+   <tr>
+      <td>77</td>
       <td>Scathach</td>
       <td>The Shadowed One</td>
       <td>Priestess</td>
-      <td>?</td>
-      <td>None</td>
-   </tr>
-   <tr>
-      <td>?</td>
-      <td>Fafnir</td>
-      <td>Evil Voracious Dragon</td>
-      <td>Hermit</td>
       <td>Irritable</td>
       <td>None</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>81</td>
       <td>Alilat</td>
       <td>Decadent False God</td>
       <td>Empress</td>
-      <td>?</td>
+      <td>Timid</td>
       <td>Fire, Curse</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>82</td>
       <td>Baal</td>
       <td>Reviled Dictator</td>
       <td>Emperor</td>
@@ -1413,21 +1415,29 @@ function filterShadows() {
       <td>None</td>
    </tr>
    <tr>
-      <td>?</td>
-      <td>Belial</td>
-      <td>Missionary of Depravity</td>
-      <td>Devil</td>
-      <td>?</td>
+      <td>86</td>
+      <td>Fafnir</td>
+      <td>Evil Voracious Dragon</td>
+      <td>Hermit</td>
+      <td>Irritable</td>
       <td>None</td>
    </tr>
    <tr>
-      <td>?</td>
+      <td>84</td>
       <td>Hastur</td>
       <td>Warped Abyss</td>
       <td>Star</td>
       <td>Irritable</td>
       <td>None</td>
    </tr>
+   <!-- <tr>
+      <td>?</td>
+      <td>Belial</td>
+      <td>Missionary of Depravity</td>
+      <td>Devil</td>
+      <td>?</td>
+      <td>None</td>
+   </tr> -->
 </table>
 
 ##### Mementos - Path of Qimranut
