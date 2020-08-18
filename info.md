@@ -5,19 +5,26 @@ There are distinct negotiation differences between the original and Royal versio
 
 Please note that at this time, the guide is a work-in-progress, so it is missing reactions and could have mistakes.
 
-If you want to help, contribute, or report mistakes, please use the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/16">open issue on Github for P5 Royal</a>, the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/17">open issue for P5</a>, or the <a href="https://forms.gle/JtH9YUekRKVEkYgc6">Google Form</a>. 
+If you want to help, contribute, report mistakes, or confirm some results, please use the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/16">open issue on Github for P5 Royal</a>, the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/17">open issue for P5</a>, or the <a href="https://forms.gle/JtH9YUekRKVEkYgc6">Google Form</a>. 
 
-Submitted questions are up-to-date as of **July 22nd**.
+Submitted questions are up-to-date as of **August 17th**. Usually updated weekly.
 
 Thank you to GooberSD/Chompobar for giving me permission to use <a href="https://docs.google.com/document/d/1Fq00lkODNAam7RZoczHU2kFyU3CZvyW59F0PwLnJoz8/">their guide</a> to update this guide.
 
 ---
 
-##### Addressing Feedback
+##### How to Use
 
-6/16: Thank you for the kind words!
+Each of the negotiation question pages has a search bar that can filter by question or answer. 
 
-6/5: Who is the Persona with the Shadow name "General of Hell" from the original game? Is it Nebiros?
+Next to the search bar is a switch to change the "GOOD", "OK", and "BAD" reactions to symbols for people who find emojis more useful.
+
+Underneath, there is a filter questions by Shadows collapsable card with Shadow tags. Currently it is a work-in-progress feature. It displays the confirmed questions asked by the specified Shadow. 
+
+**Negotiation Table Legend:**
+- White Background: Either sent in or are from my playthrough, so are more likely to be correct.
+- <span class="unconfirmed">Pink Background</span>: Unconfirmed.
+- Have a dash (-): Lacking data.
 
 ---
 
@@ -46,7 +53,9 @@ During negotiations, a Shadow will ask you two questions. For each, you're given
 
 - **OK:** Marked by light blue sweat marks 💦. When you answer the second question with the OK option, you will most likely end the negotiation with an item as a reward. The Persona will then flee after giving the item. However, there is a very small chance, that the Shadow will join you with an OK answer.
 
-- **Bad:** Marked by red angry vein marks 💢. It is okay to get a bad answer for the first question. However, if you get a bad answer for the second question you will fail the negotiation and the monster will either run away or you’ll have to fight it again. Once you have a party member hit around level 3 - 4 as a confidant, your characters will be able to potentially step in and save a negotiation should things go south. This ability will usually give you a second chance at negotiating with the Shadow. The chart below lists all the Rank Bonuses that help with negotiations.
+- **Bad:** Marked by red angry vein marks 💢. It is okay to get a bad answer for the first question. However, if you get a bad answer for the second question you will fail the negotiation and the monster will either run away or you’ll have to fight it again. Once you have a party member hit around level 3 - 4 as a confidant, your characters will be able to potentially step in and save a negotiation should things go south. This ability will usually give you a second chance at negotiating with the Shadow. 
+
+The chart below lists all the Rank Bonuses that help with negotiations.
 
 | Arcana    | Rank | Bonus           | Description                                                                 |
 |-----------|------|-----------------|-----------------------------------------------------------------------------|
@@ -62,7 +71,7 @@ During negotiations, a Shadow will ask you two questions. For each, you're given
 | Sun       | 2    | Diplomacy       | Occasionally ask for more money or items during negotiations.               |
 | Sun       | 3    | Fundraising     | Allows you to ask for large amounts of money during negotiation.            |
 | Sun       | 8    | Mind Control    | Occasionally lets you skip negotiation when attempting to obtain a Persona. |
-| ???       | 6    | Fitness Talk    | If negotiation with any kind of Shadow fails, you can try again.            |
+| Faith     | 6    | Fitness Talk    | If negotiation with any kind of Shadow fails, you can try again.            |
 
 ##### Resource
 For more information, check out the <a href="https://atlus.com/persona5/manual/ps4/?pid=43">official Persona 5 web manual on Atlas' website</a>.
