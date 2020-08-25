@@ -597,7 +597,7 @@ function filterShadows() {
       <td>Fortune</td>
       <td>None</td>
       <td>All</td>
-      <td>Curse</td>
+      <td>Fire</td>
    </tr>
    <tr>
       <td>24</td>
@@ -1992,7 +1992,7 @@ function filterShadows() {
       <td>Fortune</td>
       <td>None</td>
       <td>All</td>
-      <td>Curse</td>
+      <td>Fire</td>
    </tr>
    <tr>
       <td>24</td>

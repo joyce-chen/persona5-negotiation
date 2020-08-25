@@ -74,6 +74,7 @@
 				<button class="btn filter-btn" onclick="filterByShadows('Kelpie')"> Kelpie</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Kikuri-Hime')"> Kikuri-Hime</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Kin-ki')"> Kin-ki</button>
+				<button class="btn filter-btn" onclick="filterByShadows('King_Frost')"> King Frost</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Kodama')"> Kodama</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Koppa_Tengu')"> Koppa Tengu</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Koropokguru')"> Koropokguru</button>
@@ -954,7 +955,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="table-responsive-sm filterDiv Incubus Koppa_Tengu Rakshasa Sandman Black_Ooze Kaiwan Girimehkala Ose Sui-ki Mot">
+<table class="table-responsive-sm filterDiv Incubus Koppa_Tengu Rakshasa Sandman Black_Ooze Kaiwan Girimehkala Ose Sui-ki Mot Ganesha">
 	<tr>
 		<th colspan="5">Did I lose... ?</th>
 	</tr>
@@ -984,7 +985,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result unconfirmed'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
-		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 </table>
 <table class="table-responsive-sm filterDiv Agathion Onmoraki Kodama">
@@ -3264,7 +3265,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="table-responsive-sm filterDiv Jack-o-Lantern">
+<table class="table-responsive-sm filterDiv Jack-o-Lantern King_Frost">
 	<tr>
 		<th colspan="5">I'm busy, ho. It's tough being so popular.</th>
 	</tr>
@@ -3280,7 +3281,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 	<tr>
 		<td>Your popularity won't last.</td>
@@ -5960,7 +5961,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
 	<tr>
 		<td>Nobody.</td>
