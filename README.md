@@ -19,7 +19,6 @@ August 10th:
 
 
 TODOS:
-
 - Organize the filters to show all the questions for pools of Shadows.
 - Show corresponding personality only when filtering by Persona.
 - Organize Shadows by level instead.
