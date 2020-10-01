@@ -79,6 +79,7 @@
 				<button class="btn filter-btn" onclick="filterByShadows('Koppa_Tengu')"> Koppa Tengu</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Koropokguru')"> Koropokguru</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Kumbhanda')"> Kumbhanda</button>
+				<button class="btn filter-btn" onclick="filterByShadows('Kurama_Tengu')"> Kurama Tengu</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Kushinada')"> Kushinada</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Lamia')"> Lamia</button>
 				<button class="btn filter-btn" onclick="filterByShadows('Leanan_Sidhe')"> Leanan Sidhe</button>
@@ -460,7 +461,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="table-responsive-sm filterDiv Obariyon Agathion Onmoraki">
+<table class="table-responsive-sm filterDiv Obariyon Agathion Onmoraki Sudama">
 	<tr>
 		<th colspan="5">Are you bored?</th>
 	</tr>
@@ -489,7 +490,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td>I never thought about it.</td>
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
@@ -1697,7 +1698,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 	<tr>
 		<td>Live fast, die young.</td>
@@ -6235,7 +6236,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 	</tr>
 </table>
-<table class="table-responsive-sm filterDiv Mithras Naga Mokoi">
+<table class="table-responsive-sm filterDiv Mithras Naga Mokoi Narcissus">
 	<tr>
 		<th colspan="5">What did you want, coming all the way to a place like this?</th>
 	</tr>
@@ -6250,7 +6251,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td>A thrilling adventure.</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 	<tr>
@@ -6298,7 +6299,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 	</tr>
 </table>
 <table class="table-responsive-sm filterDiv Archangel">
@@ -6843,7 +6844,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>Soy sauce.</td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
-		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result unconfirmed'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
@@ -6961,7 +6962,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 </table>
-<table class="table-responsive-sm filterDiv Barong Oberon Chernobog Mithras Naga Mokoi">
+<table class="table-responsive-sm filterDiv Barong Oberon Chernobog Mithras Naga Mokoi Kurama_Tengu">
 	<tr>
 		<th colspan="5">...Who the blazes do you think you are?</th>
 	</tr>
@@ -6982,7 +6983,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>I'm ME!</td>
 		<td class='result unconfirmed'><div class='text'>OK</div><div class='symbol'>💦</div></td>
-		<td class='result unconfirmed'><div class='text'>GOOD / BAD ?</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>BAD</div><div class='symbol'>💢</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 	</tr>
@@ -7055,7 +7056,7 @@ for (var i = 0; i < btns.length; i++) {
 	<tr>
 		<td>Ask your parents.</td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
@@ -7742,7 +7743,7 @@ for (var i = 0; i < btns.length; i++) {
 		<td>That's worrying... </td>
 		<td class='result unconfirmed'><div class='text'>OK</div><div class='symbol'>💦</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
-		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
+		<td class='result'><div class='text'>GOOD</div><div class='symbol'>🎶</div></td>
 		<td class='result'><div class='text'>-</div><div class='symbol'></div></td>
 	</tr>
 	<tr>
