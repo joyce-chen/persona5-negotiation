@@ -7,7 +7,7 @@ Please note that at this time, the guide is a work-in-progress, so it is missing
 
 If you want to help, contribute, report mistakes, or confirm some results, please use the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/16">open issue on Github for P5 Royal</a>, the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/17">open issue for P5</a>, or the <a href="https://forms.gle/JtH9YUekRKVEkYgc6">Google Form</a>. 
 
-Submitted questions are up-to-date as of **October 19th**. (No consistent update schedule.)
+Submitted questions are up-to-date as of **November 24th**. (No consistent update schedule.)
 
 Thank you to GooberSD/Chompobar for giving me permission to use <a href="https://docs.google.com/document/d/1Fq00lkODNAam7RZoczHU2kFyU3CZvyW59F0PwLnJoz8/">their guide</a> to update this guide.
 
