@@ -902,7 +902,7 @@ function filterShadows() {
       <td>Jatayu <span class="badge badge-danger">Royal</span></td>
       <td>Arrogant Vulture</td>
       <td>Hanged Man</td>
-      <td>Irritable</td>
+      <td>Upbeat</td>
       <td>Nuke</td>
    </tr>
    <tr>
@@ -1146,7 +1146,7 @@ function filterShadows() {
       <td>(Treasure Demon)</td>
       <td>Death</td>
       <td>None</td>
-      <td>None</td>
+      <td>Ice</td>
    </tr>
    <tr>
       <td>58</td>
@@ -2349,7 +2349,7 @@ function filterShadows() {
       <td>Death</td>
       <td>None</td>
       <td>7-13</td>
-      <td>None</td>
+      <td>Ice</td>
    </tr>
    <tr>
       <td>50</td>
