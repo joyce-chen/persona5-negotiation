@@ -4,7 +4,7 @@ A tool to help with negotiations in Persona 5 and Persona 5 Royal.
 
 Direct link to a user-friendly version: http://joyce-chen.github.io/persona5-negotiation/
 
-If you want to contribute any changes or confirm some results, please use the [open issue for P5 Royal](https://github.com/joyce-chen/persona5-negotiation/issues/16), the [open issue for P5](https://github.com/joyce-chen/persona5-negotiation/issues/17), or [the form](https://forms.gle/JtH9YUekRKVEkYgc6). Thank you!
+If you want to contribute any changes or confirm some results, please use the [open issue for P5 Royal](https://github.com/joyce-chen/persona5-negotiation/issues/16), the [open issue for P5](https://github.com/joyce-chen/persona5-negotiation/issues/17), or [the form](https://forms.gle/LYeRcRsMgnYYu85A8). Thank you!
 
 Submitted questions are up-to-date as of **March 31st**. (No consistent update schedule.)
 
