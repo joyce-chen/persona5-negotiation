@@ -1,6 +1,8 @@
-
 .vscode/
 _site/
-data/
+data/*
+!data/persona-5-questions.xlsx
+!data/persona-5-royal-questions.xlsx
+!data/tableConverter.py
 p5env/
 quick_start.cmd
