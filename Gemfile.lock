@@ -14,7 +14,7 @@ GEM
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
-    commonmarker (0.17.13)
+    commonmarker (0.23.4)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.9)
     dnsruby (1.61.9)
@@ -232,7 +232,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.13.1-x64-mingw32)
+    nokogiri (1.13.2)
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
