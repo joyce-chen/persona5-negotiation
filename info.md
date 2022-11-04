@@ -1,6 +1,9 @@
-##### UPDATE - Feb 14th 2022
-I've made a new Google Form that has dropdown menus for Shadows and Questions! I'm currently working on a script to automate these new submissions.
-Thank you so much for your contributions.
+##### October 20 - Welcome Xbox Players
+Welcome to the negotiation guide. Make sure that you're using the Royal tabs and submitted form info under Royal as well.
+
+Thank you so much for everyone's contributions.
+
+---
 
 ##### This Project & Credits
 This is a tool/guide to help with negotiations in Persona 5 and Persona 5 Royal.
@@ -11,7 +14,7 @@ Please note that at this time, the guide is a work-in-progress, so it is missing
 
 If you want to help, contribute, report mistakes, or confirm some results, please use the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/16">open issue on Github for P5 Royal</a>, the <a href="https://github.com/joyce-chen/persona5-negotiation/issues/17">open issue for P5</a>, or the <a href="https://forms.gle/LYeRcRsMgnYYu85A8">Google Form</a>. 
 
-Submitted questions are up-to-date as of **May 20th 2022**. (No consistent update schedule.)
+Submitted questions are up-to-date as of **November 4th 2022**. (No consistent update schedule. Happy Holidays 🎉)
 
 Thank you to GooberSD/Chompobar for giving me permission to use <a href="https://docs.google.com/document/d/1Fq00lkODNAam7RZoczHU2kFyU3CZvyW59F0PwLnJoz8/">their guide</a> to update this guide.
 
