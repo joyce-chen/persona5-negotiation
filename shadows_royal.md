@@ -918,7 +918,7 @@ function filterShadows() {
       <td>Ganesha</td>
       <td>Auspicious Pachyderm</td>
       <td>Sun</td>
-      <td>Irritable</td>
+      <td>Upbeat</td>
       <td>Psy</td>
    </tr>
    <tr>
